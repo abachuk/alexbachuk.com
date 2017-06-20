@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React.Js on Alex Bachuk</title>
+    <link>/tags/react.js/</link>
+    <description>Recent content in React.Js on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Mar 2017 15:08:40 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/react.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript Weekend List #01</title>
+      <link>/2017/03/19/javascript-weekend-list-01/</link>
+      <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
+      
+      <guid>/2017/03/19/javascript-weekend-list-01/</guid>
+      <description>I’m trying something new. Every week I’ll try to come up with the list of most interesting articles, books, news, tutorials and videos about web development. I’ll be using this list to keep myself up-to-date on everything that’s going on in the JavaScript, Node and front-end development community. This list may not have the most recent articles, but rather relevant content to stay sharp as a full stack developer.</description>
+    </item>
+    
+    <item>
+      <title>Uploading files with React.js and Node.js</title>
+      <link>/2016/12/17/uploading-files-with-react-js-and-node-js/</link>
+      <pubDate>Sat, 17 Dec 2016 14:58:17 +0000</pubDate>
+      
+      <guid>/2016/12/17/uploading-files-with-react-js-and-node-js/</guid>
+      <description>Uploading files is one of the most common tasks performed by web developers. It’s a pretty simple operation when using PHP or other server side frameworks. However, it is not so straightforward when using Node.js, unless you understand how to user Buffer API for reading streams of binary files (i.e. uploading file content as binary code). Luckily for us, the Node.js community came up with a few solutions.
+Project set up We are using React.</description>
+    </item>
+    
+    <item>
+      <title>React.js route state name</title>
+      <link>/2016/01/10/react-js-route-state-name/</link>
+      <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
+      
+      <guid>/2016/01/10/react-js-route-state-name/</guid>
+      <description>React.js router is at version 2.0 as of now. It’s changing fast. So this may not work few months from now. I had the case where I wanted to create REST URLs but still re-use components where possible. That’s one of the selling points of React as a library. In my case I wanted to re-use form in the “new” and “update” pages. Here is how I got it working:</description>
+    </item>
+    
+    <item>
+      <title>Learning React.js and Redux</title>
+      <link>/2016/01/03/learning-react-js-and-redux/</link>
+      <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
+      
+      <guid>/2016/01/03/learning-react-js-and-redux/</guid>
+      <description>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github.</description>
+    </item>
+    
+  </channel>
+</rss>

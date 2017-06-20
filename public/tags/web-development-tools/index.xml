@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development Tools on Alex Bachuk</title>
+    <link>/tags/web-development-tools/</link>
+    <description>Recent content in Web Development Tools on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 May 2012 18:06:52 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/web-development-tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My working set up and workflow</title>
+      <link>/2012/05/31/my-working-set-up-and-workflow/</link>
+      <pubDate>Thu, 31 May 2012 18:06:52 +0000</pubDate>
+      
+      <guid>/2012/05/31/my-working-set-up-and-workflow/</guid>
+      <description>Currently I work on 27 iMac (i5, 12Gb 24Gb RAM, 256 vertex 4 SSD, OSX Lion). Only very recently (about 1.5 years) switched from Windows PC to Mac - now I can say for sure, it was the right choice. Having iMac (and also macbook pro) I never ran into issues with a virus, blue screen or freezing on start up or any other similar problems, of course the computer becomes slower and slower as you use it, but after I switched to SSD this problem disappeared.</description>
+    </item>
+    
+  </channel>
+</rss>

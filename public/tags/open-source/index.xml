@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Alex Bachuk</title>
+    <link>/tags/open-source/</link>
+    <description>Recent content in Open Source on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Mar 2016 22:15:58 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Power of technical documentation</title>
+      <link>/2016/03/10/power-of-technical-documentation/</link>
+      <pubDate>Thu, 10 Mar 2016 22:15:58 +0000</pubDate>
+      
+      <guid>/2016/03/10/power-of-technical-documentation/</guid>
+      <description>Good technical documentation makes a difference There are so many open source projects out there that it’s hard to sort through them all. Some of them are successful, some of them not so much. If we take all popular projects (meaning over 2-3 thousands of stars on github) - they all have easy-to-follow detailed documentation. It doesn’t mean documentation makes these projects more successful; it means it removes the friction for developers to try and use the project.</description>
+    </item>
+    
+    <item>
+      <title>Learning React.js and Redux</title>
+      <link>/2016/01/03/learning-react-js-and-redux/</link>
+      <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
+      
+      <guid>/2016/01/03/learning-react-js-and-redux/</guid>
+      <description>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/2017/03/19/javascript-weekend-list-01/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/03/15/hacking-productivity-for-software-developers/</loc>
+    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/</loc>
+    <lastmod>2017-02-10T15:01:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/12/17/uploading-files-with-react-js-and-node-js/</loc>
+    <lastmod>2016-12-17T14:58:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/05/04/wordpress-workshop-for-beginners/</loc>
+    <lastmod>2016-05-04T01:00:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/03/25/education-for-web-developers/</loc>
+    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/03/10/power-of-technical-documentation/</loc>
+    <lastmod>2016-03-10T22:15:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/03/05/why-web-developers-need-side-projects/</loc>
+    <lastmod>2016-03-05T18:46:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/01/10/react-js-route-state-name/</loc>
+    <lastmod>2016-01-10T14:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2016/01/03/learning-react-js-and-redux/</loc>
+    <lastmod>2016-01-03T20:35:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/11/24/adaptive-express-js-and-angular-js-application/</loc>
+    <lastmod>2015-11-24T03:13:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/10/06/upload-files-with-meteor-js-aws-and-froala-wysiwyg-package/</loc>
+    <lastmod>2015-10-06T19:26:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</loc>
+    <lastmod>2015-06-30T11:01:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/06/08/web-performance-and-how-to-optimize-a-website-for-speed/</loc>
+    <lastmod>2015-06-08T02:37:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/04/28/become-a-better-web-developer/</loc>
+    <lastmod>2015-04-28T14:36:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/03/16/website-audit/</loc>
+    <lastmod>2015-03-16T01:38:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2015/01/12/wordpress-themes-less-is-more/</loc>
+    <lastmod>2015-01-12T02:09:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/12/22/difference-jquery-angular-js/</loc>
+    <lastmod>2014-12-22T13:52:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/29/end-summer-playlist/</loc>
+    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/08/19/custom-checkbox-css3/</loc>
+    <lastmod>2014-08-19T21:19:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/07/17/angular-js-meetup-google-new-york-office/</loc>
+    <lastmod>2014-07-17T01:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/06/27/music-coding-2/</loc>
+    <lastmod>2014-06-27T15:08:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/06/11/deploying-meteor-application-part-2/</loc>
+    <lastmod>2014-06-11T13:25:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/05/24/deploying-meteor-application/</loc>
+    <lastmod>2014-05-24T00:41:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/04/02/yeoman-proxy/</loc>
+    <lastmod>2014-04-02T14:29:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/03/15/fluent-2014-conference-review/</loc>
+    <lastmod>2014-03-15T22:20:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/03/13/fluent-2014-day1/</loc>
+    <lastmod>2014-03-13T06:36:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/03/04/music-coding/</loc>
+    <lastmod>2014-03-04T04:01:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2014/03/04/book-review-backbone-js-patterns-best-practices/</loc>
+    <lastmod>2014-03-04T02:23:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/11/29/my-experience-with-backbone-js-and-require-js/</loc>
+    <lastmod>2013-11-29T23:03:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</loc>
+    <lastmod>2013-09-13T02:21:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</loc>
+    <lastmod>2013-08-20T02:54:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/07/17/stay-up-to-date-with-front-end-development/</loc>
+    <lastmod>2013-07-17T01:38:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/06/22/javascript-templates/</loc>
+    <lastmod>2013-06-22T16:23:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/06/02/wordpress-celebrated-10-year-anniversary/</loc>
+    <lastmod>2013-06-02T03:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/05/28/wordpress-and-phonegap-part3/</loc>
+    <lastmod>2013-05-28T01:34:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/05/14/wordpress-and-phonegap-part2/</loc>
+    <lastmod>2013-05-14T04:36:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/04/29/backbone-js-explained/</loc>
+    <lastmod>2013-04-29T20:52:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/04/24/music-for-coding-2/</loc>
+    <lastmod>2013-04-24T20:18:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/04/20/wordpress-and-phonegap-part-1/</loc>
+    <lastmod>2013-04-20T17:41:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/04/17/music-for-coding/</loc>
+    <lastmod>2013-04-17T15:54:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/03/04/jqueryto-in-toronto-canada/</loc>
+    <lastmod>2013-03-04T02:10:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/02/13/jquery-mobile-active-page-url/</loc>
+    <lastmod>2013-02-13T19:40:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/02/07/closures-in-javascript/</loc>
+    <lastmod>2013-02-07T17:19:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/02/03/customizing-wordpress-dashboard/</loc>
+    <lastmod>2013-02-03T19:58:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/01/27/phonegap-and-mobile-web-apps/</loc>
+    <lastmod>2013-01-27T22:51:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</loc>
+    <lastmod>2013-01-22T01:17:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/01/11/my-experience-with-html-email-development/</loc>
+    <lastmod>2013-01-11T03:09:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</loc>
+    <lastmod>2013-01-03T16:53:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/12/17/wordpress-3-5-released/</loc>
+    <lastmod>2012-12-17T07:23:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/10/13/responsive-web-design/</loc>
+    <lastmod>2012-10-13T02:15:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/09/17/how-to-get-started-with-git-in-development/</loc>
+    <lastmod>2012-09-17T04:30:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/08/12/install-ruby-on-rails/</loc>
+    <lastmod>2012-08-12T05:42:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</loc>
+    <lastmod>2012-07-30T14:26:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/07/25/wordpress-as-e-commerce-platform/</loc>
+    <lastmod>2012-07-25T04:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/07/18/jquery-mobile-basics/</loc>
+    <lastmod>2012-07-18T19:15:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2012/05/31/my-working-set-up-and-workflow/</loc>
+    <lastmod>2012-05-31T18:06:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/angular.js/</loc>
+    <lastmod>2015-11-24T03:13:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/api/</loc>
+    <lastmod>2014-04-02T14:29:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/aws/</loc>
+    <lastmod>2017-02-10T15:01:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/backbone.js/</loc>
+    <lastmod>2014-03-04T02:23:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/backup/</loc>
+    <lastmod>2015-03-16T01:38:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/book-review/</loc>
+    <lastmod>2015-06-30T11:01:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/conference/</loc>
+    <lastmod>2014-03-15T22:20:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/css/</loc>
+    <lastmod>2014-08-19T21:19:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/css3/</loc>
+    <lastmod>2014-08-19T21:19:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/documentation/</loc>
+    <lastmod>2016-03-10T22:15:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ecommerce/</loc>
+    <lastmod>2012-07-25T04:09:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/education/</loc>
+    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ember.js/</loc>
+    <lastmod>2017-02-10T15:01:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/firebase/</loc>
+    <lastmod>2017-02-10T15:01:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fluent/</loc>
+    <lastmod>2014-03-15T22:20:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/front-end-development/</loc>
+    <lastmod>2015-06-08T02:37:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
+    <lastmod>2012-09-17T04:30:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2012-09-17T04:30:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/grunt/</loc>
+    <lastmod>2014-04-02T14:29:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/html-emails/</loc>
+    <lastmod>2013-01-11T03:09:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ios/</loc>
+    <lastmod>2013-05-28T01:34:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/java/</loc>
+    <lastmod>2012-07-30T14:26:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/javascript/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jquery/</loc>
+    <lastmod>2014-12-22T13:52:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jquery-mobile/</loc>
+    <lastmod>2013-05-28T01:34:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/json/</loc>
+    <lastmod>2013-04-29T20:52:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning/</loc>
+    <lastmod>2016-03-05T18:46:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2013-09-13T02:21:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mac/</loc>
+    <lastmod>2012-08-12T05:42:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/macos/</loc>
+    <lastmod>2012-08-12T05:42:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mean-stack/</loc>
+    <lastmod>2014-07-17T01:27:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/meteor.js/</loc>
+    <lastmod>2015-10-06T19:26:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/meteorjs/</loc>
+    <lastmod>2014-06-11T13:25:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile/</loc>
+    <lastmod>2012-10-13T02:15:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-web-development/</loc>
+    <lastmod>2013-02-13T19:40:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mountain-lion/</loc>
+    <lastmod>2012-07-30T14:26:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/music/</loc>
+    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/music/</loc>
+    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/node.js/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/node.js/</loc>
+    <lastmod>2016-12-17T14:58:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2016-03-10T22:15:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phonegap/</loc>
+    <lastmod>2013-05-28T01:34:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/playlist/</loc>
+    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/productivity/</loc>
+    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/quick-tip/</loc>
+    <lastmod>2016-01-10T14:32:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/react.js/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reading/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/redux/</loc>
+    <lastmod>2016-01-03T20:35:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/responsive-web-design/</loc>
+    <lastmod>2015-11-24T03:13:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ruby-on-rails/</loc>
+    <lastmod>2013-09-13T02:21:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ruby-on-rails/</loc>
+    <lastmod>2013-09-13T02:21:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ssl/</loc>
+    <lastmod>2015-03-16T01:38:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-11-24T03:13:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/theme-options/</loc>
+    <lastmod>2013-08-20T02:54:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/time-management/</loc>
+    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tips/</loc>
+    <lastmod>2013-08-20T02:54:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/underscore.js/</loc>
+    <lastmod>2013-06-22T16:23:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-developer-tools/</loc>
+    <lastmod>2015-06-08T02:37:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-development/</loc>
+    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/web-development/</loc>
+    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-development-tools/</loc>
+    <lastmod>2012-05-31T18:06:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web-hosting/</loc>
+    <lastmod>2015-03-16T01:38:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/websites/</loc>
+    <lastmod>2015-03-16T01:38:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2016-05-04T01:00:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/wordpress/</loc>
+    <lastmod>2016-05-04T01:00:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/workshop/</loc>
+    <lastmod>2016-05-04T01:00:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wysiwyg/</loc>
+    <lastmod>2015-10-06T19:26:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

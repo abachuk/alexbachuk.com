@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jquery on Alex Bachuk</title>
+    <link>/tags/jquery/</link>
+    <description>Recent content in Jquery on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Dec 2014 13:52:22 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Difference between jQuery and Angular.js</title>
+      <link>/2014/12/22/difference-jquery-angular-js/</link>
+      <pubDate>Mon, 22 Dec 2014 13:52:22 +0000</pubDate>
+      
+      <guid>/2014/12/22/difference-jquery-angular-js/</guid>
+      <description>Since I started developing websites, I’ve always used jQuery, it’s one of the best things that happened to web development. It lowered the entry barrier to JavaScript world, solved a lot of problems with IE, made easier to deal with DOM across different browsers, and.. AJAX.
+But when I started working on bigger applications, there was something lacking in jQuery. Structure. I switched to backbone.js, which still relies on jQuery for DOM access and manipulation.</description>
+    </item>
+    
+    <item>
+      <title>jQueryTO in Toronto Canada.</title>
+      <link>/2013/03/04/jqueryto-in-toronto-canada/</link>
+      <pubDate>Mon, 04 Mar 2013 02:10:11 +0000</pubDate>
+      
+      <guid>/2013/03/04/jqueryto-in-toronto-canada/</guid>
+      <description>This was my first web development conference that’s not WordCamp. I started developing with JavaScript quite recently, before that I was using jQuery to manipulate DOM and use others plugins (which works for small websites pretty well). Since it was not that far from New York City - I decided to attend and see what’s new in jQuery world (especially after I saw Paul Irish and Addy Osmani among other speakers).</description>
+    </item>
+    
+    <item>
+      <title>jQuery Mobile basics</title>
+      <link>/2012/07/18/jquery-mobile-basics/</link>
+      <pubDate>Wed, 18 Jul 2012 19:15:18 +0000</pubDate>
+      
+      <guid>/2012/07/18/jquery-mobile-basics/</guid>
+      <description>jQuery Mobile is touch friendly and AJAX powered framework which was built by jQuery team.
+It is a great framework for building mobile websites or apps and if combine it with responsive design - it becomes even better. Nowadays everyone knows that the best way to build a website is responsive way, a “write once, run everywhere” style.
+jQuery mobile uses AJAX for page loading and provides flexible theming tool - theme roller, default theme is very iOS-like, but it&amp;rsquo;s very easy to change just changing default CSS.</description>
+    </item>
+    
+  </channel>
+</rss>

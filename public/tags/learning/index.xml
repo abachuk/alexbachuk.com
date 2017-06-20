@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Alex Bachuk</title>
+    <link>/tags/learning/</link>
+    <description>Recent content in Learning on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Mar 2016 18:46:05 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why web developers need side projects</title>
+      <link>/2016/03/05/why-web-developers-need-side-projects/</link>
+      <pubDate>Sat, 05 Mar 2016 18:46:05 +0000</pubDate>
+      
+      <guid>/2016/03/05/why-web-developers-need-side-projects/</guid>
+      <description>A few years ago, when I was working at a startup (Ruby on Rails app) as a front end developer, from time to time I had to go in and make back end changes. It was terrifying because I didn’t know what I was doing. I decided to learn Rails and bought books and took online courses. However, it wasn’t as easy as I thought, because I only had front end background and some WordPress experience.</description>
+    </item>
+    
+  </channel>
+</rss>

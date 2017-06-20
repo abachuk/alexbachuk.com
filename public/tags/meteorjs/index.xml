@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meteorjs on Alex Bachuk</title>
+    <link>/tags/meteorjs/</link>
+    <description>Recent content in Meteorjs on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jun 2014 13:25:08 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meteorjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying Meteor Application (part 2)</title>
+      <link>/2014/06/11/deploying-meteor-application-part-2/</link>
+      <pubDate>Wed, 11 Jun 2014 13:25:08 +0000</pubDate>
+      
+      <guid>/2014/06/11/deploying-meteor-application-part-2/</guid>
+      <description>Recently I wrote a blog post about deploying meteor.js application to Digital Ocean server. It works, but after few deploys I found it&amp;rsquo;s not the most efficient way to deploy the app. You have to SSH to server every time and transfer the files (overwriting old ones), you alredy can see the problem here :)
+After some googling around, I found awesome npm module called &amp;ldquo;mup&amp;rdquo;, stands for meteor up.</description>
+    </item>
+    
+    <item>
+      <title>Deploying meteor application</title>
+      <link>/2014/05/24/deploying-meteor-application/</link>
+      <pubDate>Sat, 24 May 2014 00:41:48 +0000</pubDate>
+      
+      <guid>/2014/05/24/deploying-meteor-application/</guid>
+      <description>Meteor is a full stack framework on top of node.js. It has different conventions than regular node.js application. Meteor uses smart packages and doesn&amp;rsquo;t have main bootstrap file where everything is configured. It doesn&amp;rsquo;t provide an option to conditionally load assets such as stylesheets or JavaScript files depending on controller or route. I was facing a challenge where I had to separate marketing website from main application.
+The goal The end goal is to be able to deploy Meteor application to digital ocean server and ability to access it from sub-domain like so app.</description>
+    </item>
+    
+  </channel>
+</rss>

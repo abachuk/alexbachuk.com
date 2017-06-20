@@ -1,0 +1,18 @@
+baseURL: /
+disablePathToLower: true
+languageCode: en-us
+title: Alex Bachuk
+permalinks:
+  post: /:slug/
+  page: /:slug/
+menu:
+  main:
+      - Name: "about hugo"
+        Pre: "<i class='fa fa-heart'></i>"
+        Weight: -110
+        Identifier: "about"
+        URL: "/about/"
+      - Name: "getting started"
+        Pre: "<i class='fa fa-road'></i>"
+        Weight: -100
+        URL: "/getting-started/"

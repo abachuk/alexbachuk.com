@@ -1,0 +1,12 @@
+name = "netxm"
+license = "MIT"
+licenselink = ""
+description = "Grid based theme for Hugo."
+homepage = ""
+tags = ["blog"]
+features = ["responsive", "thumbnail", "grid", "syntax highlight", "structured data", "ogp", "twitter cards"]
+min_version = 0.20.2
+
+[author]
+  name = "Alex Bachuk"
+  homepage = "https://yet.unresolved.xyz/"
