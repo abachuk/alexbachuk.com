@@ -1,2 +1,0 @@
-webpackJsonp([5],{"./node_modules/json-loader/index.js!./.cache/json/index.json":function(e,t){e.exports={data:{site:{siteMetadata:{title:"Gatsby Starter Blog"}},allMarkdownRemark:{edges:[{node:{fields:{slug:"/2015-05-06-my-second-post/"},frontmatter:{title:"My Second Post!"}}},{node:{fields:{slug:"/2015-05-01-hello-world/"},frontmatter:{title:"Hello World"}}},{node:{fields:{slug:"/2015-05-28-hi-folks/"},frontmatter:{title:"New Beginnings"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-25c7016eee0d4f00f255.js.map
