@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 19 Mar 2017 15:08:40 +0000</lastBuildDate>
     
@@ -380,8 +380,8 @@ Until few months ago this approach was 100% ok with me, I just developed directl
       <pubDate>Sat, 29 Dec 2012 07:00:46 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>[gravityform id=&amp;ldquo;1&amp;rdquo; name=&amp;ldquo;contact&amp;rdquo; title=&amp;ldquo;false&amp;rdquo; description=&amp;ldquo;false&amp;rdquo; ajax=&amp;ldquo;true&amp;rdquo;]
-Please fill out the form to get in touch with me. If you have a project you need help with - please include as much information about your project as you can.</description>
+      <description>Please fill out the form to get in touch with me. If you have a project you need help with - please include as much information about your project as you can.
+   </description>
     </item>
     
     <item>

@@ -17,10 +17,10 @@ menu:
         Weight: -110
         Identifier: "about"
         URL: "/about/"
-      - Name: "getting started"
+      - Name: "contact"
         Pre: "<i class='fa fa-road'></i>"
         Weight: -100
-        URL: "/getting-started/"
+        URL: "/contact/"
 params:
   description: JavaScript developer
   metadescription: Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead
@@ -29,7 +29,7 @@ params:
   authorlocation: Fairfield, CT
   authorwebsite: https://alexbachuk.com
   bio: my bio
-  logo: images/logo.png
+  logo: images/ab-logo.svg
   googleAnalyticsUserID: UA-23815614-1
   RSSLink: http://feeds.feedburner.com/...
   githubName: abachuk

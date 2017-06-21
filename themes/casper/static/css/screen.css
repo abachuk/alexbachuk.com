@@ -567,10 +567,10 @@ body.nav-opened .site-wrapper {
     height: 100vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #273555;
-    background: -moz-linear-gradient(-45deg, #273555 0%, #1c89ff 100%);
-    background: -webkit-linear-gradient(-45deg, #273555 0%,#1c89ff 100%);
-    background: linear-gradient(135deg, #273555 0%,#1c89ff 100%);
+    background: #6a85b6;
+    background: -moz-linear-gradient(-45deg, #6a85b6 0%, #bac8e0 100%);
+    background: -webkit-linear-gradient(-45deg, #6a85b6 0%,#bac8e0 100%);
+    background: linear-gradient(135deg, #6a85b6 0%,#bac8e0 100%);
     background-size: cover;
     overflow: hidden;
 }
