@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/03/19/javascript-weekend-list-01/</loc>
+    <loc>/javascript-weekend-list-01/</loc>
     <lastmod>2017-03-19T15:08:40+00:00</lastmod>
   </url>
   
@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>/2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/</loc>
+    <loc>/send-emails-with-ember-js-amazon-ses-firebase/</loc>
     <lastmod>2017-02-10T15:01:41+00:00</lastmod>
   </url>
   
@@ -85,66 +85,6 @@
   <url>
     <loc>/2015/01/12/wordpress-themes-less-is-more/</loc>
     <lastmod>2015-01-12T02:09:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/12/22/difference-jquery-angular-js/</loc>
-    <lastmod>2014-12-22T13:52:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/08/29/end-summer-playlist/</loc>
-    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/08/19/custom-checkbox-css3/</loc>
-    <lastmod>2014-08-19T21:19:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/07/17/angular-js-meetup-google-new-york-office/</loc>
-    <lastmod>2014-07-17T01:27:58+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/06/27/music-coding-2/</loc>
-    <lastmod>2014-06-27T15:08:33+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/06/11/deploying-meteor-application-part-2/</loc>
-    <lastmod>2014-06-11T13:25:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/05/24/deploying-meteor-application/</loc>
-    <lastmod>2014-05-24T00:41:48+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/04/02/yeoman-proxy/</loc>
-    <lastmod>2014-04-02T14:29:12+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/03/15/fluent-2014-conference-review/</loc>
-    <lastmod>2014-03-15T22:20:06+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/03/13/fluent-2014-day1/</loc>
-    <lastmod>2014-03-13T06:36:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/03/04/music-coding/</loc>
-    <lastmod>2014-03-04T04:01:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2014/03/04/book-review-backbone-js-patterns-best-practices/</loc>
-    <lastmod>2014-03-04T02:23:02+00:00</lastmod>
   </url>
   
   <url>
@@ -243,8 +183,23 @@
   </url>
   
   <url>
+    <loc>/wordpress/</loc>
+    <lastmod>2013-01-09T12:18:37+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</loc>
     <lastmod>2013-01-03T16:53:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2012-12-29T07:00:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2012-12-29T07:00:32+00:00</lastmod>
   </url>
   
   <url>
@@ -301,7 +256,7 @@
   
   <url>
     <loc>/tags/api/</loc>
-    <lastmod>2014-04-02T14:29:12+00:00</lastmod>
+    <lastmod>2013-04-20T17:41:42+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -313,7 +268,7 @@
   
   <url>
     <loc>/tags/backbone.js/</loc>
-    <lastmod>2014-03-04T02:23:02+00:00</lastmod>
+    <lastmod>2013-11-29T23:03:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -336,19 +291,7 @@
   
   <url>
     <loc>/tags/conference/</loc>
-    <lastmod>2014-03-15T22:20:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/css/</loc>
-    <lastmod>2014-08-19T21:19:37+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/css3/</loc>
-    <lastmod>2014-08-19T21:19:37+00:00</lastmod>
+    <lastmod>2013-03-04T02:10:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -383,12 +326,6 @@
   </url>
   
   <url>
-    <loc>/tags/fluent/</loc>
-    <lastmod>2014-03-15T22:20:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/front-end-development/</loc>
     <lastmod>2015-06-08T02:37:16+00:00</lastmod>
     <priority>0</priority>
@@ -403,12 +340,6 @@
   <url>
     <loc>/tags/github/</loc>
     <lastmod>2012-09-17T04:30:30+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/grunt/</loc>
-    <lastmod>2014-04-02T14:29:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -431,20 +362,20 @@
   </url>
   
   <url>
-    <loc>/tags/javascript/</loc>
-    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/javascript/</loc>
     <lastmod>2017-03-19T15:08:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/jquery/</loc>
-    <lastmod>2014-12-22T13:52:22+00:00</lastmod>
+    <lastmod>2013-03-04T02:10:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -485,20 +416,8 @@
   </url>
   
   <url>
-    <loc>/tags/mean-stack/</loc>
-    <lastmod>2014-07-17T01:27:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/meteor.js/</loc>
     <lastmod>2015-10-06T19:26:02+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/meteorjs/</loc>
-    <lastmod>2014-06-11T13:25:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -522,19 +441,7 @@
   
   <url>
     <loc>/tags/music/</loc>
-    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/music/</loc>
-    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/node.js/</loc>
-    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <lastmod>2013-04-24T20:18:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -545,20 +452,26 @@
   </url>
   
   <url>
+    <loc>/tags/node.js/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/open-source/</loc>
     <lastmod>2016-03-10T22:15:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/phonegap/</loc>
-    <lastmod>2013-05-28T01:34:05+00:00</lastmod>
+    <loc>/page/</loc>
+    <lastmod>2013-01-09T12:18:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/playlist/</loc>
-    <lastmod>2014-08-29T12:57:07+00:00</lastmod>
+    <loc>/tags/phonegap/</loc>
+    <lastmod>2013-05-28T01:34:05+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -605,13 +518,13 @@
   </url>
   
   <url>
-    <loc>/tags/ruby-on-rails/</loc>
+    <loc>/categories/ruby-on-rails/</loc>
     <lastmod>2013-09-13T02:21:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/ruby-on-rails/</loc>
+    <loc>/tags/ruby-on-rails/</loc>
     <lastmod>2013-09-13T02:21:02+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -659,14 +572,14 @@
   </url>
   
   <url>
-    <loc>/tags/web-development/</loc>
-    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
+    <loc>/categories/web-development/</loc>
+    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/web-development/</loc>
-    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
+    <loc>/tags/web-development/</loc>
+    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -689,13 +602,13 @@
   </url>
   
   <url>
-    <loc>/tags/wordpress/</loc>
+    <loc>/categories/wordpress/</loc>
     <lastmod>2016-05-04T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/wordpress/</loc>
+    <loc>/tags/wordpress/</loc>
     <lastmod>2016-05-04T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>

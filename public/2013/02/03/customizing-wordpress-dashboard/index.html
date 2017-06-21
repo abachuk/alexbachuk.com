@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.23" />
+
+<link rel="apple-touch-icon" href="/images/logo.png">
+
+
+<link rel="canonical" href="/2013/02/03/customizing-wordpress-dashboard/">
+
+
+    
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Customizing WordPress dashboard - Alex Bachuk</title>
+    
+
+<meta name="description" content="As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&amp;rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&amp;rsquo;s just php files and mysql database, so it can do anything php can do&amp;hellip; and it can do a lot.">
+
+<meta property="og:title" content="Customizing WordPress dashboard - Alex Bachuk">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/2013/02/03/customizing-wordpress-dashboard/">
+<meta property="og:image" content="/images/default.png">
+<meta property="og:site_name" content="Alex Bachuk">
+<meta property="og:description" content="As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&amp;rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&amp;rsquo;s just php files and mysql database, so it can do anything php can do&amp;hellip; and it can do a lot.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Alex Bachuk">
+<meta name="twitter:url" content="/2013/02/03/customizing-wordpress-dashboard/">
+<meta name="twitter:title" content="Customizing WordPress dashboard - Alex Bachuk">
+<meta name="twitter:description" content="As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&amp;rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&amp;rsquo;s just php files and mysql database, so it can do anything php can do&amp;hellip; and it can do a lot.">
+<meta name="twitter:image" content="/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"/"
+    },
+    "headline": "Customizing WordPress dashboard - Alex Bachuk",
+    "image": {
+      "@type": "ImageObject",
+      "url": "/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2013-02-03T19:58:32JST",
+    "dateModified": "2013-02-03T19:58:32JST",
+    "author": {
+      "@type": "Person",
+      "name": "Alex Bachuk"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Alex Bachuk",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&rsquo;s just php files and mysql database, so it can do anything php can do&hellip; and it can do a lot."
+  }
+</script>
+
+
+    <style>
+      html { font-size: 18px; background-color: rgba(236,239,241,.5);}@media (max-width: 768px) { html { font-size: 15px; }}body { color: #333; font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif; font-feature-settings : "palt"; font-size: inherit; line-height: 1rem; margin: 0; padding: 0;}h1, h2, h3, h4, h5 ,h6 { font-size: 1rem; font-weight: 700; line-height: 1rem; margin: 0;}hr { border: 0; border-top: 1px dashed #cfd8dc; margin: 1rem 0;}p { margin: 0; line-height: 1rem;}a { color: #2196f3; text-decoration: none; transition-duration: .3s;}ul, ol { margin: 0; padding: 0;}table { border-collapse: collapse;}th, td { font-size: .8rem; padding: .5rem;}tr { border-bottom: 1px dashed #ddd;}/* Layouts */main,aside { display: block;}main { padding: 1rem 0 3rem 0; }aside.h { padding: 3rem 0; }main.f,aside.f { background-color: #333; border-top: 2px dashed #fff; border-bottom: 2px dashed #fff;}.l-container { position: relative; max-width: 68rem; margin: 0 auto; padding: 0 1rem;}.l-container.thin { max-width: 44rem;}.l-header { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); padding: 1rem 0; text-align: center;}.l-footer { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); font-size: .6rem; font-weight: 700; padding: 1rem 0;}@media (max-width: 768px) { .l-sidebar { margin-top: 4rem; }}.mrow { margin: 0 -1rem; overflow: hidden;}.mcol { box-sizing: border-box; float: left; padding: 0 1rem;}.c6 { width: 50%; }.c4 { width: 33.26323833%; }.c8 { width: 66.66666%; }@media (max-width: 768px) { .mcol { width: 100%; float: none; }}.logo a { font-size: 1.4rem; line-height: 1.5rem; font-weight: 700; color: #333;}.articles { margin: -1rem 0; margin-bottom: 1rem;}.articles.sm { margin: -.5rem 0; margin-bottom: 0;}article { border-radius: 4px; overflow: hidden;}article.li { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); height: 20rem; overflow: hidden; margin: 1rem 0;}article.li > a { display: block; color: #333;}article.li .inner { padding: 1rem;}article.li .thumb { height: 8rem;}article.li .title { color: #333; font-size: 1.2rem; line-height: 1.5rem; margin-bottom: .5rem;}article.li .summary { font-size: .8rem; height: 6rem; overflow: hidden; margin-top: 1rem;}article.lism { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin: .5rem 0;}article.lism::after { content: ''; display: block; clear: both;}article.lism > a { display: block; color: #333;}article.lism .inner { display: table-cell; vertical-align: middle; height: 5rem; padding-left: .5rem;}article.lism .thumb { width: 5rem; height: 5rem; float: left;}article.lism .title { font-weight: 700; line-height: 1.25rem; margin-bottom: .25rem;}article.sn { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin-bottom: 1rem;}article.sn .thumb { height: 20rem;}@media (max-width: 768px) { article.sn .thumb { height: 10rem; }}article.sn > .article-header,article.sn > .article-body,article.sn .article-footer { padding: 2rem;}article.sn > .article-body { padding: 0 2rem;}@media (max-width: 768px) { article.sn > .article-header, article.sn > .article-body, article.sn .article-footer { padding: 1rem; } article.sn > .article-body { padding: 0 1rem; }}article.sn > .article-header .title { font-size: 1.8rem; line-height: 2rem; margin-bottom: .5rem;}@media (max-width: 768px) { article.sn > .article-header .title { font-size: 1.4rem; line-height: 1.5rem; }}article.sn > .article-header .facts { margin-bottom: 1rem;}article.sn > .article-body { margin-bottom: 1.5rem;}article.sn > .article-body h2 { border-bottom: .25rem solid #333; font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; padding: .5rem 0;}article.sn > .article-body h3 { border-left: .5rem solid #333; line-height: 1.5rem; margin: 1.5rem 0; padding: .125rem .5rem;}article.sn > .article-body ul,article.sn > .article-body ol { margin: 1.5rem 0; padding-left: 1.5rem;}article.sn > .article-body li { padding-bottom: .5rem; line-height: 1.5rem;}article.sn > .article-body li:last-child { padding-bottom: 0;}article.sn > .article-body p { margin: 1rem 0; line-height: 1.5rem;}article.sn > .article-body strong,article.sn > .article-body em { font-style: normal; font-weight: 700;}article.sn > .article-body strong { box-shadow: 0 -.5rem 0 0 #ffc107 inset;}article.sn > .article-body em { color: #8bc34a;}article.sn > .article-body code,article.sn > .article-body pre { font-family: Menlo, Consolas, monospace; font-size: .7rem;}article.sn > .article-body pre { background-color: #333; color: #fff; line-height: 1rem; margin: 1.5rem -2rem; overflow: auto;}@media (max-width: 768px) { article.sn > .article-body pre { margin: 1.5rem -1rem; }}article.sn > .article-body pre > code { display: block; padding: 1rem 2rem;}@media (max-width: 768px) { article.sn > .article-body pre > code { padding: 1rem; }}article.sn > .article-body p code { background-color: #eceff1; color: #333; border-radius: 4px; margin: 0 .25rem; padding: .375rem; white-space: nowrap;}article.sn > .article-body blockquote { position: relative; border-left: .25rem solid #333; font-size: .8rem; padding: .125rem 1rem; margin: 1.5rem 0;}@media (max-width: 768px) { article.sn > .article-body blockquote { font-size: 1rem; }}article.sn > .article-body blockquote p { margin: .5rem 0; line-height: 1rem;}article.sn > .article-body figure { margin: 1.5rem 0;}article.sn > .article-body figure img,article.sn > .article-body figure amp-img { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); max-width: 100%;}article.sn > .article-body figcaption { color: #cfd8dc; font-size: .8rem; font-weight: 700; margin-top: .5rem;}.facts li { display: inline; font-size: .8rem; margin-right: 1rem;}.facts i { color: #cfd8dc; margin-right: .5em;}.facts.sm li { font-size: .7rem;}.sections.sidebar { margin: -1rem 0;}.sections.footer { margin: -1rem 0;}section.sidebar { margin: 2rem 0;}section.sidebar > header { font-size: .8rem; font-weight: 700; letter-spacing: 4px; text-align: center; margin: 1.5rem 0;}section.footer { margin: 1rem 0;}section.footer > header { font-size: .8rem; margin: .5rem 0;}section.footer > header::before { content: "- ";}section.footer > header a { font-weight: 700; color: #333; text-decoration: underline;}.terms { margin: -.25rem;}.terms li { display: inline-block;}.terms a { display: block; float: left; background-color: #333; border-radius: 4px; color: #fff; font-size: .7rem; margin: .25rem; padding: 0 .75rem; line-height: 1.75rem;}.paging { text-align: center; padding: 1rem 0;}.paging a { display: inline-block; background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); border-radius: 4px; color: #333; padding: 0 1rem; line-height: 3rem;}.page-title { text-align: center; margin: 1rem 0;}.page-title::after { content: ''; display: block; border-bottom: .25rem solid #333; width: 3rem; margin: 1.5rem auto;}.page-title > .title { font-size: 1.2rem; line-height: 1.5rem;}/* Parts:breadcrumb */.crumb ol { text-overflow: ellipsis; color: #cfd8dc; white-space: nowrap; overflow: hidden;}.crumb li { display: inline; font-size: .8rem;}.crumb li::after { content: '›'; margin: 0 .25rem 0 .5rem;}.crumb li:last-child::after { content: '';}.crumb a { color: #cfd8dc;}.crumb i { margin-right: .5em;}.share { padding: 0;}.share a { display: inline-block; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); min-width: 1rem; height: 2rem; border-radius: 4px; color: #333; font-size: .8rem; font-weight: 700; line-height: 2rem; text-align: center; padding: 0 .5rem;}.adj article.lism { margin-bottom: 1rem;}.adj header { font-weight: 700; font-size: .8rem;}.toc { padding: 0 2rem;}@media (max-width: 768px) { .toc { padding: 0 1rem; }}.toc { margin: 1rem 0;}.toc nav>ul { background-color: #eceff1; border-radius: 4px; display: inline-block; font-size: .8rem; padding: .5rem 1rem; word-break: break-all; list-style: none;}.toc ul { padding: 0;}.toc ul ul { padding-left: 1rem;}.toc ul ul ul { padding-left: 1rem;}.toc li { color: #90a4ae;}.toc ul ul>li { font-weight: 700; margin: .5rem 0; list-style-type: decimal;}.toc ul ul ul>li { list-style-type: disc; font-weight: 500;}.thumb { background-image: url(/images/default.jpg); background-size: cover;}
+      
+      
+    </style>
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <div class="l-container">
+        <nav class="sidebar-nav">
+        
+        
+        <a class="sidebar-nav-item" href="/about/">about hugo</a>
+        
+        <a class="sidebar-nav-item" href="/getting-started/">getting started</a>
+        
+    </nav>
+        <div class="logo">
+          <a href="/">Alex Bachuk</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="l-container">
+        
+<div class="mrow">
+  <div class="mcol c8">
+
+    <article class="sn">
+
+  <div class="thumb thumb-3da8f573df99687ac90ce47f89a7c08d"></div>
+
+  <header class="article-header">
+    <h1 class="title">Customizing WordPress dashboard</h1>
+
+    <ul class="facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2013-02-03T19:58:32JST">Feb 3, 2013</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/post/">POST</a></li>
+      
+    </ul>
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&title=Customizing%20WordPress%20dashboard" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&text=Customizing%20WordPress%20dashboard&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&t=Customizing%20WordPress%20dashboard" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&title=Customizing%20WordPress%20dashboard" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Customizing%20WordPress%20dashboard %2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+  </header>
+
+  
+
+  <div class="article-body">
+
+<p>As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&rsquo;s just php files and mysql database, so it can do anything php can do&hellip; and it can do a lot. But I leave this discussion for another day.</p>
+
+<p>When I build any website I try to make it intuitive for my client, so in case they need to make any change - they can do it on their own. Right, WordPress can do that. To achieve some simplicity in the dashboard, theme options or bunch of custom fields isn&rsquo;t enough. It has to be organized the right way and should fee like it belongs to WP dashboard, otherwise you&rsquo;re creating another barrier for a user or client or even developer that will work after you. So be thoughtful and don&rsquo;t make a mistake a lot of theme developers do, they throw bunch of theme options into one place, using some third party theme options framework that looks completely out of this world and that&rsquo;t the end of &ldquo;customizations&rdquo;.</p>
+
+<h2 id="custom-post-types">Custom Post Types</h2>
+
+<p><img src="http://alexbachuk.com/wp-content/uploads/2013/02/wordpress-dashboard-post-types.jpg" alt="wordpress-dashboard-post-types" />Post types is what makes WordPress very flexible and powerful, I use it almost on every project. Let&rsquo;s take an example my own website, I have 4 post types here, posts for blog, pages for static content, portfolio for showing my work and testimonials. And you can add as many post types as needed, as long as they have unique name. If you look at the MySQL database you will see that all these post types are stored in wp_posts table but have different post_type values (page, portfolio, etc). That makes it very handy in your theme, just specify post type in the loop and there you go, you have your post type showing up on the home page, header, page template, anywhere you want.</p>
+
+<p>There is also a way to group post types into taxonomies. Best example of taxonomies is categories in the posts. So if I wanted I could organize my portfolios into CMSs (although it would make a lot of sense as I do everything in WordPress :), or if you have a podcast or videos - organize it into channels. There are 2 different kinds of taxonomies - hierarchical and not hierarchical. Again, example is, categories and tags. There can be sub-categories (example of hierarchical) and tags (non hierarchical). Taxonomies are stored in wp_term_taxonomy table in the database.</p>
+
+<p>So both post types and taxonomies make any WordPress powered website very organized and easy to navigate in the dashboard. If you&rsquo;re not programmer - there are few plugins that can help you set this up, my favorite is <a href="http://wordpress.org/extend/plugins/custom-post-type-ui/">Custom Post Type UI</a></p>
+
+<h2 id="meta-boxes">Meta Boxes</h2>
+
+<p>There is a way to add more widgets into page, post or any post type editor - meta boxes. They are useful if pages need more that title and featured image maybe you need to add additional content like introduction, another image or date of an event, and it has to formatted in same way as other pages, if you&rsquo;re good with HTML - built in wysiwyg should be enough as you can copy and paste html, tweak it , move things around, but what about your clients? So, meta boxes are perfect for that, I like to use framework called <a href="https://github.com/jaredatch/Custom-Metaboxes-and-Fields-for-WordPress">Custom Metaboxes and Fields for WordPress</a></p>
+
+<h2 id="theme-options">Theme Options</h2>
+
+<p>Theme options are great for general information, like logo upload, change colors, postion of navigation, loading different fonts or scripts, etc. But it is not very useful to pu all information there even things that are native to WordPress settings like site name or description. I like to add input fields in the genreal -&gt; settings for copyright, taglines and other related content because if client goes to change their description they may also need to change copyright in the same place.</p>
+
+<p><img src="http://alexbachuk.com/wp-content/uploads/2013/02/nhp.jpg" alt="nhp" /></p>
+
+<p>I like to use <a href="http://codex.wordpress.org/Settings_API">WordPress Settings API</a> or frameworks like <a href="http://leemason.github.com/NHP-Theme-Options-Framework/">NHP</a> or <a href="http://wptheming.com/options-framework-theme/">Options Framework</a></p>
+</div>
+
+  <footer class="article-footer">
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&title=Customizing%20WordPress%20dashboard" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&text=Customizing%20WordPress%20dashboard&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&t=Customizing%20WordPress%20dashboard" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=%2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f&title=Customizing%20WordPress%20dashboard" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Customizing%20WordPress%20dashboard %2f2013%2f02%2f03%2fcustomizing-wordpress-dashboard%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
+            
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/post/" itemprop="url"><span itemprop="title">POST</span></a></li>
+            
+            <li class="active">Customizing WordPress dashboard</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="/categories/">CATEGORIES</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="/categories/WordPress/">WordPress</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="/tags/">TAGS</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="/tags/theme-options/">theme options</a></li>
+          
+          <li><a href="/tags/tips/">tips</a></li>
+          
+          <li><a href="/tags/WordPress/">WordPress</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    <div class="adj">
+      <div class="mrow">
+        
+        <div class="mcol c6">
+          <header>Previous Article</header>
+          <article class="lism">
+  <a href="/2013/01/27/phonegap-and-mobile-web-apps/">
+    <div class="thumb thumb-81ac1dc4bc64186f4fc5ca984071b17e"></div>
+
+    <div class="inner">
+      <div class="title">PhoneGap and mobile web apps</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2013-01-27T22:51:27JST">Jan 27, 2013</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+        
+        <div class="mcol c6">
+          <header>Next Article</header>
+          <article class="lism">
+  <a href="/2013/02/07/closures-in-javascript/">
+    <div class="thumb thumb-558ef54cacccecf45fd70e1491ad35f2"></div>
+
+    <div class="inner">
+      <div class="title">Closures in JavaScript</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2013-02-07T17:19:25JST">Feb 7, 2013</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+      </div>
+    </div>
+
+    
+  </div>
+  <div class="mcol c4">
+    <aside class="l-sidebar">
+
+  <div class="sections sidebar">
+    <section class="sidebar">
+      <header>LATESTS</header>
+      <div>
+        <div class="articles sm">
+          
+          <article class="lism">
+  <a href="/javascript-weekend-list-01/">
+    <div class="thumb thumb-df68168bca4903aa8c31c8a286202495"></div>
+
+    <div class="inner">
+      <div class="title">JavaScript Weekend List #01</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-19T15:08:40JST">Mar 19, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2017/03/15/hacking-productivity-for-software-developers/">
+    <div class="thumb thumb-664c9b5163214d8cbed77ce1aaabf5f2"></div>
+
+    <div class="inner">
+      <div class="title">Hacking productivity for software developers</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-15T15:06:04JST">Mar 15, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/send-emails-with-ember-js-amazon-ses-firebase/">
+    <div class="thumb thumb-fd057d8ff276ab1e5474731102c708d1"></div>
+
+    <div class="inner">
+      <div class="title">Send emails with Ember.js &#43; Amazon SES &#43; Firebase</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-02-10T15:01:41JST">Feb 10, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/12/17/uploading-files-with-react-js-and-node-js/">
+    <div class="thumb thumb-024465941c50745c77f5de31e1e5edee"></div>
+
+    <div class="inner">
+      <div class="title">Uploading files with React.js and Node.js</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-12-17T14:58:17JST">Dec 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/05/04/wordpress-workshop-for-beginners/">
+    <div class="thumb thumb-e2807d883758d80aa4c3a4fa221dd019"></div>
+
+    <div class="inner">
+      <div class="title">WordPress workshop for beginners</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-05-04T01:00:44JST">May 4, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/25/education-for-web-developers/">
+    <div class="thumb thumb-05676d6a89237024d19e9a974591ee16"></div>
+
+    <div class="inner">
+      <div class="title">Education for web developers</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-25T19:33:13JST">Mar 25, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/10/power-of-technical-documentation/">
+    <div class="thumb thumb-1f2977804ceb8a00a658eb1eb2b758f1"></div>
+
+    <div class="inner">
+      <div class="title">Power of technical documentation</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-10T22:15:58JST">Mar 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/05/why-web-developers-need-side-projects/">
+    <div class="thumb thumb-e1bbd70f34e0b30305ab0dbf147a6f03"></div>
+
+    <div class="inner">
+      <div class="title">Why web developers need side projects</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-05T18:46:05JST">Mar 5, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/01/10/react-js-route-state-name/">
+    <div class="thumb thumb-e78b868d7383773e2feb2c94b3d98844"></div>
+
+    <div class="inner">
+      <div class="title">React.js route state name</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-10T14:32:52JST">Jan 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/01/03/learning-react-js-and-redux/">
+    <div class="thumb thumb-1a893e5531d7437ef6bb81abd82d376e"></div>
+
+    <div class="inner">
+      <div class="title">Learning React.js and Redux</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-03T20:35:38JST">Jan 3, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="sidebar">
+      <header>CATEGORIES</header>
+      <div>
+        <ul class="terms">
+          <li><a href="/categories/web-development">web-development</a></li><li><a href="/categories/javascript">javascript</a></li><li><a href="/categories/wordpress">wordpress</a></li><li><a href="/categories/node.js">node.js</a></li><li><a href="/categories/macos">macos</a></li><li><a href="/categories/ruby-on-rails">ruby-on-rails</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="sidebar">
+      <header>TAGS</header>
+      <div>
+        <ul class="terms">
+          <li><a href="/tags/wordpress">wordpress</a></li><li><a href="/tags/javascript">javascript</a></li><li><a href="/tags/web-development">web-development</a></li><li><a href="/tags/mobile-web-development">mobile-web-development</a></li><li><a href="/tags/react.js">react.js</a></li><li><a href="/tags/web-developer-tools">web-developer-tools</a></li><li><a href="/tags/backbone.js">backbone.js</a></li><li><a href="/tags/front-end-development">front-end-development</a></li><li><a href="/tags/jquery-mobile">jquery-mobile</a></li><li><a href="/tags/mac">mac</a></li>
+        </ul>
+      </div>
+    </section>
+    
+  </div>
+
+</aside>
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p><span class="h-logo">&copy; Alex Bachuk</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

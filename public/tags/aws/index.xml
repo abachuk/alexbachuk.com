@@ -13,10 +13,10 @@
     
     <item>
       <title>Send emails with Ember.js &#43; Amazon SES &#43; Firebase</title>
-      <link>/2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/</link>
+      <link>/send-emails-with-ember-js-amazon-ses-firebase/</link>
       <pubDate>Fri, 10 Feb 2017 15:01:41 +0000</pubDate>
       
-      <guid>/2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/</guid>
+      <guid>/send-emails-with-ember-js-amazon-ses-firebase/</guid>
       <description>There is a need to build client side only (front end) applications. Tools like Ember CLI, Create react app, Angular 2 CLI make it very easy to bootstrap a JavaScript app in just a few minutes and start building features.
 The challenge arises when you need to add a piece of server side logic, like sending emails, uploading files, authentication, or storing some data to the database. In most cases, it doesn’t make sense to add a full blown server, which requires to be maintained and setup .</description>
     </item>

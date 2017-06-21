@@ -88,46 +88,6 @@ The reason why this is happening is many people focus on their business only rat
     </item>
     
     <item>
-      <title>Difference between jQuery and Angular.js</title>
-      <link>/2014/12/22/difference-jquery-angular-js/</link>
-      <pubDate>Mon, 22 Dec 2014 13:52:22 +0000</pubDate>
-      
-      <guid>/2014/12/22/difference-jquery-angular-js/</guid>
-      <description>Since I started developing websites, I’ve always used jQuery, it’s one of the best things that happened to web development. It lowered the entry barrier to JavaScript world, solved a lot of problems with IE, made easier to deal with DOM across different browsers, and.. AJAX.
-But when I started working on bigger applications, there was something lacking in jQuery. Structure. I switched to backbone.js, which still relies on jQuery for DOM access and manipulation.</description>
-    </item>
-    
-    <item>
-      <title>Custom checkbox with CSS3</title>
-      <link>/2014/08/19/custom-checkbox-css3/</link>
-      <pubDate>Tue, 19 Aug 2014 21:19:37 +0000</pubDate>
-      
-      <guid>/2014/08/19/custom-checkbox-css3/</guid>
-      <description>A lot of times, we need to style the input fields to make them look fancy. It&amp;rsquo;s possible to do it with images, but what if we want to take it to another level and style a checkbox with icon font&amp;hellip;
-As you know, icon font works as pseudo elements (:before and :after), which can only be applied to nested elements (div, span, p, label). CSS pseudo elements can&amp;rsquo;t be used with inputs, but fear now - there is a way.</description>
-    </item>
-    
-    <item>
-      <title>Deploying Meteor Application (part 2)</title>
-      <link>/2014/06/11/deploying-meteor-application-part-2/</link>
-      <pubDate>Wed, 11 Jun 2014 13:25:08 +0000</pubDate>
-      
-      <guid>/2014/06/11/deploying-meteor-application-part-2/</guid>
-      <description>Recently I wrote a blog post about deploying meteor.js application to Digital Ocean server. It works, but after few deploys I found it&amp;rsquo;s not the most efficient way to deploy the app. You have to SSH to server every time and transfer the files (overwriting old ones), you alredy can see the problem here :)
-After some googling around, I found awesome npm module called &amp;ldquo;mup&amp;rdquo;, stands for meteor up.</description>
-    </item>
-    
-    <item>
-      <title>Deploying meteor application</title>
-      <link>/2014/05/24/deploying-meteor-application/</link>
-      <pubDate>Sat, 24 May 2014 00:41:48 +0000</pubDate>
-      
-      <guid>/2014/05/24/deploying-meteor-application/</guid>
-      <description>Meteor is a full stack framework on top of node.js. It has different conventions than regular node.js application. Meteor uses smart packages and doesn&amp;rsquo;t have main bootstrap file where everything is configured. It doesn&amp;rsquo;t provide an option to conditionally load assets such as stylesheets or JavaScript files depending on controller or route. I was facing a challenge where I had to separate marketing website from main application.
-The goal The end goal is to be able to deploy Meteor application to digital ocean server and ability to access it from sub-domain like so app.</description>
-    </item>
-    
-    <item>
       <title>My experience with backbone.js and require.js</title>
       <link>/2013/11/29/my-experience-with-backbone-js-and-require-js/</link>
       <pubDate>Fri, 29 Nov 2013 23:03:46 +0000</pubDate>

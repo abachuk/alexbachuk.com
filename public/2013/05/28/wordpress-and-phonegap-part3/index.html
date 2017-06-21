@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.23" />
+
+<link rel="apple-touch-icon" href="/images/logo.png">
+
+
+<link rel="canonical" href="/2013/05/28/wordpress-and-phonegap-part3/">
+
+
+    
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>WordPress and Phonegap (part3) - Alex Bachuk</title>
+    
+
+<meta name="description" content="In part 1 and 2 we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&amp;rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc.">
+
+<meta property="og:title" content="WordPress and Phonegap (part3) - Alex Bachuk">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/2013/05/28/wordpress-and-phonegap-part3/">
+<meta property="og:image" content="/images/default.png">
+<meta property="og:site_name" content="Alex Bachuk">
+<meta property="og:description" content="In part 1 and 2 we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&amp;rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Alex Bachuk">
+<meta name="twitter:url" content="/2013/05/28/wordpress-and-phonegap-part3/">
+<meta name="twitter:title" content="WordPress and Phonegap (part3) - Alex Bachuk">
+<meta name="twitter:description" content="In part 1 and 2 we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&amp;rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc.">
+<meta name="twitter:image" content="/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"/"
+    },
+    "headline": "WordPress and Phonegap (part3) - Alex Bachuk",
+    "image": {
+      "@type": "ImageObject",
+      "url": "/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2013-05-28T01:34:05JST",
+    "dateModified": "2013-05-28T01:34:05JST",
+    "author": {
+      "@type": "Person",
+      "name": "Alex Bachuk"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Alex Bachuk",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "In part 1 and 2 we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.
+I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc."
+  }
+</script>
+
+
+    <style>
+      html { font-size: 18px; background-color: rgba(236,239,241,.5);}@media (max-width: 768px) { html { font-size: 15px; }}body { color: #333; font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif; font-feature-settings : "palt"; font-size: inherit; line-height: 1rem; margin: 0; padding: 0;}h1, h2, h3, h4, h5 ,h6 { font-size: 1rem; font-weight: 700; line-height: 1rem; margin: 0;}hr { border: 0; border-top: 1px dashed #cfd8dc; margin: 1rem 0;}p { margin: 0; line-height: 1rem;}a { color: #2196f3; text-decoration: none; transition-duration: .3s;}ul, ol { margin: 0; padding: 0;}table { border-collapse: collapse;}th, td { font-size: .8rem; padding: .5rem;}tr { border-bottom: 1px dashed #ddd;}/* Layouts */main,aside { display: block;}main { padding: 1rem 0 3rem 0; }aside.h { padding: 3rem 0; }main.f,aside.f { background-color: #333; border-top: 2px dashed #fff; border-bottom: 2px dashed #fff;}.l-container { position: relative; max-width: 68rem; margin: 0 auto; padding: 0 1rem;}.l-container.thin { max-width: 44rem;}.l-header { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); padding: 1rem 0; text-align: center;}.l-footer { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); font-size: .6rem; font-weight: 700; padding: 1rem 0;}@media (max-width: 768px) { .l-sidebar { margin-top: 4rem; }}.mrow { margin: 0 -1rem; overflow: hidden;}.mcol { box-sizing: border-box; float: left; padding: 0 1rem;}.c6 { width: 50%; }.c4 { width: 33.26323833%; }.c8 { width: 66.66666%; }@media (max-width: 768px) { .mcol { width: 100%; float: none; }}.logo a { font-size: 1.4rem; line-height: 1.5rem; font-weight: 700; color: #333;}.articles { margin: -1rem 0; margin-bottom: 1rem;}.articles.sm { margin: -.5rem 0; margin-bottom: 0;}article { border-radius: 4px; overflow: hidden;}article.li { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); height: 20rem; overflow: hidden; margin: 1rem 0;}article.li > a { display: block; color: #333;}article.li .inner { padding: 1rem;}article.li .thumb { height: 8rem;}article.li .title { color: #333; font-size: 1.2rem; line-height: 1.5rem; margin-bottom: .5rem;}article.li .summary { font-size: .8rem; height: 6rem; overflow: hidden; margin-top: 1rem;}article.lism { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin: .5rem 0;}article.lism::after { content: ''; display: block; clear: both;}article.lism > a { display: block; color: #333;}article.lism .inner { display: table-cell; vertical-align: middle; height: 5rem; padding-left: .5rem;}article.lism .thumb { width: 5rem; height: 5rem; float: left;}article.lism .title { font-weight: 700; line-height: 1.25rem; margin-bottom: .25rem;}article.sn { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin-bottom: 1rem;}article.sn .thumb { height: 20rem;}@media (max-width: 768px) { article.sn .thumb { height: 10rem; }}article.sn > .article-header,article.sn > .article-body,article.sn .article-footer { padding: 2rem;}article.sn > .article-body { padding: 0 2rem;}@media (max-width: 768px) { article.sn > .article-header, article.sn > .article-body, article.sn .article-footer { padding: 1rem; } article.sn > .article-body { padding: 0 1rem; }}article.sn > .article-header .title { font-size: 1.8rem; line-height: 2rem; margin-bottom: .5rem;}@media (max-width: 768px) { article.sn > .article-header .title { font-size: 1.4rem; line-height: 1.5rem; }}article.sn > .article-header .facts { margin-bottom: 1rem;}article.sn > .article-body { margin-bottom: 1.5rem;}article.sn > .article-body h2 { border-bottom: .25rem solid #333; font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; padding: .5rem 0;}article.sn > .article-body h3 { border-left: .5rem solid #333; line-height: 1.5rem; margin: 1.5rem 0; padding: .125rem .5rem;}article.sn > .article-body ul,article.sn > .article-body ol { margin: 1.5rem 0; padding-left: 1.5rem;}article.sn > .article-body li { padding-bottom: .5rem; line-height: 1.5rem;}article.sn > .article-body li:last-child { padding-bottom: 0;}article.sn > .article-body p { margin: 1rem 0; line-height: 1.5rem;}article.sn > .article-body strong,article.sn > .article-body em { font-style: normal; font-weight: 700;}article.sn > .article-body strong { box-shadow: 0 -.5rem 0 0 #ffc107 inset;}article.sn > .article-body em { color: #8bc34a;}article.sn > .article-body code,article.sn > .article-body pre { font-family: Menlo, Consolas, monospace; font-size: .7rem;}article.sn > .article-body pre { background-color: #333; color: #fff; line-height: 1rem; margin: 1.5rem -2rem; overflow: auto;}@media (max-width: 768px) { article.sn > .article-body pre { margin: 1.5rem -1rem; }}article.sn > .article-body pre > code { display: block; padding: 1rem 2rem;}@media (max-width: 768px) { article.sn > .article-body pre > code { padding: 1rem; }}article.sn > .article-body p code { background-color: #eceff1; color: #333; border-radius: 4px; margin: 0 .25rem; padding: .375rem; white-space: nowrap;}article.sn > .article-body blockquote { position: relative; border-left: .25rem solid #333; font-size: .8rem; padding: .125rem 1rem; margin: 1.5rem 0;}@media (max-width: 768px) { article.sn > .article-body blockquote { font-size: 1rem; }}article.sn > .article-body blockquote p { margin: .5rem 0; line-height: 1rem;}article.sn > .article-body figure { margin: 1.5rem 0;}article.sn > .article-body figure img,article.sn > .article-body figure amp-img { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); max-width: 100%;}article.sn > .article-body figcaption { color: #cfd8dc; font-size: .8rem; font-weight: 700; margin-top: .5rem;}.facts li { display: inline; font-size: .8rem; margin-right: 1rem;}.facts i { color: #cfd8dc; margin-right: .5em;}.facts.sm li { font-size: .7rem;}.sections.sidebar { margin: -1rem 0;}.sections.footer { margin: -1rem 0;}section.sidebar { margin: 2rem 0;}section.sidebar > header { font-size: .8rem; font-weight: 700; letter-spacing: 4px; text-align: center; margin: 1.5rem 0;}section.footer { margin: 1rem 0;}section.footer > header { font-size: .8rem; margin: .5rem 0;}section.footer > header::before { content: "- ";}section.footer > header a { font-weight: 700; color: #333; text-decoration: underline;}.terms { margin: -.25rem;}.terms li { display: inline-block;}.terms a { display: block; float: left; background-color: #333; border-radius: 4px; color: #fff; font-size: .7rem; margin: .25rem; padding: 0 .75rem; line-height: 1.75rem;}.paging { text-align: center; padding: 1rem 0;}.paging a { display: inline-block; background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); border-radius: 4px; color: #333; padding: 0 1rem; line-height: 3rem;}.page-title { text-align: center; margin: 1rem 0;}.page-title::after { content: ''; display: block; border-bottom: .25rem solid #333; width: 3rem; margin: 1.5rem auto;}.page-title > .title { font-size: 1.2rem; line-height: 1.5rem;}/* Parts:breadcrumb */.crumb ol { text-overflow: ellipsis; color: #cfd8dc; white-space: nowrap; overflow: hidden;}.crumb li { display: inline; font-size: .8rem;}.crumb li::after { content: '›'; margin: 0 .25rem 0 .5rem;}.crumb li:last-child::after { content: '';}.crumb a { color: #cfd8dc;}.crumb i { margin-right: .5em;}.share { padding: 0;}.share a { display: inline-block; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); min-width: 1rem; height: 2rem; border-radius: 4px; color: #333; font-size: .8rem; font-weight: 700; line-height: 2rem; text-align: center; padding: 0 .5rem;}.adj article.lism { margin-bottom: 1rem;}.adj header { font-weight: 700; font-size: .8rem;}.toc { padding: 0 2rem;}@media (max-width: 768px) { .toc { padding: 0 1rem; }}.toc { margin: 1rem 0;}.toc nav>ul { background-color: #eceff1; border-radius: 4px; display: inline-block; font-size: .8rem; padding: .5rem 1rem; word-break: break-all; list-style: none;}.toc ul { padding: 0;}.toc ul ul { padding-left: 1rem;}.toc ul ul ul { padding-left: 1rem;}.toc li { color: #90a4ae;}.toc ul ul>li { font-weight: 700; margin: .5rem 0; list-style-type: decimal;}.toc ul ul ul>li { list-style-type: disc; font-weight: 500;}.thumb { background-image: url(/images/default.jpg); background-size: cover;}
+      
+      
+    </style>
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <div class="l-container">
+        <nav class="sidebar-nav">
+        
+        
+        <a class="sidebar-nav-item" href="/about/">about hugo</a>
+        
+        <a class="sidebar-nav-item" href="/getting-started/">getting started</a>
+        
+    </nav>
+        <div class="logo">
+          <a href="/">Alex Bachuk</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="l-container">
+        
+<div class="mrow">
+  <div class="mcol c8">
+
+    <article class="sn">
+
+  <div class="thumb thumb-afba930f3a4e91f755108d4e228b546f"></div>
+
+  <header class="article-header">
+    <h1 class="title">WordPress and Phonegap (part3)</h1>
+
+    <ul class="facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2013-05-28T01:34:05JST">May 28, 2013</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/post/">POST</a></li>
+      
+    </ul>
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&title=WordPress%20and%20Phonegap%20%28part3%29" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&text=WordPress%20and%20Phonegap%20%28part3%29&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&t=WordPress%20and%20Phonegap%20%28part3%29" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&title=WordPress%20and%20Phonegap%20%28part3%29" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?WordPress%20and%20Phonegap%20%28part3%29 %2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+  </header>
+
+  
+
+  <div class="article-body">
+
+<p>In <a href="http://alexbachuk.com/wordpress-and-phonegap-part-1/">part 1</a> and <a href="http://alexbachuk.com/wordpress-and-phonegap-part2/">2</a> we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.</p>
+
+<p>I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc. You don&rsquo;t need apple developer account to test your app on iOS simulator but if you want to run the app on physical iOS device then you need to enroll in <a href="https://developer.apple.com/programs/ios/">iOS developer program</a>, which is $99 a year.</p>
+
+<p><img src="http://alexbachuk.com/wp-content/uploads/2013/05/ios-phonegap-wordpress-starting-screen.jpg" alt="ios-phonegap-wordpress-starting-screen" /> To get started we need phonegap project setup on your local computer with jQuery mobile. For this app I&rsquo;m using phonegap 2.7, iOS 6.1 simulator, Xcode 4.6.2 and jQuery mobile 1.3.1.</p>
+
+<p>When I start my &ldquo;blank&rdquo; app by opening .xcodeproj file in newly created phonegap project directory - I see this screen. That means everything is set up correctly and the app has been compiled to native iOS code (or add native wrapper to be more specific). Sometimes you may encounter few problems and it&rsquo;s very important to set everything up the right way to avoid even more bugs down the road. If you see any error messages or your iOS screen looks different - make sure to checkout <a href="http://docs.phonegap.com/en/2.7.0/guide_getting-started_index.md.html#Getting%20Started%20Guides">getting started guides</a> and scroll down to &ldquo;Common problems&rdquo; section.</p>
+
+<p>We&rsquo;re going to be working with www directory, which contains all the js, html, css and image files used by the app. Add all dependencies in index.html file (and other html files) like jquery, jquery mobile. We&rsquo;re also going to be using font end templating engine <a href="http://handlebarsjs.com/">handlebars.js</a> to parse JSON feed coming from WordPress into HTML page. Don&rsquo;t forget to add jquery mobile css and some sort of reset (in this case normalize.css) into css directory and reference it in html page <head> section, feel free to erase all css/index.css styles and start adding your own styles instead. I laso added default jquery mobile default icons for this project, but usually I prefer to use <a href="http://fortawesome.github.io/Font-Awesome/">font awesome icon font</a>.</p>
+
+<p><img src="http://alexbachuk.com/wp-content/uploads/2013/05/xcode-compile.jpg" alt="xcode-compile" />Every time you make changes in the code you need to see the progress live. We need to view the app either in iOS simulator or in the browser. Actually we need both, simulator shows us how the app looks in real environment and the browser gives us better idea what&rsquo;s going on in HTML, JavaScript and CSS (using chrome developer tools or firebug). I use MAMP PRO to set up host (myapp.dev) and optionally codekit or livereload to listen to any changes and re-render the view in the browser without refresh. To view updates in the simulator - click &ldquo;Run&rdquo; in Xcode to re-compile the app.</p>
+
+<p>Now, let&rsquo;s start adding some content. I think HTML content is very straightforward as well as CSS styles. The most important part of this app is JavaScript. Phonegap comes with index.js file for custom scripts - and that&rsquo;s where we need write all the javascript (if you want - you can create other js files, just need to include them in HTML). This file has some &ldquo;default&rdquo; code, but we can erase it and write our own. Note, that index.html has app.initialize(); out of the box, if you modify app object, make sure to apply these changes here as well. I&rsquo;ll be adding methods to app object that have the same name as html pages to organize the script.</p>
+
+<h2 id="blog">Blog</h2>
+
+<p>We need to pull JSON feed coming from WordPress (url is <a href="http://alexbachuk.com/api/get_recent_posts/">http://alexbachuk.com/api/get_recent_posts/</a>), simple jQuery ajax will do the job.</p>
+
+<p>If we look in the console, we should see object is returned and it contains a lot of information we need, like individual blog posts, comments, images, etc.
+<img src="http://alexbachuk.com/wp-content/uploads/2013/05/json-response.jpg" alt="json-response" />
+If we want to apply jquery mobile styles to compiled template we need to add .trigger(&lsquo;create&rsquo;) after adding the content (see full code below). Basic idea is we fetch blog posts from specified URL (WordPress API) in JSON format, compile handlebars template and then pass received data to the template. in the html file we can loop through all posts and output data in formatted html like h1, div tags. First step is done. What id we need to click on title and open new page with single article? Simple. That&rsquo;s why we use HTML5. Localstorage is the answer. Simply store clicked blog post and show it in the new page. And we don&rsquo;t need to do another ajax request.</p>
+
+<pre><code>$('#all-posts').on('click','li', function(e){
+  localStorage.setItem('postData', JSON.stringify(data.posts[$(this).index()]));
+});
+</code></pre>
+
+<h2 id="custom-post-types">Custom post types</h2>
+
+<p>Same with any custom post types, just change URL for ajax request. Fot example to get portfolio post type on my site - url would be <a href="http://alexbachuk.com/?json=get_recent_posts&post;_type=portfolio">http://alexbachuk.com/?json=get_recent_posts&post;_type=portfolio</a></p>
+
+<h2 id="summary">Summary</h2>
+
+<p>The only thing that left is exporting app in Xcode and put it on app store. If you have apple developer ID - then follow documentation just like any other app.</p>
+
+<p>At this point we have fully working iOS app and it&rsquo;s ready to be shipped to app store, it definitely needs some polishing. For example design and css, I would also improve javascript code, adding some ajax spinners to show the user that content is loading. As you can see WordPress provides nice way to convert any website to an app. You can also add authorization with JSON, refer to plugin documentation.</p>
+
+<p><a href="https://github.com/abachuk/WordPress-jQuery-mobile-and-Phonegap-app-for-iOS">Full app code is on github</a>, feel free to modify it to your needs. Don&rsquo;t forget to leave comments and let everyone know what you built and what bugs you found.</p>
+</div>
+
+  <footer class="article-footer">
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&title=WordPress%20and%20Phonegap%20%28part3%29" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&text=WordPress%20and%20Phonegap%20%28part3%29&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&t=WordPress%20and%20Phonegap%20%28part3%29" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=%2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f&title=WordPress%20and%20Phonegap%20%28part3%29" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?WordPress%20and%20Phonegap%20%28part3%29 %2f2013%2f05%2f28%2fwordpress-and-phonegap-part3%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
+            
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/post/" itemprop="url"><span itemprop="title">POST</span></a></li>
+            
+            <li class="active">WordPress and Phonegap (part3)</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="/categories/">CATEGORIES</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="/categories/WordPress/">WordPress</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="/tags/">TAGS</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="/tags/ios/">ios</a></li>
+          
+          <li><a href="/tags/jquery-mobile/">jquery mobile</a></li>
+          
+          <li><a href="/tags/Phonegap/">Phonegap</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    <div class="adj">
+      <div class="mrow">
+        
+        <div class="mcol c6">
+          <header>Previous Article</header>
+          <article class="lism">
+  <a href="/2013/05/14/wordpress-and-phonegap-part2/">
+    <div class="thumb thumb-b347c0f85beb54773a9428df957d6ab4"></div>
+
+    <div class="inner">
+      <div class="title">WordPress and Phonegap (part2)</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2013-05-14T04:36:13JST">May 14, 2013</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+        
+        <div class="mcol c6">
+          <header>Next Article</header>
+          <article class="lism">
+  <a href="/2013/06/02/wordpress-celebrated-10-year-anniversary/">
+    <div class="thumb thumb-54fb33906d6c38248aecaf1fdf9b0550"></div>
+
+    <div class="inner">
+      <div class="title">WordPress celebrated 10 year anniversary</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2013-06-02T03:10:00JST">Jun 2, 2013</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+      </div>
+    </div>
+
+    
+  </div>
+  <div class="mcol c4">
+    <aside class="l-sidebar">
+
+  <div class="sections sidebar">
+    <section class="sidebar">
+      <header>LATESTS</header>
+      <div>
+        <div class="articles sm">
+          
+          <article class="lism">
+  <a href="/javascript-weekend-list-01/">
+    <div class="thumb thumb-df68168bca4903aa8c31c8a286202495"></div>
+
+    <div class="inner">
+      <div class="title">JavaScript Weekend List #01</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-19T15:08:40JST">Mar 19, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2017/03/15/hacking-productivity-for-software-developers/">
+    <div class="thumb thumb-664c9b5163214d8cbed77ce1aaabf5f2"></div>
+
+    <div class="inner">
+      <div class="title">Hacking productivity for software developers</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-15T15:06:04JST">Mar 15, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/send-emails-with-ember-js-amazon-ses-firebase/">
+    <div class="thumb thumb-fd057d8ff276ab1e5474731102c708d1"></div>
+
+    <div class="inner">
+      <div class="title">Send emails with Ember.js &#43; Amazon SES &#43; Firebase</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-02-10T15:01:41JST">Feb 10, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/12/17/uploading-files-with-react-js-and-node-js/">
+    <div class="thumb thumb-024465941c50745c77f5de31e1e5edee"></div>
+
+    <div class="inner">
+      <div class="title">Uploading files with React.js and Node.js</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-12-17T14:58:17JST">Dec 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/05/04/wordpress-workshop-for-beginners/">
+    <div class="thumb thumb-e2807d883758d80aa4c3a4fa221dd019"></div>
+
+    <div class="inner">
+      <div class="title">WordPress workshop for beginners</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-05-04T01:00:44JST">May 4, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/25/education-for-web-developers/">
+    <div class="thumb thumb-05676d6a89237024d19e9a974591ee16"></div>
+
+    <div class="inner">
+      <div class="title">Education for web developers</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-25T19:33:13JST">Mar 25, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/10/power-of-technical-documentation/">
+    <div class="thumb thumb-1f2977804ceb8a00a658eb1eb2b758f1"></div>
+
+    <div class="inner">
+      <div class="title">Power of technical documentation</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-10T22:15:58JST">Mar 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/05/why-web-developers-need-side-projects/">
+    <div class="thumb thumb-e1bbd70f34e0b30305ab0dbf147a6f03"></div>
+
+    <div class="inner">
+      <div class="title">Why web developers need side projects</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-05T18:46:05JST">Mar 5, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/01/10/react-js-route-state-name/">
+    <div class="thumb thumb-e78b868d7383773e2feb2c94b3d98844"></div>
+
+    <div class="inner">
+      <div class="title">React.js route state name</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-10T14:32:52JST">Jan 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/01/03/learning-react-js-and-redux/">
+    <div class="thumb thumb-1a893e5531d7437ef6bb81abd82d376e"></div>
+
+    <div class="inner">
+      <div class="title">Learning React.js and Redux</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-03T20:35:38JST">Jan 3, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="sidebar">
+      <header>CATEGORIES</header>
+      <div>
+        <ul class="terms">
+          <li><a href="/categories/web-development">web-development</a></li><li><a href="/categories/javascript">javascript</a></li><li><a href="/categories/wordpress">wordpress</a></li><li><a href="/categories/node.js">node.js</a></li><li><a href="/categories/macos">macos</a></li><li><a href="/categories/ruby-on-rails">ruby-on-rails</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="sidebar">
+      <header>TAGS</header>
+      <div>
+        <ul class="terms">
+          <li><a href="/tags/wordpress">wordpress</a></li><li><a href="/tags/javascript">javascript</a></li><li><a href="/tags/web-development">web-development</a></li><li><a href="/tags/mobile-web-development">mobile-web-development</a></li><li><a href="/tags/react.js">react.js</a></li><li><a href="/tags/web-developer-tools">web-developer-tools</a></li><li><a href="/tags/backbone.js">backbone.js</a></li><li><a href="/tags/front-end-development">front-end-development</a></li><li><a href="/tags/jquery-mobile">jquery-mobile</a></li><li><a href="/tags/mac">mac</a></li>
+        </ul>
+      </div>
+    </section>
+    
+  </div>
+
+</aside>
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p><span class="h-logo">&copy; Alex Bachuk</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.23" />
+
+<link rel="apple-touch-icon" href="/images/logo.png">
+
+
+<link rel="canonical" href="/2016/01/03/learning-react-js-and-redux/">
+
+
+    
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Learning React.js and Redux - Alex Bachuk</title>
+    
+
+<meta name="description" content="TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React&#43;Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React&#43;Redux and sometimes asking questions on Stackoverflow or Github.">
+
+<meta property="og:title" content="Learning React.js and Redux - Alex Bachuk">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/2016/01/03/learning-react-js-and-redux/">
+<meta property="og:image" content="/images/default.png">
+<meta property="og:site_name" content="Alex Bachuk">
+<meta property="og:description" content="TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React&#43;Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React&#43;Redux and sometimes asking questions on Stackoverflow or Github.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Alex Bachuk">
+<meta name="twitter:url" content="/2016/01/03/learning-react-js-and-redux/">
+<meta name="twitter:title" content="Learning React.js and Redux - Alex Bachuk">
+<meta name="twitter:description" content="TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React&#43;Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React&#43;Redux and sometimes asking questions on Stackoverflow or Github.">
+<meta name="twitter:image" content="/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"/"
+    },
+    "headline": "Learning React.js and Redux - Alex Bachuk",
+    "image": {
+      "@type": "ImageObject",
+      "url": "/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2016-01-03T20:35:38JST",
+    "dateModified": "2016-01-03T20:35:38JST",
+    "author": {
+      "@type": "Person",
+      "name": "Alex Bachuk"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Alex Bachuk",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github."
+  }
+</script>
+
+
+    <style>
+      html { font-size: 18px; background-color: rgba(236,239,241,.5);}@media (max-width: 768px) { html { font-size: 15px; }}body { color: #333; font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif; font-feature-settings : "palt"; font-size: inherit; line-height: 1rem; margin: 0; padding: 0;}h1, h2, h3, h4, h5 ,h6 { font-size: 1rem; font-weight: 700; line-height: 1rem; margin: 0;}hr { border: 0; border-top: 1px dashed #cfd8dc; margin: 1rem 0;}p { margin: 0; line-height: 1rem;}a { color: #2196f3; text-decoration: none; transition-duration: .3s;}ul, ol { margin: 0; padding: 0;}table { border-collapse: collapse;}th, td { font-size: .8rem; padding: .5rem;}tr { border-bottom: 1px dashed #ddd;}/* Layouts */main,aside { display: block;}main { padding: 1rem 0 3rem 0; }aside.h { padding: 3rem 0; }main.f,aside.f { background-color: #333; border-top: 2px dashed #fff; border-bottom: 2px dashed #fff;}.l-container { position: relative; max-width: 68rem; margin: 0 auto; padding: 0 1rem;}.l-container.thin { max-width: 44rem;}.l-header { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); padding: 1rem 0; text-align: center;}.l-footer { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); font-size: .6rem; font-weight: 700; padding: 1rem 0;}@media (max-width: 768px) { .l-sidebar { margin-top: 4rem; }}.mrow { margin: 0 -1rem; overflow: hidden;}.mcol { box-sizing: border-box; float: left; padding: 0 1rem;}.c6 { width: 50%; }.c4 { width: 33.26323833%; }.c8 { width: 66.66666%; }@media (max-width: 768px) { .mcol { width: 100%; float: none; }}.logo a { font-size: 1.4rem; line-height: 1.5rem; font-weight: 700; color: #333;}.articles { margin: -1rem 0; margin-bottom: 1rem;}.articles.sm { margin: -.5rem 0; margin-bottom: 0;}article { border-radius: 4px; overflow: hidden;}article.li { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); height: 20rem; overflow: hidden; margin: 1rem 0;}article.li > a { display: block; color: #333;}article.li .inner { padding: 1rem;}article.li .thumb { height: 8rem;}article.li .title { color: #333; font-size: 1.2rem; line-height: 1.5rem; margin-bottom: .5rem;}article.li .summary { font-size: .8rem; height: 6rem; overflow: hidden; margin-top: 1rem;}article.lism { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin: .5rem 0;}article.lism::after { content: ''; display: block; clear: both;}article.lism > a { display: block; color: #333;}article.lism .inner { display: table-cell; vertical-align: middle; height: 5rem; padding-left: .5rem;}article.lism .thumb { width: 5rem; height: 5rem; float: left;}article.lism .title { font-weight: 700; line-height: 1.25rem; margin-bottom: .25rem;}article.sn { background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); margin-bottom: 1rem;}article.sn .thumb { height: 20rem;}@media (max-width: 768px) { article.sn .thumb { height: 10rem; }}article.sn > .article-header,article.sn > .article-body,article.sn .article-footer { padding: 2rem;}article.sn > .article-body { padding: 0 2rem;}@media (max-width: 768px) { article.sn > .article-header, article.sn > .article-body, article.sn .article-footer { padding: 1rem; } article.sn > .article-body { padding: 0 1rem; }}article.sn > .article-header .title { font-size: 1.8rem; line-height: 2rem; margin-bottom: .5rem;}@media (max-width: 768px) { article.sn > .article-header .title { font-size: 1.4rem; line-height: 1.5rem; }}article.sn > .article-header .facts { margin-bottom: 1rem;}article.sn > .article-body { margin-bottom: 1.5rem;}article.sn > .article-body h2 { border-bottom: .25rem solid #333; font-size: 1.2rem; line-height: 1.5rem; margin: 1.5rem 0; padding: .5rem 0;}article.sn > .article-body h3 { border-left: .5rem solid #333; line-height: 1.5rem; margin: 1.5rem 0; padding: .125rem .5rem;}article.sn > .article-body ul,article.sn > .article-body ol { margin: 1.5rem 0; padding-left: 1.5rem;}article.sn > .article-body li { padding-bottom: .5rem; line-height: 1.5rem;}article.sn > .article-body li:last-child { padding-bottom: 0;}article.sn > .article-body p { margin: 1rem 0; line-height: 1.5rem;}article.sn > .article-body strong,article.sn > .article-body em { font-style: normal; font-weight: 700;}article.sn > .article-body strong { box-shadow: 0 -.5rem 0 0 #ffc107 inset;}article.sn > .article-body em { color: #8bc34a;}article.sn > .article-body code,article.sn > .article-body pre { font-family: Menlo, Consolas, monospace; font-size: .7rem;}article.sn > .article-body pre { background-color: #333; color: #fff; line-height: 1rem; margin: 1.5rem -2rem; overflow: auto;}@media (max-width: 768px) { article.sn > .article-body pre { margin: 1.5rem -1rem; }}article.sn > .article-body pre > code { display: block; padding: 1rem 2rem;}@media (max-width: 768px) { article.sn > .article-body pre > code { padding: 1rem; }}article.sn > .article-body p code { background-color: #eceff1; color: #333; border-radius: 4px; margin: 0 .25rem; padding: .375rem; white-space: nowrap;}article.sn > .article-body blockquote { position: relative; border-left: .25rem solid #333; font-size: .8rem; padding: .125rem 1rem; margin: 1.5rem 0;}@media (max-width: 768px) { article.sn > .article-body blockquote { font-size: 1rem; }}article.sn > .article-body blockquote p { margin: .5rem 0; line-height: 1rem;}article.sn > .article-body figure { margin: 1.5rem 0;}article.sn > .article-body figure img,article.sn > .article-body figure amp-img { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); max-width: 100%;}article.sn > .article-body figcaption { color: #cfd8dc; font-size: .8rem; font-weight: 700; margin-top: .5rem;}.facts li { display: inline; font-size: .8rem; margin-right: 1rem;}.facts i { color: #cfd8dc; margin-right: .5em;}.facts.sm li { font-size: .7rem;}.sections.sidebar { margin: -1rem 0;}.sections.footer { margin: -1rem 0;}section.sidebar { margin: 2rem 0;}section.sidebar > header { font-size: .8rem; font-weight: 700; letter-spacing: 4px; text-align: center; margin: 1.5rem 0;}section.footer { margin: 1rem 0;}section.footer > header { font-size: .8rem; margin: .5rem 0;}section.footer > header::before { content: "- ";}section.footer > header a { font-weight: 700; color: #333; text-decoration: underline;}.terms { margin: -.25rem;}.terms li { display: inline-block;}.terms a { display: block; float: left; background-color: #333; border-radius: 4px; color: #fff; font-size: .7rem; margin: .25rem; padding: 0 .75rem; line-height: 1.75rem;}.paging { text-align: center; padding: 1rem 0;}.paging a { display: inline-block; background-color: #fff; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); border-radius: 4px; color: #333; padding: 0 1rem; line-height: 3rem;}.page-title { text-align: center; margin: 1rem 0;}.page-title::after { content: ''; display: block; border-bottom: .25rem solid #333; width: 3rem; margin: 1.5rem auto;}.page-title > .title { font-size: 1.2rem; line-height: 1.5rem;}/* Parts:breadcrumb */.crumb ol { text-overflow: ellipsis; color: #cfd8dc; white-space: nowrap; overflow: hidden;}.crumb li { display: inline; font-size: .8rem;}.crumb li::after { content: '›'; margin: 0 .25rem 0 .5rem;}.crumb li:last-child::after { content: '';}.crumb a { color: #cfd8dc;}.crumb i { margin-right: .5em;}.share { padding: 0;}.share a { display: inline-block; box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05); min-width: 1rem; height: 2rem; border-radius: 4px; color: #333; font-size: .8rem; font-weight: 700; line-height: 2rem; text-align: center; padding: 0 .5rem;}.adj article.lism { margin-bottom: 1rem;}.adj header { font-weight: 700; font-size: .8rem;}.toc { padding: 0 2rem;}@media (max-width: 768px) { .toc { padding: 0 1rem; }}.toc { margin: 1rem 0;}.toc nav>ul { background-color: #eceff1; border-radius: 4px; display: inline-block; font-size: .8rem; padding: .5rem 1rem; word-break: break-all; list-style: none;}.toc ul { padding: 0;}.toc ul ul { padding-left: 1rem;}.toc ul ul ul { padding-left: 1rem;}.toc li { color: #90a4ae;}.toc ul ul>li { font-weight: 700; margin: .5rem 0; list-style-type: decimal;}.toc ul ul ul>li { list-style-type: disc; font-weight: 500;}.thumb { background-image: url(/images/default.jpg); background-size: cover;}
+      
+      
+    </style>
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <div class="l-container">
+        <nav class="sidebar-nav">
+        
+        
+        <a class="sidebar-nav-item" href="/about/">about hugo</a>
+        
+        <a class="sidebar-nav-item" href="/getting-started/">getting started</a>
+        
+    </nav>
+        <div class="logo">
+          <a href="/">Alex Bachuk</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="l-container">
+        
+<div class="mrow">
+  <div class="mcol c8">
+
+    <article class="sn">
+
+  <div class="thumb thumb-1a893e5531d7437ef6bb81abd82d376e"></div>
+
+  <header class="article-header">
+    <h1 class="title">Learning React.js and Redux</h1>
+
+    <ul class="facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-03T20:35:38JST">Jan 3, 2016</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/post/">POST</a></li>
+      
+    </ul>
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&title=Learning%20React.js%20and%20Redux" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&text=Learning%20React.js%20and%20Redux&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&t=Learning%20React.js%20and%20Redux" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&title=Learning%20React.js%20and%20Redux" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Learning%20React.js%20and%20Redux %2f2016%2f01%2f03%2flearning-react-js-and-redux%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+  </header>
+
+  
+
+  <div class="article-body"><p>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple <a href="https://github.com/abachuk/quotes">open source project</a> with React+Redux using <a href="https://github.com/davezuko/react-redux-starter-kit">open source boilerplate</a>. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on <a href="http://stackoverflow.com/questions/34571450/route-state-name-in-reactredux">Stackoverflow</a> or <a href="https://github.com/davezuko/react-redux-starter-kit/issues/336#issuecomment-166700444">Github</a>.</p>
+
+<p>Last year <a href="https://facebook.github.io/react/">React.js</a> has become really popular. At that time I was part of the team which was in the middle of launching a big Angular.js project. My next project after that was based on Angular as well. I’ve heard of React, knew it was next hot framework out there, in addition to (or replacement for) Backbone, Ember and Angular. But I never had a chance and reason to get into React seriously, other than watching some introductory <a href="http://egghead.io">egghead.io</a> videos. Based on some light reading it became clear - the framework basics were not too complicated after all. And benefits are too good: virtual dom for speed, reusability of components, ES2015 support, ability to develop native apps just to name a few.</p>
+
+<p>Very first Angular. js project was done and while working on my second big Angular.js project, I felt very comfortable with this framework, it’s time to learn something new. I got more interested in learning React. There was some much buzz in the JavaScript community around what Facebook was doing with React.js, many developers also jumped on the React.js bandwagon as well. New technologies like <a href="https://facebook.github.io/flux/">Flux</a>, <a href="https://facebook.github.io/graphql/">GraphQL</a>, React Native, Relay are starting to appear more and more in my <a href="https://twitter.com/netxm">twitter feed</a> and places like <a href="http://javascriptweekly.com/">JavaScript weekly</a> and <a href="https://news.ycombinator.com/">Hacker News</a>. These concepts are completely new to me, which makes it harder to learn them. For example, flux is not a framework or library but a concept, a way to structure an app just like MVC&hellip; but different.</p>
+
+<p><img src="http://alexbachuk.com/wp-content/uploads/2016/01/learning-react-js.jpg" alt="learning-react-js" /></p>
+
+<p>In my mind all these new frameworks / libraries / concepts are interrelated because Facebook was behind all of them. When I read React tutorials, most of it are based on flux or reflux or redux using graphGL or webpack and babel.js. Which means I have to learn them all at the same time. For a few months I’ve been chasing my tail trying to understand, read APIs and learn React, React Native, Flux, Redux, Webpack, Babel. It was very frustrating. Just take tooling and boilerplate alone, it’s a nightmare. And then a library introduces breaking change. Start all over.</p>
+
+<p>All this time, I kept thinking why not just use <a href="https://www.meteor.com/">Meteor.js</a>? It’s a full-stack framework that takes care of most of the boilerplate and tooling. It supports ES2015, hot reloading, universal JavaScript, well documented router API, user accounts and authentication, mongoDB support. I’m already very comfortable developing with Meteor.js. I can build average prototype in few weeks. Instead of figuring out how to connect Babel+Redux+React+Webpack+Express+Router together I can spend that time working on app features using Meteor.js.</p>
+
+<p>But, out of curiosity I decided to learn React.js (and related concepts), as 44 thousand developers (<a href="https://github.com/facebook/react">who starred it on github</a>) can’t be wrong about how awesome it is, right? And looks like it’s becoming the library of choice for many enterprise and startup projects. It may even <a href="https://www.quora.com/Is-React-killing-Angular">kill Angular eventually</a> (is it Google vs Facebook now?). My decision was: even if I’m not using React for my next side project or work project, I have to be familiar with it. Just like any responsible front end developer would say.</p>
+
+<p>As <a href="http://alexbachuk.com/become-a-better-web-developer/">mentioned before</a>, the best way to learn is by doing. I picked a very simple idea for my project as a playground. It’s a collection of popular quotes or jokes. To avoid even more confusion and challenges I decided to use Firebase instead of a self-hosted database. Firebase has good API documentation and is very similar to mongoDB.</p>
+
+<p>While building this project, I’ll cover the following concepts:</p>
+
+<ol>
+<li><p>Routing</p></li>
+
+<li><p>Authentication</p></li>
+
+<li><p>Forms</p></li>
+
+<li><p>Reusing components</p></li>
+
+<li><p>Metadata (categories, tags, dates, etc)</p></li>
+
+<li><p>CRUD (create, read, update, delete)</p></li>
+
+<li><p>How to work with PaaS (Firebase in this case)</p></li>
+
+<li><p>React+Redux architecture and best practices (the goal of entire project and side effect after creating it)</p></li>
+</ol>
+
+<p>I already started <a href="https://github.com/abachuk/quotes">working on this project</a> (it’s based on <a href="https://github.com/davezuko/react-redux-starter-kit">popular boilerplate</a>) and decided to make it an open source, there is nothing proprietary about this idea or code anyway. Hopefully it will be useful to other developers if they get stuck or might serve as a reference. If you’re a designer or a developer who wants to contribute, please let me know - I would love to collaborate and keep learning together.</p>
+
+<p>So far there were lots of challenges I had to overcome. <a href="https://github.com/davezuko/react-redux-starter-kit/issues/336#issuecomment-166700444">Github</a> issue tracker and <a href="http://stackoverflow.com/questions/34571450/route-state-name-in-reactredux">stack overflow</a> are the best places to get help when you are stuck.</p>
+
+<p>Some of the challenges were:</p>
+
+<ul>
+<li><p>how to pass state name to the router</p></li>
+
+<li><p>how to implement redux-forms properly</p></li>
+
+<li><p>how to upload files</p></li>
+
+<li><p>how to dispatch async actions (Firebase API)</p></li>
+
+<li><p>authenticated state and protect some routes with login</p></li>
+
+<li><p>display initial form values for edit view</p></li>
+</ul>
+
+<p>I plan to write a simple redux intro tutorial and cover some basics I couldn’t understand when I started this project. And then write the same about React. What do YOU want to learn specifically about React+Redux ?</p>
+</div>
+
+  <footer class="article-footer">
+
+    <aside class="share">
+  <a href="http://b.hatena.ne.jp/add?mode=confirm&url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&title=Learning%20React.js%20and%20Redux" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="http://twitter.com/intent/tweet?url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&text=Learning%20React.js%20and%20Redux&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="http://www.facebook.com/sharer.php?u=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&t=Learning%20React.js%20and%20Redux" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://plus.google.com/share?url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f" title="Google Plusでシェア" class="gp" target="_blank" rel="nofollow"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="http://getpocket.com/edit?url=%2f2016%2f01%2f03%2flearning-react-js-and-redux%2f&title=Learning%20React.js%20and%20Redux" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fa fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="http://line.me/R/msg/text/?Learning%20React.js%20and%20Redux %2f2016%2f01%2f03%2flearning-react-js-and-redux%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow">LINE</a>
+</aside>
+
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>TOP</a></li>
+            
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/post/" itemprop="url"><span itemprop="title">POST</span></a></li>
+            
+            <li class="active">Learning React.js and Redux</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="/categories/">CATEGORIES</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="/categories/JavaScript/">JavaScript</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="/tags/">TAGS</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="/tags/JavaScript/">JavaScript</a></li>
+          
+          <li><a href="/tags/open-source/">open source</a></li>
+          
+          <li><a href="/tags/React.js/">React.js</a></li>
+          
+          <li><a href="/tags/Redux/">Redux</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    <div class="adj">
+      <div class="mrow">
+        
+        <div class="mcol c6">
+          <header>Previous Article</header>
+          <article class="lism">
+  <a href="/2015/11/24/adaptive-express-js-and-angular-js-application/">
+    <div class="thumb thumb-759c0833512f2a2246b9359e27f48d39"></div>
+
+    <div class="inner">
+      <div class="title">Adaptive express.js and angular.js application</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2015-11-24T03:13:34JST">Nov 24, 2015</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+        
+        <div class="mcol c6">
+          <header>Next Article</header>
+          <article class="lism">
+  <a href="/2016/01/10/react-js-route-state-name/">
+    <div class="thumb thumb-e78b868d7383773e2feb2c94b3d98844"></div>
+
+    <div class="inner">
+      <div class="title">React.js route state name</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-10T14:32:52JST">Jan 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+        </div>
+        
+      </div>
+    </div>
+
+    
+  </div>
+  <div class="mcol c4">
+    <aside class="l-sidebar">
+
+  <div class="sections sidebar">
+    <section class="sidebar">
+      <header>LATESTS</header>
+      <div>
+        <div class="articles sm">
+          
+          <article class="lism">
+  <a href="/javascript-weekend-list-01/">
+    <div class="thumb thumb-df68168bca4903aa8c31c8a286202495"></div>
+
+    <div class="inner">
+      <div class="title">JavaScript Weekend List #01</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-19T15:08:40JST">Mar 19, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2017/03/15/hacking-productivity-for-software-developers/">
+    <div class="thumb thumb-664c9b5163214d8cbed77ce1aaabf5f2"></div>
+
+    <div class="inner">
+      <div class="title">Hacking productivity for software developers</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-03-15T15:06:04JST">Mar 15, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/send-emails-with-ember-js-amazon-ses-firebase/">
+    <div class="thumb thumb-fd057d8ff276ab1e5474731102c708d1"></div>
+
+    <div class="inner">
+      <div class="title">Send emails with Ember.js &#43; Amazon SES &#43; Firebase</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2017-02-10T15:01:41JST">Feb 10, 2017</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/12/17/uploading-files-with-react-js-and-node-js/">
+    <div class="thumb thumb-024465941c50745c77f5de31e1e5edee"></div>
+
+    <div class="inner">
+      <div class="title">Uploading files with React.js and Node.js</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-12-17T14:58:17JST">Dec 17, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/05/04/wordpress-workshop-for-beginners/">
+    <div class="thumb thumb-e2807d883758d80aa4c3a4fa221dd019"></div>
+
+    <div class="inner">
+      <div class="title">WordPress workshop for beginners</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-05-04T01:00:44JST">May 4, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/25/education-for-web-developers/">
+    <div class="thumb thumb-05676d6a89237024d19e9a974591ee16"></div>
+
+    <div class="inner">
+      <div class="title">Education for web developers</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-25T19:33:13JST">Mar 25, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/10/power-of-technical-documentation/">
+    <div class="thumb thumb-1f2977804ceb8a00a658eb1eb2b758f1"></div>
+
+    <div class="inner">
+      <div class="title">Power of technical documentation</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-10T22:15:58JST">Mar 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/03/05/why-web-developers-need-side-projects/">
+    <div class="thumb thumb-e1bbd70f34e0b30305ab0dbf147a6f03"></div>
+
+    <div class="inner">
+      <div class="title">Why web developers need side projects</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-03-05T18:46:05JST">Mar 5, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/01/10/react-js-route-state-name/">
+    <div class="thumb thumb-e78b868d7383773e2feb2c94b3d98844"></div>
+
+    <div class="inner">
+      <div class="title">React.js route state name</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-10T14:32:52JST">Jan 10, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+          <article class="lism">
+  <a href="/2016/01/03/learning-react-js-and-redux/">
+    <div class="thumb thumb-1a893e5531d7437ef6bb81abd82d376e"></div>
+
+    <div class="inner">
+      <div class="title">Learning React.js and Redux</div>
+
+      <ul class="facts sm">
+        <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2016-01-03T20:35:38JST">Jan 3, 2016</time></li>
+        <li><i class="fa fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="sidebar">
+      <header>CATEGORIES</header>
+      <div>
+        <ul class="terms">
+          <li><a href="/categories/web-development">web-development</a></li><li><a href="/categories/javascript">javascript</a></li><li><a href="/categories/wordpress">wordpress</a></li><li><a href="/categories/node.js">node.js</a></li><li><a href="/categories/macos">macos</a></li><li><a href="/categories/ruby-on-rails">ruby-on-rails</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="sidebar">
+      <header>TAGS</header>
+      <div>
+        <ul class="terms">
+          <li><a href="/tags/wordpress">wordpress</a></li><li><a href="/tags/javascript">javascript</a></li><li><a href="/tags/web-development">web-development</a></li><li><a href="/tags/mobile-web-development">mobile-web-development</a></li><li><a href="/tags/react.js">react.js</a></li><li><a href="/tags/web-developer-tools">web-developer-tools</a></li><li><a href="/tags/backbone.js">backbone.js</a></li><li><a href="/tags/front-end-development">front-end-development</a></li><li><a href="/tags/jquery-mobile">jquery-mobile</a></li><li><a href="/tags/mac">mac</a></li>
+        </ul>
+      </div>
+    </section>
+    
+  </div>
+
+</aside>
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p><span class="h-logo">&copy; Alex Bachuk</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

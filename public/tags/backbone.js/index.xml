@@ -6,19 +6,10 @@
     <description>Recent content in Backbone.Js on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2014 02:23:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2013 23:03:46 +0000</lastBuildDate>
     
 	<atom:link href="/tags/backbone.js/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Book review: Backbone.js patterns and best practices</title>
-      <link>/2014/03/04/book-review-backbone-js-patterns-best-practices/</link>
-      <pubDate>Tue, 04 Mar 2014 02:23:02 +0000</pubDate>
-      
-      <guid>/2014/03/04/book-review-backbone-js-patterns-best-practices/</guid>
-      <description>I developed a few large scale apps with Backbone.js and always looking to improve the way I&amp;rsquo;m developing these apps, there is always something new (patterns, plugins, frameworks, libraries, etc). So I picked up this book and decided to give it a try. I have teamed up with Packt Publishing to organize a giveaway of the book. Keep reading to find out how you can be one of the Lucky Winners.</description>
-    </item>
     
     <item>
       <title>My experience with backbone.js and require.js</title>

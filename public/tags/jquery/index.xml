@@ -6,20 +6,10 @@
     <description>Recent content in Jquery on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Dec 2014 13:52:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2013 02:10:11 +0000</lastBuildDate>
     
 	<atom:link href="/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Difference between jQuery and Angular.js</title>
-      <link>/2014/12/22/difference-jquery-angular-js/</link>
-      <pubDate>Mon, 22 Dec 2014 13:52:22 +0000</pubDate>
-      
-      <guid>/2014/12/22/difference-jquery-angular-js/</guid>
-      <description>Since I started developing websites, I’ve always used jQuery, it’s one of the best things that happened to web development. It lowered the entry barrier to JavaScript world, solved a lot of problems with IE, made easier to deal with DOM across different browsers, and.. AJAX.
-But when I started working on bigger applications, there was something lacking in jQuery. Structure. I switched to backbone.js, which still relies on jQuery for DOM access and manipulation.</description>
-    </item>
     
     <item>
       <title>jQueryTO in Toronto Canada.</title>

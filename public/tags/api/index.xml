@@ -6,20 +6,10 @@
     <description>Recent content in Api on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2014 14:29:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2013 17:41:42 +0000</lastBuildDate>
     
 	<atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Yeoman Proxy</title>
-      <link>/2014/04/02/yeoman-proxy/</link>
-      <pubDate>Wed, 02 Apr 2014 14:29:12 +0000</pubDate>
-      
-      <guid>/2014/04/02/yeoman-proxy/</guid>
-      <description>Yeoman is a great tool for web app development. It provides all necessary components for building any web application the right way, including web server. Web server is connect middleware as grunt task, comes also with live reload, which makes front end development super convenient. So, this set up is pretty awesome, but&amp;hellip;
-The Problem The sever is running on localhost:9000 by default, I have tried changing URL to match my own local domain names, so I can call API and avoid cross domain restrictions.</description>
-    </item>
     
     <item>
       <title>WordPress and Phonegap (part 1)</title>

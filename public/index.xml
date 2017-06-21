@@ -13,10 +13,10 @@
     
     <item>
       <title>JavaScript Weekend List #01</title>
-      <link>/2017/03/19/javascript-weekend-list-01/</link>
+      <link>/javascript-weekend-list-01/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>/2017/03/19/javascript-weekend-list-01/</guid>
+      <guid>/javascript-weekend-list-01/</guid>
       <description>I’m trying something new. Every week I’ll try to come up with the list of most interesting articles, books, news, tutorials and videos about web development. I’ll be using this list to keep myself up-to-date on everything that’s going on in the JavaScript, Node and front-end development community. This list may not have the most recent articles, but rather relevant content to stay sharp as a full stack developer.</description>
     </item>
     
@@ -32,10 +32,10 @@ It comes down to us to manage our time and stay as productive as possible. Produ
     
     <item>
       <title>Send emails with Ember.js &#43; Amazon SES &#43; Firebase</title>
-      <link>/2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/</link>
+      <link>/send-emails-with-ember-js-amazon-ses-firebase/</link>
       <pubDate>Fri, 10 Feb 2017 15:01:41 +0000</pubDate>
       
-      <guid>/2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/</guid>
+      <guid>/send-emails-with-ember-js-amazon-ses-firebase/</guid>
       <description>There is a need to build client side only (front end) applications. Tools like Ember CLI, Create react app, Angular 2 CLI make it very easy to bootstrap a JavaScript app in just a few minutes and start building features.
 The challenge arises when you need to add a piece of server side logic, like sending emails, uploading files, authentication, or storing some data to the database. In most cases, it doesn’t make sense to add a full blown server, which requires to be maintained and setup .</description>
     </item>
@@ -168,124 +168,6 @@ The reason why this is happening is many people focus on their business only rat
       
       <guid>/2015/01/12/wordpress-themes-less-is-more/</guid>
       <description>If you’ve ever used WordPress, chances are you’ve used a theme you found or bought, even if you’re web developer and know how to create custom one by yourself. And it’s easy to see why - there are a lot tons of WordPress themes available, free and premium. The industry has grown significantly since 2008. Theme shops started becoming real businesses and the theme industry exploded. Some Access to the internet, right set of skills and a computer can turn into very profitable business, even with little or nothing to invest.</description>
-    </item>
-    
-    <item>
-      <title>Difference between jQuery and Angular.js</title>
-      <link>/2014/12/22/difference-jquery-angular-js/</link>
-      <pubDate>Mon, 22 Dec 2014 13:52:22 +0000</pubDate>
-      
-      <guid>/2014/12/22/difference-jquery-angular-js/</guid>
-      <description>Since I started developing websites, I’ve always used jQuery, it’s one of the best things that happened to web development. It lowered the entry barrier to JavaScript world, solved a lot of problems with IE, made easier to deal with DOM across different browsers, and.. AJAX.
-But when I started working on bigger applications, there was something lacking in jQuery. Structure. I switched to backbone.js, which still relies on jQuery for DOM access and manipulation.</description>
-    </item>
-    
-    <item>
-      <title>End of summer playlist</title>
-      <link>/2014/08/29/end-summer-playlist/</link>
-      <pubDate>Fri, 29 Aug 2014 12:57:07 +0000</pubDate>
-      
-      <guid>/2014/08/29/end-summer-playlist/</guid>
-      <description>It&amp;rsquo;s end of summer, time for some good music.</description>
-    </item>
-    
-    <item>
-      <title>Custom checkbox with CSS3</title>
-      <link>/2014/08/19/custom-checkbox-css3/</link>
-      <pubDate>Tue, 19 Aug 2014 21:19:37 +0000</pubDate>
-      
-      <guid>/2014/08/19/custom-checkbox-css3/</guid>
-      <description>A lot of times, we need to style the input fields to make them look fancy. It&amp;rsquo;s possible to do it with images, but what if we want to take it to another level and style a checkbox with icon font&amp;hellip;
-As you know, icon font works as pseudo elements (:before and :after), which can only be applied to nested elements (div, span, p, label). CSS pseudo elements can&amp;rsquo;t be used with inputs, but fear now - there is a way.</description>
-    </item>
-    
-    <item>
-      <title>Angular.js meetup at Google New York office</title>
-      <link>/2014/07/17/angular-js-meetup-google-new-york-office/</link>
-      <pubDate>Thu, 17 Jul 2014 01:27:58 +0000</pubDate>
-      
-      <guid>/2014/07/17/angular-js-meetup-google-new-york-office/</guid>
-      <description>I had a chance to attend one of the Angular.js meetups. Google hosts the meetup in its New York Chelsea market office. This time it was a hack night, few googlers were there, some other smart people. We broke into few groups and were discussing various things (protractor.js, mean stack, node.js and angular bugs in general).
-I was surprised how many people were interested in MEAN (MongoDB, Express.js, Angular.js, Node.js) stack, which is full stack written 100% in JavaScript.</description>
-    </item>
-    
-    <item>
-      <title>Music for coding</title>
-      <link>/2014/06/27/music-coding-2/</link>
-      <pubDate>Fri, 27 Jun 2014 15:08:33 +0000</pubDate>
-      
-      <guid>/2014/06/27/music-coding-2/</guid>
-      <description>Playlist for Spring 2014. Enjoy.</description>
-    </item>
-    
-    <item>
-      <title>Deploying Meteor Application (part 2)</title>
-      <link>/2014/06/11/deploying-meteor-application-part-2/</link>
-      <pubDate>Wed, 11 Jun 2014 13:25:08 +0000</pubDate>
-      
-      <guid>/2014/06/11/deploying-meteor-application-part-2/</guid>
-      <description>Recently I wrote a blog post about deploying meteor.js application to Digital Ocean server. It works, but after few deploys I found it&amp;rsquo;s not the most efficient way to deploy the app. You have to SSH to server every time and transfer the files (overwriting old ones), you alredy can see the problem here :)
-After some googling around, I found awesome npm module called &amp;ldquo;mup&amp;rdquo;, stands for meteor up.</description>
-    </item>
-    
-    <item>
-      <title>Deploying meteor application</title>
-      <link>/2014/05/24/deploying-meteor-application/</link>
-      <pubDate>Sat, 24 May 2014 00:41:48 +0000</pubDate>
-      
-      <guid>/2014/05/24/deploying-meteor-application/</guid>
-      <description>Meteor is a full stack framework on top of node.js. It has different conventions than regular node.js application. Meteor uses smart packages and doesn&amp;rsquo;t have main bootstrap file where everything is configured. It doesn&amp;rsquo;t provide an option to conditionally load assets such as stylesheets or JavaScript files depending on controller or route. I was facing a challenge where I had to separate marketing website from main application.
-The goal The end goal is to be able to deploy Meteor application to digital ocean server and ability to access it from sub-domain like so app.</description>
-    </item>
-    
-    <item>
-      <title>Yeoman Proxy</title>
-      <link>/2014/04/02/yeoman-proxy/</link>
-      <pubDate>Wed, 02 Apr 2014 14:29:12 +0000</pubDate>
-      
-      <guid>/2014/04/02/yeoman-proxy/</guid>
-      <description>Yeoman is a great tool for web app development. It provides all necessary components for building any web application the right way, including web server. Web server is connect middleware as grunt task, comes also with live reload, which makes front end development super convenient. So, this set up is pretty awesome, but&amp;hellip;
-The Problem The sever is running on localhost:9000 by default, I have tried changing URL to match my own local domain names, so I can call API and avoid cross domain restrictions.</description>
-    </item>
-    
-    <item>
-      <title>Fluent 2014 Conference review</title>
-      <link>/2014/03/15/fluent-2014-conference-review/</link>
-      <pubDate>Sat, 15 Mar 2014 22:20:06 +0000</pubDate>
-      
-      <guid>/2014/03/15/fluent-2014-conference-review/</guid>
-      <description>The Fluent conference was great. San Francisco, sunny weather, good food, awesome speakers, a lot of new content. A lot of sessions was about performance and angular.js. I was expecting more discussions around Node.js, but I guess this is front end conference.
-[caption id=&amp;ldquo;attachment_711&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;700&amp;rdquo;]Inventor of JavaScript Brandon Eich, keynote. [/caption]
-Angular.js clearly has won JavaScript MVC battle. Last year (different conference though) I saw a lot more sessions on Backbone.</description>
-    </item>
-    
-    <item>
-      <title>Fluent 2014 conference day 1</title>
-      <link>/2014/03/13/fluent-2014-day1/</link>
-      <pubDate>Thu, 13 Mar 2014 06:36:07 +0000</pubDate>
-      
-      <guid>/2014/03/13/fluent-2014-day1/</guid>
-      <description>Fluent is annual conference in San Francisco mostly about JavaScript. It&amp;rsquo;s my first time to this conference and San Francisco.
-The conference started with day of workshops, I attended workshops on automating all things front-end, web RTC and Angular.js fundamentals. To be honest, I was expecting more hands-on practice, but I still was able to learn something new.
-Front end workflow automation is all about grunt tasks and plugins. I was familiar with some of the tools mentioned here, like livereload, which is huge time saver while working locally, it compiles sass, less, haml, and other on the fly and updates web page automatically without reloading, definitely a must have for any developer.</description>
-    </item>
-    
-    <item>
-      <title>Music for coding</title>
-      <link>/2014/03/04/music-coding/</link>
-      <pubDate>Tue, 04 Mar 2014 04:01:20 +0000</pubDate>
-      
-      <guid>/2014/03/04/music-coding/</guid>
-      <description>This time it&amp;rsquo;s more relaxing music, although with some house and pop influence. Great for early morning or late afternoon listening. I&amp;rsquo;ll keep adding tracks to this list. If you have some tracks you like that are similar to these, please, please leave a comment with a link. I&amp;rsquo;ll be happy to include it to my list. Enjoy.</description>
-    </item>
-    
-    <item>
-      <title>Book review: Backbone.js patterns and best practices</title>
-      <link>/2014/03/04/book-review-backbone-js-patterns-best-practices/</link>
-      <pubDate>Tue, 04 Mar 2014 02:23:02 +0000</pubDate>
-      
-      <guid>/2014/03/04/book-review-backbone-js-patterns-best-practices/</guid>
-      <description>I developed a few large scale apps with Backbone.js and always looking to improve the way I&amp;rsquo;m developing these apps, there is always something new (patterns, plugins, frameworks, libraries, etc). So I picked up this book and decided to give it a try. I have teamed up with Packt Publishing to organize a giveaway of the book. Keep reading to find out how you can be one of the Lucky Winners.</description>
     </item>
     
     <item>
@@ -473,6 +355,15 @@ In my career I never had to do HTML emails and when clients asked me to make nic
     </item>
     
     <item>
+      <title>WordPress</title>
+      <link>/wordpress/</link>
+      <pubDate>Wed, 09 Jan 2013 12:18:37 +0000</pubDate>
+      
+      <guid>/wordpress/</guid>
+      <description>WordPress is the most popular CMS in the world WordPress is my preferred content management system, because it’s very flexible, has user-friendly dashboard, extendable with free and premium plugins and secure. WordPress is the most popular publishing platform in the world and currently powers over 60 million websites of websites including some Fortune500 companies. It’s an open source platform, which means you don’t have to pay any license fees for the core software and there are few thousand plugins and themes available on the Internet.</description>
+    </item>
+    
+    <item>
       <title>How to develop WordPress locally with mamp pro and dyndns</title>
       <link>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</link>
       <pubDate>Thu, 03 Jan 2013 16:53:13 +0000</pubDate>
@@ -480,6 +371,25 @@ In my career I never had to do HTML emails and when clients asked me to make nic
       <guid>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</guid>
       <description>When developing websites for clients I always try to make everything as transparent as possible. And for that reason I set up staging environment on my web server, something like separate folder and point the client to that URL while I develop the website, so they can keep track of all the changes and we can communicate better.
 Until few months ago this approach was 100% ok with me, I just developed directly on remote server via FTP (my coda editor is perfect for that), but then I started to notice new cool stuff popping up almost every few months or weeks.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sat, 29 Dec 2012 07:00:46 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>[gravityform id=&amp;ldquo;1&amp;rdquo; name=&amp;ldquo;contact&amp;rdquo; title=&amp;ldquo;false&amp;rdquo; description=&amp;ldquo;false&amp;rdquo; ajax=&amp;ldquo;true&amp;rdquo;]
+Please fill out the form to get in touch with me. If you have a project you need help with - please include as much information about your project as you can.</description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/blog/</link>
+      <pubDate>Sat, 29 Dec 2012 07:00:32 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description>Blog</description>
     </item>
     
     <item>

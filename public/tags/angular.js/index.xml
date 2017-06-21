@@ -20,25 +20,5 @@
       <description>Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly different than desktop or it could be completely different depending on the project or the app. For example, marketing or news website might have similar experience, since its only goal is to deliver the content in accessible way. But, for other websites, like e-commerce mobile experience might be have totally different meaning.</description>
     </item>
     
-    <item>
-      <title>Difference between jQuery and Angular.js</title>
-      <link>/2014/12/22/difference-jquery-angular-js/</link>
-      <pubDate>Mon, 22 Dec 2014 13:52:22 +0000</pubDate>
-      
-      <guid>/2014/12/22/difference-jquery-angular-js/</guid>
-      <description>Since I started developing websites, I’ve always used jQuery, it’s one of the best things that happened to web development. It lowered the entry barrier to JavaScript world, solved a lot of problems with IE, made easier to deal with DOM across different browsers, and.. AJAX.
-But when I started working on bigger applications, there was something lacking in jQuery. Structure. I switched to backbone.js, which still relies on jQuery for DOM access and manipulation.</description>
-    </item>
-    
-    <item>
-      <title>Angular.js meetup at Google New York office</title>
-      <link>/2014/07/17/angular-js-meetup-google-new-york-office/</link>
-      <pubDate>Thu, 17 Jul 2014 01:27:58 +0000</pubDate>
-      
-      <guid>/2014/07/17/angular-js-meetup-google-new-york-office/</guid>
-      <description>I had a chance to attend one of the Angular.js meetups. Google hosts the meetup in its New York Chelsea market office. This time it was a hack night, few googlers were there, some other smart people. We broke into few groups and were discussing various things (protractor.js, mean stack, node.js and angular bugs in general).
-I was surprised how many people were interested in MEAN (MongoDB, Express.js, Angular.js, Node.js) stack, which is full stack written 100% in JavaScript.</description>
-    </item>
-    
   </channel>
 </rss>
