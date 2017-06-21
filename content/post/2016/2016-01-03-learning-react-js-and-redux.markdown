@@ -12,13 +12,15 @@ tags:
 - React.js
 - Redux
 title: Learning React.js and Redux
-url: /2016/01/03/learning-react-js-and-redux/
 wordpress_id: 926
+aliases:
+    - /2016/01/learning-react-js-and-redux/
+    - /2016/learning-react-js-and-redux/
 ---
 
-TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple [open source project](https://github.com/abachuk/quotes) with React+Redux using [open source boilerplate](https://github.com/davezuko/react-redux-starter-kit). As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on [Stackoverflow](http://stackoverflow.com/questions/34571450/route-state-name-in-reactredux) or [Github](https://github.com/davezuko/react-redux-starter-kit/issues/336#issuecomment-166700444). 
+TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple [open source project](https://github.com/abachuk/quotes) with React+Redux using [open source boilerplate](https://github.com/davezuko/react-redux-starter-kit). As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on [Stackoverflow](http://stackoverflow.com/questions/34571450/route-state-name-in-reactredux) or [Github](https://github.com/davezuko/react-redux-starter-kit/issues/336#issuecomment-166700444).
 
-Last year [React.js](https://facebook.github.io/react/) has become really popular. At that time I was part of the team which was in the middle of launching a big Angular.js project. My next project after that was based on Angular as well. I’ve heard of React, knew it was next hot framework out there, in addition to (or replacement for) Backbone, Ember and Angular. But I never had a chance and reason to get into React seriously, other than watching some introductory [egghead.io](http://egghead.io) videos. Based on some light reading it became clear - the framework basics were not too complicated after all. And benefits are too good: virtual dom for speed, reusability of components, ES2015 support, ability to develop native apps just to name a few. 
+Last year [React.js](https://facebook.github.io/react/) has become really popular. At that time I was part of the team which was in the middle of launching a big Angular.js project. My next project after that was based on Angular as well. I’ve heard of React, knew it was next hot framework out there, in addition to (or replacement for) Backbone, Ember and Angular. But I never had a chance and reason to get into React seriously, other than watching some introductory [egghead.io](http://egghead.io) videos. Based on some light reading it became clear - the framework basics were not too complicated after all. And benefits are too good: virtual dom for speed, reusability of components, ES2015 support, ability to develop native apps just to name a few.
 
 
 
@@ -34,38 +36,38 @@ All this time, I kept thinking why not just use [Meteor.js](https://www.meteor.c
 
 
 
-But, out of curiosity I decided to learn React.js (and related concepts), as 44 thousand developers ([who starred it on github](https://github.com/facebook/react)) can’t be wrong about how awesome it is, right? And looks like it’s becoming the library of choice for many enterprise and startup projects. It may even [kill Angular eventually](https://www.quora.com/Is-React-killing-Angular) (is it Google vs Facebook now?). My decision was: even if I’m not using React for my next side project or work project, I have to be familiar with it. Just like any responsible front end developer would say. 
+But, out of curiosity I decided to learn React.js (and related concepts), as 44 thousand developers ([who starred it on github](https://github.com/facebook/react)) can’t be wrong about how awesome it is, right? And looks like it’s becoming the library of choice for many enterprise and startup projects. It may even [kill Angular eventually](https://www.quora.com/Is-React-killing-Angular) (is it Google vs Facebook now?). My decision was: even if I’m not using React for my next side project or work project, I have to be familiar with it. Just like any responsible front end developer would say.
 
 
 
-As [mentioned before](http://alexbachuk.com/become-a-better-web-developer/), the best way to learn is by doing. I picked a very simple idea for my project as a playground. It’s a collection of popular quotes or jokes. To avoid even more confusion and challenges I decided to use Firebase instead of a self-hosted database. Firebase has good API documentation and is very similar to mongoDB. 
+As [mentioned before](http://alexbachuk.com/become-a-better-web-developer/), the best way to learn is by doing. I picked a very simple idea for my project as a playground. It’s a collection of popular quotes or jokes. To avoid even more confusion and challenges I decided to use Firebase instead of a self-hosted database. Firebase has good API documentation and is very similar to mongoDB.
 
 While building this project, I’ll cover the following concepts:
 
 
 
-	
+
   1. Routing
 
-	
+
   2. Authentication
 
-	
+
   3. Forms
 
-	
+
   4. Reusing components
 
-	
+
   5. Metadata (categories, tags, dates, etc)
 
-	
+
   6. CRUD (create, read, update, delete)
 
-	
+
   7. How to work with PaaS (Firebase in this case)
 
-	
+
   8. React+Redux architecture and best practices (the goal of entire project and side effect after creating it)
 
 
@@ -75,28 +77,28 @@ I already started [working on this project](https://github.com/abachuk/quotes) (
 
 
 
-So far there were lots of challenges I had to overcome. [Github](https://github.com/davezuko/react-redux-starter-kit/issues/336#issuecomment-166700444) issue tracker and [stack overflow](http://stackoverflow.com/questions/34571450/route-state-name-in-reactredux) are the best places to get help when you are stuck. 
+So far there were lots of challenges I had to overcome. [Github](https://github.com/davezuko/react-redux-starter-kit/issues/336#issuecomment-166700444) issue tracker and [stack overflow](http://stackoverflow.com/questions/34571450/route-state-name-in-reactredux) are the best places to get help when you are stuck.
 
-Some of the challenges were: 
+Some of the challenges were:
 
 
 
-	
-  * how to pass state name to the router 
 
-	
-  * how to implement redux-forms properly 
+  * how to pass state name to the router
 
-	
-  * how to upload files 
 
-	
-  * how to dispatch async actions (Firebase API) 
+  * how to implement redux-forms properly
 
-	
-  * authenticated state and protect some routes with login 
 
-	
+  * how to upload files
+
+
+  * how to dispatch async actions (Firebase API)
+
+
+  * authenticated state and protect some routes with login
+
+
   * display initial form values for edit view
 
 
