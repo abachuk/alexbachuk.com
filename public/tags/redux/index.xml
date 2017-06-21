@@ -5,7 +5,7 @@
     <link>/tags/redux/</link>
     <description>Recent content in Redux on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 03 Jan 2016 20:35:38 +0000</lastBuildDate>
     
@@ -14,10 +14,10 @@
     
     <item>
       <title>Learning React.js and Redux</title>
-      <link>/2016/01/03/learning-react-js-and-redux/</link>
+      <link>/learning-react-js-and-redux/</link>
       <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
       
-      <guid>/2016/01/03/learning-react-js-and-redux/</guid>
+      <guid>/learning-react-js-and-redux/</guid>
       <description>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github.</description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 19 Mar 2017 15:08:40 +0000</lastBuildDate>
     
@@ -62,19 +62,19 @@ Project set up We are using React.</description>
     
     <item>
       <title>Education for web developers</title>
-      <link>/2016/03/25/education-for-web-developers/</link>
+      <link>/education-for-web-developers/</link>
       <pubDate>Fri, 25 Mar 2016 19:33:13 +0000</pubDate>
       
-      <guid>/2016/03/25/education-for-web-developers/</guid>
+      <guid>/education-for-web-developers/</guid>
       <description>I’ve been a web developer for over 8 years, and got hooked on web development the very first time I wrote HTML. The process of creating something people can use out of nothing is very powerful. Before I began my career in web development, I was doing construction and then later help-desk work. To me, programming is similar to construction. You have a problem, and you need to figure out the solution, using your skills and the tools available.</description>
     </item>
     
     <item>
       <title>Power of technical documentation</title>
-      <link>/2016/03/10/power-of-technical-documentation/</link>
+      <link>/power-of-technical-documentation/</link>
       <pubDate>Thu, 10 Mar 2016 22:15:58 +0000</pubDate>
       
-      <guid>/2016/03/10/power-of-technical-documentation/</guid>
+      <guid>/power-of-technical-documentation/</guid>
       <description>Good technical documentation makes a difference There are so many open source projects out there that it’s hard to sort through them all. Some of them are successful, some of them not so much. If we take all popular projects (meaning over 2-3 thousands of stars on github) - they all have easy-to-follow detailed documentation. It doesn’t mean documentation makes these projects more successful; it means it removes the friction for developers to try and use the project.</description>
     </item>
     
@@ -89,19 +89,19 @@ Project set up We are using React.</description>
     
     <item>
       <title>React.js route state name</title>
-      <link>/2016/01/10/react-js-route-state-name/</link>
+      <link>/react-js-route-state-name/</link>
       <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
       
-      <guid>/2016/01/10/react-js-route-state-name/</guid>
+      <guid>/react-js-route-state-name/</guid>
       <description>React.js router is at version 2.0 as of now. It’s changing fast. So this may not work few months from now. I had the case where I wanted to create REST URLs but still re-use components where possible. That’s one of the selling points of React as a library. In my case I wanted to re-use form in the “new” and “update” pages. Here is how I got it working:</description>
     </item>
     
     <item>
       <title>Learning React.js and Redux</title>
-      <link>/2016/01/03/learning-react-js-and-redux/</link>
+      <link>/learning-react-js-and-redux/</link>
       <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
       
-      <guid>/2016/01/03/learning-react-js-and-redux/</guid>
+      <guid>/learning-react-js-and-redux/</guid>
       <description>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github.</description>
     </item>
     

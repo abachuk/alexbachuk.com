@@ -5,7 +5,7 @@
     <link>/tags/quick-tip/</link>
     <description>Recent content in Quick Tip on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 10 Jan 2016 14:32:52 +0000</lastBuildDate>
     
@@ -14,10 +14,10 @@
     
     <item>
       <title>React.js route state name</title>
-      <link>/2016/01/10/react-js-route-state-name/</link>
+      <link>/react-js-route-state-name/</link>
       <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
       
-      <guid>/2016/01/10/react-js-route-state-name/</guid>
+      <guid>/react-js-route-state-name/</guid>
       <description>React.js router is at version 2.0 as of now. It’s changing fast. So this may not work few months from now. I had the case where I wanted to create REST URLs but still re-use components where possible. That’s one of the selling points of React as a library. In my case I wanted to re-use form in the “new” and “update” pages. Here is how I got it working:</description>
     </item>
     
