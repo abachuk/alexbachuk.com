@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecommerce on Alex Bachuk</title>
-    <link>https://alexbachuk.com/tags/ecommerce/</link>
+    <link>/tags/ecommerce/</link>
     <description>Recent content in Ecommerce on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Wed, 25 Jul 2012 04:09:00 +0000</lastBuildDate>
     
-	<atom:link href="https://alexbachuk.com/tags/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ecommerce/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WordPress as e-commerce platform</title>
-      <link>https://alexbachuk.com/2012/07/25/wordpress-as-e-commerce-platform/</link>
+      <link>/2012/07/25/wordpress-as-e-commerce-platform/</link>
       <pubDate>Wed, 25 Jul 2012 04:09:00 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2012/07/25/wordpress-as-e-commerce-platform/</guid>
+      <guid>/2012/07/25/wordpress-as-e-commerce-platform/</guid>
       <description>As Internet became accessible to almost every household in US and around the World, every business owner, artist, merchant can sell their goods or services to any person or company in the World directly avoiding big costs setting physical store, all the legal paperwork, etc.
 Wikipedia says: Electronic commerce, commonly known as e-commerce or e-comm, is the buying and selling of products or services over electronic systems such as the Internet and other computer networks.</description>
     </item>

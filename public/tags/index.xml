@@ -2,490 +2,490 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Alex Bachuk</title>
-    <link>https://alexbachuk.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Tue, 24 Nov 2015 03:13:34 +0000</lastBuildDate>
     
-	<atom:link href="https://alexbachuk.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Angular.Js</title>
-      <link>https://alexbachuk.com/tags/angular.js/</link>
+      <link>/tags/angular.js/</link>
       <pubDate>Tue, 24 Nov 2015 03:13:34 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/angular.js/</guid>
+      <guid>/tags/angular.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Api</title>
-      <link>https://alexbachuk.com/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Sat, 20 Apr 2013 17:41:42 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aws</title>
-      <link>https://alexbachuk.com/tags/aws/</link>
+      <link>/tags/aws/</link>
       <pubDate>Fri, 10 Feb 2017 15:01:41 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/aws/</guid>
+      <guid>/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Backbone.Js</title>
-      <link>https://alexbachuk.com/tags/backbone.js/</link>
+      <link>/tags/backbone.js/</link>
       <pubDate>Fri, 29 Nov 2013 23:03:46 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/backbone.js/</guid>
+      <guid>/tags/backbone.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Backup</title>
-      <link>https://alexbachuk.com/tags/backup/</link>
+      <link>/tags/backup/</link>
       <pubDate>Mon, 16 Mar 2015 01:38:29 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/backup/</guid>
+      <guid>/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Book Review</title>
-      <link>https://alexbachuk.com/tags/book-review/</link>
+      <link>/tags/book-review/</link>
       <pubDate>Tue, 30 Jun 2015 11:01:45 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/book-review/</guid>
+      <guid>/tags/book-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conference</title>
-      <link>https://alexbachuk.com/tags/conference/</link>
+      <link>/tags/conference/</link>
       <pubDate>Mon, 04 Mar 2013 02:10:11 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/conference/</guid>
+      <guid>/tags/conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Documentation</title>
-      <link>https://alexbachuk.com/tags/documentation/</link>
+      <link>/tags/documentation/</link>
       <pubDate>Thu, 10 Mar 2016 22:15:58 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/documentation/</guid>
+      <guid>/tags/documentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecommerce</title>
-      <link>https://alexbachuk.com/tags/ecommerce/</link>
+      <link>/tags/ecommerce/</link>
       <pubDate>Wed, 25 Jul 2012 04:09:00 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/ecommerce/</guid>
+      <guid>/tags/ecommerce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Education</title>
-      <link>https://alexbachuk.com/tags/education/</link>
+      <link>/tags/education/</link>
       <pubDate>Fri, 25 Mar 2016 19:33:13 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/education/</guid>
+      <guid>/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ember.Js</title>
-      <link>https://alexbachuk.com/tags/ember.js/</link>
+      <link>/tags/ember.js/</link>
       <pubDate>Fri, 10 Feb 2017 15:01:41 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/ember.js/</guid>
+      <guid>/tags/ember.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firebase</title>
-      <link>https://alexbachuk.com/tags/firebase/</link>
+      <link>/tags/firebase/</link>
       <pubDate>Fri, 10 Feb 2017 15:01:41 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/firebase/</guid>
+      <guid>/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Front End Development</title>
-      <link>https://alexbachuk.com/tags/front-end-development/</link>
+      <link>/tags/front-end-development/</link>
       <pubDate>Mon, 08 Jun 2015 02:37:16 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/front-end-development/</guid>
+      <guid>/tags/front-end-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://alexbachuk.com/tags/git/</link>
+      <link>/tags/git/</link>
       <pubDate>Mon, 17 Sep 2012 04:30:30 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/git/</guid>
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://alexbachuk.com/tags/github/</link>
+      <link>/tags/github/</link>
       <pubDate>Mon, 17 Sep 2012 04:30:30 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/github/</guid>
+      <guid>/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html Emails</title>
-      <link>https://alexbachuk.com/tags/html-emails/</link>
+      <link>/tags/html-emails/</link>
       <pubDate>Fri, 11 Jan 2013 03:09:59 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/html-emails/</guid>
+      <guid>/tags/html-emails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ios</title>
-      <link>https://alexbachuk.com/tags/ios/</link>
+      <link>/tags/ios/</link>
       <pubDate>Tue, 28 May 2013 01:34:05 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/ios/</guid>
+      <guid>/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://alexbachuk.com/tags/java/</link>
+      <link>/tags/java/</link>
       <pubDate>Mon, 30 Jul 2012 14:26:39 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/java/</guid>
+      <guid>/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://alexbachuk.com/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jquery</title>
-      <link>https://alexbachuk.com/tags/jquery/</link>
+      <link>/tags/jquery/</link>
       <pubDate>Mon, 04 Mar 2013 02:10:11 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/jquery/</guid>
+      <guid>/tags/jquery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jquery Mobile</title>
-      <link>https://alexbachuk.com/tags/jquery-mobile/</link>
+      <link>/tags/jquery-mobile/</link>
       <pubDate>Tue, 28 May 2013 01:34:05 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/jquery-mobile/</guid>
+      <guid>/tags/jquery-mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Json</title>
-      <link>https://alexbachuk.com/tags/json/</link>
+      <link>/tags/json/</link>
       <pubDate>Mon, 29 Apr 2013 20:52:23 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/json/</guid>
+      <guid>/tags/json/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>https://alexbachuk.com/tags/learning/</link>
+      <link>/tags/learning/</link>
       <pubDate>Sat, 05 Mar 2016 18:46:05 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/learning/</guid>
+      <guid>/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://alexbachuk.com/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Fri, 13 Sep 2013 02:21:02 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>https://alexbachuk.com/tags/mac/</link>
+      <link>/tags/mac/</link>
       <pubDate>Sun, 12 Aug 2012 05:42:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/mac/</guid>
+      <guid>/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meteor.Js</title>
-      <link>https://alexbachuk.com/tags/meteor.js/</link>
+      <link>/tags/meteor.js/</link>
       <pubDate>Tue, 06 Oct 2015 19:26:02 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/meteor.js/</guid>
+      <guid>/tags/meteor.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>https://alexbachuk.com/tags/mobile/</link>
+      <link>/tags/mobile/</link>
       <pubDate>Sat, 13 Oct 2012 02:15:07 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/mobile/</guid>
+      <guid>/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Web Development</title>
-      <link>https://alexbachuk.com/tags/mobile-web-development/</link>
+      <link>/tags/mobile-web-development/</link>
       <pubDate>Wed, 13 Feb 2013 19:40:22 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/mobile-web-development/</guid>
+      <guid>/tags/mobile-web-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mountain Lion</title>
-      <link>https://alexbachuk.com/tags/mountain-lion/</link>
+      <link>/tags/mountain-lion/</link>
       <pubDate>Mon, 30 Jul 2012 14:26:39 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/mountain-lion/</guid>
+      <guid>/tags/mountain-lion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>https://alexbachuk.com/tags/music/</link>
+      <link>/tags/music/</link>
       <pubDate>Wed, 24 Apr 2013 20:18:34 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/music/</guid>
+      <guid>/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.Js</title>
-      <link>https://alexbachuk.com/tags/node.js/</link>
+      <link>/tags/node.js/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/node.js/</guid>
+      <guid>/tags/node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>https://alexbachuk.com/tags/open-source/</link>
+      <link>/tags/open-source/</link>
       <pubDate>Thu, 10 Mar 2016 22:15:58 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/open-source/</guid>
+      <guid>/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phonegap</title>
-      <link>https://alexbachuk.com/tags/phonegap/</link>
+      <link>/tags/phonegap/</link>
       <pubDate>Tue, 28 May 2013 01:34:05 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/phonegap/</guid>
+      <guid>/tags/phonegap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>https://alexbachuk.com/tags/productivity/</link>
+      <link>/tags/productivity/</link>
       <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/productivity/</guid>
+      <guid>/tags/productivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quick Tip</title>
-      <link>https://alexbachuk.com/tags/quick-tip/</link>
+      <link>/tags/quick-tip/</link>
       <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/quick-tip/</guid>
+      <guid>/tags/quick-tip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React.Js</title>
-      <link>https://alexbachuk.com/tags/react.js/</link>
+      <link>/tags/react.js/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/react.js/</guid>
+      <guid>/tags/react.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reading</title>
-      <link>https://alexbachuk.com/tags/reading/</link>
+      <link>/tags/reading/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/reading/</guid>
+      <guid>/tags/reading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redux</title>
-      <link>https://alexbachuk.com/tags/redux/</link>
+      <link>/tags/redux/</link>
       <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/redux/</guid>
+      <guid>/tags/redux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Responsive Web Design</title>
-      <link>https://alexbachuk.com/tags/responsive-web-design/</link>
+      <link>/tags/responsive-web-design/</link>
       <pubDate>Tue, 24 Nov 2015 03:13:34 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/responsive-web-design/</guid>
+      <guid>/tags/responsive-web-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby On Rails</title>
-      <link>https://alexbachuk.com/tags/ruby-on-rails/</link>
+      <link>/tags/ruby-on-rails/</link>
       <pubDate>Fri, 13 Sep 2013 02:21:02 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/ruby-on-rails/</guid>
+      <guid>/tags/ruby-on-rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssl</title>
-      <link>https://alexbachuk.com/tags/ssl/</link>
+      <link>/tags/ssl/</link>
       <pubDate>Mon, 16 Mar 2015 01:38:29 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/ssl/</guid>
+      <guid>/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme Options</title>
-      <link>https://alexbachuk.com/tags/theme-options/</link>
+      <link>/tags/theme-options/</link>
       <pubDate>Tue, 20 Aug 2013 02:54:36 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/theme-options/</guid>
+      <guid>/tags/theme-options/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time Management</title>
-      <link>https://alexbachuk.com/tags/time-management/</link>
+      <link>/tags/time-management/</link>
       <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/time-management/</guid>
+      <guid>/tags/time-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tips</title>
-      <link>https://alexbachuk.com/tags/tips/</link>
+      <link>/tags/tips/</link>
       <pubDate>Tue, 20 Aug 2013 02:54:36 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/tips/</guid>
+      <guid>/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Underscore.Js</title>
-      <link>https://alexbachuk.com/tags/underscore.js/</link>
+      <link>/tags/underscore.js/</link>
       <pubDate>Sat, 22 Jun 2013 16:23:57 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/underscore.js/</guid>
+      <guid>/tags/underscore.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Developer Tools</title>
-      <link>https://alexbachuk.com/tags/web-developer-tools/</link>
+      <link>/tags/web-developer-tools/</link>
       <pubDate>Mon, 08 Jun 2015 02:37:16 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/web-developer-tools/</guid>
+      <guid>/tags/web-developer-tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://alexbachuk.com/tags/web-development/</link>
+      <link>/tags/web-development/</link>
       <pubDate>Fri, 25 Mar 2016 19:33:13 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/web-development/</guid>
+      <guid>/tags/web-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development Tools</title>
-      <link>https://alexbachuk.com/tags/web-development-tools/</link>
+      <link>/tags/web-development-tools/</link>
       <pubDate>Thu, 31 May 2012 18:06:52 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/web-development-tools/</guid>
+      <guid>/tags/web-development-tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Hosting</title>
-      <link>https://alexbachuk.com/tags/web-hosting/</link>
+      <link>/tags/web-hosting/</link>
       <pubDate>Mon, 16 Mar 2015 01:38:29 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/web-hosting/</guid>
+      <guid>/tags/web-hosting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Websites</title>
-      <link>https://alexbachuk.com/tags/websites/</link>
+      <link>/tags/websites/</link>
       <pubDate>Mon, 16 Mar 2015 01:38:29 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/websites/</guid>
+      <guid>/tags/websites/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wordpress</title>
-      <link>https://alexbachuk.com/tags/wordpress/</link>
+      <link>/tags/wordpress/</link>
       <pubDate>Wed, 04 May 2016 01:00:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/wordpress/</guid>
+      <guid>/tags/wordpress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Workshop</title>
-      <link>https://alexbachuk.com/tags/workshop/</link>
+      <link>/tags/workshop/</link>
       <pubDate>Wed, 04 May 2016 01:00:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/workshop/</guid>
+      <guid>/tags/workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wysiwyg</title>
-      <link>https://alexbachuk.com/tags/wysiwyg/</link>
+      <link>/tags/wysiwyg/</link>
       <pubDate>Tue, 06 Oct 2015 19:26:02 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/tags/wysiwyg/</guid>
+      <guid>/tags/wysiwyg/</guid>
       <description></description>
     </item>
     

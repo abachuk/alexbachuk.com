@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Alex Bachuk</title>
-    <link>https://alexbachuk.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     
-	<atom:link href="https://alexbachuk.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Javascript</title>
-      <link>https://alexbachuk.com/categories/javascript/</link>
+      <link>/categories/javascript/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/categories/javascript/</guid>
+      <guid>/categories/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Macos</title>
-      <link>https://alexbachuk.com/categories/macos/</link>
+      <link>/categories/macos/</link>
       <pubDate>Sun, 12 Aug 2012 05:42:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/categories/macos/</guid>
+      <guid>/categories/macos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node.Js</title>
-      <link>https://alexbachuk.com/categories/node.js/</link>
+      <link>/categories/node.js/</link>
       <pubDate>Sat, 17 Dec 2016 14:58:17 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/categories/node.js/</guid>
+      <guid>/categories/node.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby On Rails</title>
-      <link>https://alexbachuk.com/categories/ruby-on-rails/</link>
+      <link>/categories/ruby-on-rails/</link>
       <pubDate>Fri, 13 Sep 2013 02:21:02 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/categories/ruby-on-rails/</guid>
+      <guid>/categories/ruby-on-rails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>https://alexbachuk.com/categories/web-development/</link>
+      <link>/categories/web-development/</link>
       <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/categories/web-development/</guid>
+      <guid>/categories/web-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wordpress</title>
-      <link>https://alexbachuk.com/categories/wordpress/</link>
+      <link>/categories/wordpress/</link>
       <pubDate>Wed, 04 May 2016 01:00:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/categories/wordpress/</guid>
+      <guid>/categories/wordpress/</guid>
       <description></description>
     </item>
     

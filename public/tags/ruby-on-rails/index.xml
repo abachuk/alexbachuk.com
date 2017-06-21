@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby On Rails on Alex Bachuk</title>
-    <link>https://alexbachuk.com/tags/ruby-on-rails/</link>
+    <link>/tags/ruby-on-rails/</link>
     <description>Recent content in Ruby On Rails on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Fri, 13 Sep 2013 02:21:02 +0000</lastBuildDate>
     
-	<atom:link href="https://alexbachuk.com/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Launch Rails 4 application with passenger and nginx</title>
-      <link>https://alexbachuk.com/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</link>
+      <link>/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</link>
       <pubDate>Fri, 13 Sep 2013 02:21:02 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</guid>
+      <guid>/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</guid>
       <description>I&amp;rsquo;ve built simple Rails application. Then I decided to move it to &amp;ldquo;interwebs&amp;rdquo; and make it live. But&amp;hellip; it wasnt&amp;rsquo; as straigtforward as I thought. Even though there are gazilion tutorials - it just didn&amp;rsquo;t work. After about work of struggle - finally I figured it out. Here is step by step instruction that worked for me, I borrowed different steps from different tutorials. My stack is Linux, Nginx, Passenger, Ruby 2, Rails 4, MySQL, Node.</description>
     </item>
     
     <item>
       <title>Install Ruby on Rails</title>
-      <link>https://alexbachuk.com/2012/08/12/install-ruby-on-rails/</link>
+      <link>/2012/08/12/install-ruby-on-rails/</link>
       <pubDate>Sun, 12 Aug 2012 05:42:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2012/08/12/install-ruby-on-rails/</guid>
+      <guid>/2012/08/12/install-ruby-on-rails/</guid>
       <description>Recently I started learning ruby on rails. And unlike other languages everything happens mostly in terminal, so next thing I know - I have to use command line now. I tried few tutorials here and there but couldn&amp;rsquo;t find anything that explained how to properly install ruby and rails step by step, something for ruby beginners. So, I wrote my process here. I&amp;rsquo;m using mac and ruby 1.8.7 is pre-installed with Mac OS 10.</description>
     </item>
     

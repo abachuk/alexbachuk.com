@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on Alex Bachuk</title>
-    <link>https://alexbachuk.com/tags/mac/</link>
+    <link>/tags/mac/</link>
     <description>Recent content in Mac on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 12 Aug 2012 05:42:44 +0000</lastBuildDate>
     
-	<atom:link href="https://alexbachuk.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install Ruby on Rails</title>
-      <link>https://alexbachuk.com/2012/08/12/install-ruby-on-rails/</link>
+      <link>/2012/08/12/install-ruby-on-rails/</link>
       <pubDate>Sun, 12 Aug 2012 05:42:44 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2012/08/12/install-ruby-on-rails/</guid>
+      <guid>/2012/08/12/install-ruby-on-rails/</guid>
       <description>Recently I started learning ruby on rails. And unlike other languages everything happens mostly in terminal, so next thing I know - I have to use command line now. I tried few tutorials here and there but couldn&amp;rsquo;t find anything that explained how to properly install ruby and rails step by step, something for ruby beginners. So, I wrote my process here. I&amp;rsquo;m using mac and ruby 1.8.7 is pre-installed with Mac OS 10.</description>
     </item>
     
     <item>
       <title>How to enable Java in Mac OS Monutain Lion</title>
-      <link>https://alexbachuk.com/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</link>
+      <link>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</link>
       <pubDate>Mon, 30 Jul 2012 14:26:39 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</guid>
+      <guid>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</guid>
       <description>After upgrading to Monutain Lion - Java wasn&amp;rsquo;t working in web browsers by default. Apple switched to software updates in App Store.
 So to install / update Java, open terminal and type
 /Applications/Utilities/Java Preferences.app/Contents/MacOS/Java Preferences  You should see dialog box with install button
@@ -35,10 +35,10 @@ Don&amp;rsquo;t forget to restart the browser.</description>
     
     <item>
       <title>My working set up and workflow</title>
-      <link>https://alexbachuk.com/2012/05/31/my-working-set-up-and-workflow/</link>
+      <link>/2012/05/31/my-working-set-up-and-workflow/</link>
       <pubDate>Thu, 31 May 2012 18:06:52 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2012/05/31/my-working-set-up-and-workflow/</guid>
+      <guid>/2012/05/31/my-working-set-up-and-workflow/</guid>
       <description>Currently I work on 27 iMac (i5, 12Gb 24Gb RAM, 256 vertex 4 SSD, OSX Lion). Only very recently (about 1.5 years) switched from Windows PC to Mac - now I can say for sure, it was the right choice. Having iMac (and also macbook pro) I never ran into issues with a virus, blue screen or freezing on start up or any other similar problems, of course the computer becomes slower and slower as you use it, but after I switched to SSD this problem disappeared.</description>
     </item>
     

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backbone.Js on Alex Bachuk</title>
-    <link>https://alexbachuk.com/tags/backbone.js/</link>
+    <link>/tags/backbone.js/</link>
     <description>Recent content in Backbone.Js on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Fri, 29 Nov 2013 23:03:46 +0000</lastBuildDate>
     
-	<atom:link href="https://alexbachuk.com/tags/backbone.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/backbone.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My experience with backbone.js and require.js</title>
-      <link>https://alexbachuk.com/2013/11/29/my-experience-with-backbone-js-and-require-js/</link>
+      <link>/2013/11/29/my-experience-with-backbone-js-and-require-js/</link>
       <pubDate>Fri, 29 Nov 2013 23:03:46 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2013/11/29/my-experience-with-backbone-js-and-require-js/</guid>
+      <guid>/2013/11/29/my-experience-with-backbone-js-and-require-js/</guid>
       <description>Backbone.js is&amp;hellip; as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it&amp;rsquo;s MV* library, not a framework. There are not strict rules, developer has freedom to choose their own style of writing an app, for better or worse :)
 Some background: I&amp;rsquo;ve built few web applications with Backbone.js, and I don&amp;rsquo;t have any experience with any other MV* javascript library or framework, so it&amp;rsquo;s hard for me to compare.</description>
     </item>
     
     <item>
       <title>JavaScript templates</title>
-      <link>https://alexbachuk.com/2013/06/22/javascript-templates/</link>
+      <link>/2013/06/22/javascript-templates/</link>
       <pubDate>Sat, 22 Jun 2013 16:23:57 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2013/06/22/javascript-templates/</guid>
+      <guid>/2013/06/22/javascript-templates/</guid>
       <description>JavaScript is the most used programming language now, it&amp;rsquo;s very powerful and can do more than home page slideshow or animations. AJAX is a big part of JavaScript and one of the reasons this language is so popular. It&amp;rsquo;s possible to get any content from the server and send any content back to server, two way communication. Libraries and frameworks like Backbone.js make this process very elegant and organized. Few years ago it was a standard proces to append html in AJAX callback to the DOM, and it works, and if it&amp;rsquo;s done right (append all the content at once instead of at each iteration of a loop), it&amp;rsquo;s even ok.</description>
     </item>
     
     <item>
       <title>Backbone.js explained</title>
-      <link>https://alexbachuk.com/2013/04/29/backbone-js-explained/</link>
+      <link>/2013/04/29/backbone-js-explained/</link>
       <pubDate>Mon, 29 Apr 2013 20:52:23 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2013/04/29/backbone-js-explained/</guid>
+      <guid>/2013/04/29/backbone-js-explained/</guid>
       <description>Backbone.js is one of many javascript MVC frameworks, others are Angular.js, Phantom.js, Ember.js. Why backbone? It&amp;rsquo;s very small, only 6K minified, not opinionated, meaning it doesn&amp;rsquo;t dictate how you should organize your code. A lot of big companies (like Pandora, USA Today, New York Times, Rdio) use backbone.js to power their web applications.
 What can Backbone.js do for you? If you write any javascript code at all - you will appreciate the power backbone.</description>
     </item>

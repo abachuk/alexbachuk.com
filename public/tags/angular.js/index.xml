@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular.Js on Alex Bachuk</title>
-    <link>https://alexbachuk.com/tags/angular.js/</link>
+    <link>/tags/angular.js/</link>
     <description>Recent content in Angular.Js on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Tue, 24 Nov 2015 03:13:34 +0000</lastBuildDate>
     
-	<atom:link href="https://alexbachuk.com/tags/angular.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/angular.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adaptive express.js and angular.js application</title>
-      <link>https://alexbachuk.com/2015/11/24/adaptive-express-js-and-angular-js-application/</link>
+      <link>/2015/11/24/adaptive-express-js-and-angular-js-application/</link>
       <pubDate>Tue, 24 Nov 2015 03:13:34 +0000</pubDate>
       
-      <guid>https://alexbachuk.com/2015/11/24/adaptive-express-js-and-angular-js-application/</guid>
+      <guid>/2015/11/24/adaptive-express-js-and-angular-js-application/</guid>
       <description>Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly different than desktop or it could be completely different depending on the project or the app. For example, marketing or news website might have similar experience, since its only goal is to deliver the content in accessible way. But, for other websites, like e-commerce mobile experience might be have totally different meaning.</description>
     </item>
     
