@@ -2,39 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Alex Bachuk</title>
-    <link>/tags/web-development/</link>
+    <link>https://alexbachuk.com/tags/web-development/</link>
     <description>Recent content in Web Development on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Fri, 25 Mar 2016 19:33:13 +0000</lastBuildDate>
     
-	<atom:link href="/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Education for web developers</title>
-      <link>/2016/03/25/education-for-web-developers/</link>
+      <link>https://alexbachuk.com/2016/03/25/education-for-web-developers/</link>
       <pubDate>Fri, 25 Mar 2016 19:33:13 +0000</pubDate>
       
-      <guid>/2016/03/25/education-for-web-developers/</guid>
+      <guid>https://alexbachuk.com/2016/03/25/education-for-web-developers/</guid>
       <description>I’ve been a web developer for over 8 years, and got hooked on web development the very first time I wrote HTML. The process of creating something people can use out of nothing is very powerful. Before I began my career in web development, I was doing construction and then later help-desk work. To me, programming is similar to construction. You have a problem, and you need to figure out the solution, using your skills and the tools available.</description>
     </item>
     
     <item>
       <title>WordPress themes, less is more</title>
-      <link>/2015/01/12/wordpress-themes-less-is-more/</link>
+      <link>https://alexbachuk.com/2015/01/12/wordpress-themes-less-is-more/</link>
       <pubDate>Mon, 12 Jan 2015 02:09:36 +0000</pubDate>
       
-      <guid>/2015/01/12/wordpress-themes-less-is-more/</guid>
+      <guid>https://alexbachuk.com/2015/01/12/wordpress-themes-less-is-more/</guid>
       <description>If you’ve ever used WordPress, chances are you’ve used a theme you found or bought, even if you’re web developer and know how to create custom one by yourself. And it’s easy to see why - there are a lot tons of WordPress themes available, free and premium. The industry has grown significantly since 2008. Theme shops started becoming real businesses and the theme industry exploded. Some Access to the internet, right set of skills and a computer can turn into very profitable business, even with little or nothing to invest.</description>
     </item>
     
     <item>
       <title>Quick Tip: Load backbonejs in WordPress (the right way)</title>
-      <link>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
+      <link>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
       <pubDate>Tue, 22 Jan 2013 01:17:48 +0000</pubDate>
       
-      <guid>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
+      <guid>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
       <description>Now that WordPress 3.5 sips with Backbone and Underscore - you can easily include them into your WordPress theme and do some fun stuff. Put this code in functions.php
  function loadBackbone() { wp_enqueue_script(&#39;backbone&#39;); }
 add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp;rsquo;);</description>
@@ -42,10 +43,10 @@ add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp
     
     <item>
       <title>WordPress 3.5 released</title>
-      <link>/2012/12/17/wordpress-3-5-released/</link>
+      <link>https://alexbachuk.com/2012/12/17/wordpress-3-5-released/</link>
       <pubDate>Mon, 17 Dec 2012 07:23:53 +0000</pubDate>
       
-      <guid>/2012/12/17/wordpress-3-5-released/</guid>
+      <guid>https://alexbachuk.com/2012/12/17/wordpress-3-5-released/</guid>
       <description>WordPress 3.5 has been released. It&amp;rsquo;s got very nice dashboard clean up. Everything is looking much lighter and feels faster.
 The biggest change is media management. Now it&amp;rsquo;s more intuitive and more easy to upload, manage and configure all your images, audio and video files in one place. Also added drag and drop support and galleries.
 Entire admin dashboard is retina ready (good news for lucky retina macbooks owners). Link manager, which I used only twice in my 4 years of WordPress development experience.</description>
@@ -53,29 +54,29 @@ Entire admin dashboard is retina ready (good news for lucky retina macbooks owne
     
     <item>
       <title>How to get started with git in development</title>
-      <link>/2012/09/17/how-to-get-started-with-git-in-development/</link>
+      <link>https://alexbachuk.com/2012/09/17/how-to-get-started-with-git-in-development/</link>
       <pubDate>Mon, 17 Sep 2012 04:30:30 +0000</pubDate>
       
-      <guid>/2012/09/17/how-to-get-started-with-git-in-development/</guid>
+      <guid>https://alexbachuk.com/2012/09/17/how-to-get-started-with-git-in-development/</guid>
       <description>While working with other freelancers on a couple of projects we were having a hard time exchanging the code and collaborating efficiently. Making changes on live or staging server via FTP is fast and great, but there is one big problem with that - we overwrite each others changes. Or if I work alone on a project - I just can&amp;rsquo;t keep track of what was done and exactly what file I changed last time.</description>
     </item>
     
     <item>
       <title>WordPress as e-commerce platform</title>
-      <link>/2012/07/25/wordpress-as-e-commerce-platform/</link>
+      <link>https://alexbachuk.com/2012/07/25/wordpress-as-e-commerce-platform/</link>
       <pubDate>Wed, 25 Jul 2012 04:09:00 +0000</pubDate>
       
-      <guid>/2012/07/25/wordpress-as-e-commerce-platform/</guid>
+      <guid>https://alexbachuk.com/2012/07/25/wordpress-as-e-commerce-platform/</guid>
       <description>As Internet became accessible to almost every household in US and around the World, every business owner, artist, merchant can sell their goods or services to any person or company in the World directly avoiding big costs setting physical store, all the legal paperwork, etc.
 Wikipedia says: Electronic commerce, commonly known as e-commerce or e-comm, is the buying and selling of products or services over electronic systems such as the Internet and other computer networks.</description>
     </item>
     
     <item>
       <title>jQuery Mobile basics</title>
-      <link>/2012/07/18/jquery-mobile-basics/</link>
+      <link>https://alexbachuk.com/2012/07/18/jquery-mobile-basics/</link>
       <pubDate>Wed, 18 Jul 2012 19:15:18 +0000</pubDate>
       
-      <guid>/2012/07/18/jquery-mobile-basics/</guid>
+      <guid>https://alexbachuk.com/2012/07/18/jquery-mobile-basics/</guid>
       <description>jQuery Mobile is touch friendly and AJAX powered framework which was built by jQuery team.
 It is a great framework for building mobile websites or apps and if combine it with responsive design - it becomes even better. Nowadays everyone knows that the best way to build a website is responsive way, a “write once, run everywhere” style.
 jQuery mobile uses AJAX for page loading and provides flexible theming tool - theme roller, default theme is very iOS-like, but it&amp;rsquo;s very easy to change just changing default CSS.</description>
@@ -83,10 +84,10 @@ jQuery mobile uses AJAX for page loading and provides flexible theming tool - th
     
     <item>
       <title>My working set up and workflow</title>
-      <link>/2012/05/31/my-working-set-up-and-workflow/</link>
+      <link>https://alexbachuk.com/2012/05/31/my-working-set-up-and-workflow/</link>
       <pubDate>Thu, 31 May 2012 18:06:52 +0000</pubDate>
       
-      <guid>/2012/05/31/my-working-set-up-and-workflow/</guid>
+      <guid>https://alexbachuk.com/2012/05/31/my-working-set-up-and-workflow/</guid>
       <description>Currently I work on 27 iMac (i5, 12Gb 24Gb RAM, 256 vertex 4 SSD, OSX Lion). Only very recently (about 1.5 years) switched from Windows PC to Mac - now I can say for sure, it was the right choice. Having iMac (and also macbook pro) I never ran into issues with a virus, blue screen or freezing on start up or any other similar problems, of course the computer becomes slower and slower as you use it, but after I switched to SSD this problem disappeared.</description>
     </item>
     

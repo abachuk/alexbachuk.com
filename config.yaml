@@ -1,7 +1,12 @@
-baseURL: /
+BaseUrl: https://alexbachuk.com
 disablePathToLower: true
 languageCode: en-us
 title: Alex Bachuk
+LanguageCode: "en-US"
+paginate: 5
+DisqusShortname: YOUR_SHORT_NAME_HERE
+Copyright: All rights reserved - 2017
+canonifyurls: true
 permalinks:
   post: /:slug/
   page: /:slug/
@@ -16,3 +21,20 @@ menu:
         Pre: "<i class='fa fa-road'></i>"
         Weight: -100
         URL: "/getting-started/"
+params:
+  description: JavaScript developer
+  metadescription: Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead
+  cover: none
+  author: Alex Bachuk
+  authorlocation: Fairfield, CT
+  authorwebsite: https://alexbachuk.com
+  bio: my bio
+  logo: images/logo.png
+  googleAnalyticsUserID: UA-23815614-1
+  RSSLink: http://feeds.feedburner.com/...
+  githubName: abachuk
+  twitterName: netxm
+  linkedinName: alexbachuk
+  hideHUGOSupport: true
+  social:
+    twitter: netxm

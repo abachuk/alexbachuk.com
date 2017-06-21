@@ -2,30 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quick Tip on Alex Bachuk</title>
-    <link>/tags/quick-tip/</link>
+    <link>https://alexbachuk.com/tags/quick-tip/</link>
     <description>Recent content in Quick Tip on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Sun, 10 Jan 2016 14:32:52 +0000</lastBuildDate>
     
-	<atom:link href="/tags/quick-tip/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/quick-tip/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>React.js route state name</title>
-      <link>/2016/01/10/react-js-route-state-name/</link>
+      <link>https://alexbachuk.com/2016/01/10/react-js-route-state-name/</link>
       <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
       
-      <guid>/2016/01/10/react-js-route-state-name/</guid>
+      <guid>https://alexbachuk.com/2016/01/10/react-js-route-state-name/</guid>
       <description>React.js router is at version 2.0 as of now. It’s changing fast. So this may not work few months from now. I had the case where I wanted to create REST URLs but still re-use components where possible. That’s one of the selling points of React as a library. In my case I wanted to re-use form in the “new” and “update” pages. Here is how I got it working:</description>
     </item>
     
     <item>
       <title>jQuery Mobile Active Page URL</title>
-      <link>/2013/02/13/jquery-mobile-active-page-url/</link>
+      <link>https://alexbachuk.com/2013/02/13/jquery-mobile-active-page-url/</link>
       <pubDate>Wed, 13 Feb 2013 19:40:22 +0000</pubDate>
       
-      <guid>/2013/02/13/jquery-mobile-active-page-url/</guid>
+      <guid>https://alexbachuk.com/2013/02/13/jquery-mobile-active-page-url/</guid>
       <description>jQuery mobile contains several pages in DOM at once to make page transition smooth and fast, and also pre-caching static pages. If you need to get current URL, and decided to use
 window.location.href   it will return previous page URL, because active page is inserted into the DOM via AJAX. To get current page URL use
 $.mobile.activePage[0].baseURI
@@ -34,10 +35,10 @@ $.mobile.activePage[0].baseURI
     
     <item>
       <title>Quick Tip: Load backbonejs in WordPress (the right way)</title>
-      <link>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
+      <link>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
       <pubDate>Tue, 22 Jan 2013 01:17:48 +0000</pubDate>
       
-      <guid>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
+      <guid>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
       <description>Now that WordPress 3.5 sips with Backbone and Underscore - you can easily include them into your WordPress theme and do some fun stuff. Put this code in functions.php
  function loadBackbone() { wp_enqueue_script(&#39;backbone&#39;); }
 add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp;rsquo;);</description>

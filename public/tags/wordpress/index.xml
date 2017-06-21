@@ -2,116 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on Alex Bachuk</title>
-    <link>/tags/wordpress/</link>
+    <link>https://alexbachuk.com/tags/wordpress/</link>
     <description>Recent content in Wordpress on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
+    <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Wed, 04 May 2016 01:00:44 +0000</lastBuildDate>
     
-	<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WordPress workshop for beginners</title>
-      <link>/2016/05/04/wordpress-workshop-for-beginners/</link>
+      <link>https://alexbachuk.com/2016/05/04/wordpress-workshop-for-beginners/</link>
       <pubDate>Wed, 04 May 2016 01:00:44 +0000</pubDate>
       
-      <guid>/2016/05/04/wordpress-workshop-for-beginners/</guid>
+      <guid>https://alexbachuk.com/2016/05/04/wordpress-workshop-for-beginners/</guid>
       <description>I&amp;rsquo;m running a WordPress workshop in Stamford Innovation Center (Stamford, CT) next Wednesday, May 11th. This class is for beginners who want to learn how set up and customize a website (personal or for business). It&amp;rsquo;s a great opportunity for anyone who wants to launch their website or someone who is getting into web development as a career move or a hobby. By understanding the basics of WordPress you can create a website and keep updating it yourself.</description>
     </item>
     
     <item>
       <title>WordPress Application development book review and free giveaway</title>
-      <link>/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</link>
+      <link>https://alexbachuk.com/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</link>
       <pubDate>Tue, 30 Jun 2015 11:01:45 +0000</pubDate>
       
-      <guid>/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</guid>
+      <guid>https://alexbachuk.com/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</guid>
       <description>TL;DR: Packtpub was kind enough to give me 2 digital copies to give away to my readers. Please leave a comment below, add a sentence or two what app you&amp;rsquo;re working on or why you&amp;rsquo;d like to win this book. I&amp;rsquo;ll pick 2 winners on July 12th.
 WordPress has come along way from being just a blogging platform to becoming a full-featured CMS site. It is now even being used as a platform for web and mobile applications.</description>
     </item>
     
     <item>
       <title>WordPress themes, less is more</title>
-      <link>/2015/01/12/wordpress-themes-less-is-more/</link>
+      <link>https://alexbachuk.com/2015/01/12/wordpress-themes-less-is-more/</link>
       <pubDate>Mon, 12 Jan 2015 02:09:36 +0000</pubDate>
       
-      <guid>/2015/01/12/wordpress-themes-less-is-more/</guid>
+      <guid>https://alexbachuk.com/2015/01/12/wordpress-themes-less-is-more/</guid>
       <description>If you’ve ever used WordPress, chances are you’ve used a theme you found or bought, even if you’re web developer and know how to create custom one by yourself. And it’s easy to see why - there are a lot tons of WordPress themes available, free and premium. The industry has grown significantly since 2008. Theme shops started becoming real businesses and the theme industry exploded. Some Access to the internet, right set of skills and a computer can turn into very profitable business, even with little or nothing to invest.</description>
     </item>
     
     <item>
       <title>Flexible WordPress dashboard, tips for customization</title>
-      <link>/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</link>
+      <link>https://alexbachuk.com/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</link>
       <pubDate>Tue, 20 Aug 2013 02:54:36 +0000</pubDate>
       
-      <guid>/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</guid>
+      <guid>https://alexbachuk.com/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</guid>
       <description>WordPress is my CMS of choice. Every single project I do is very different from the previous one. And not only on the front-end, but on the back-end as well. It&amp;rsquo;s not just static pages and blog, WordPress can do a lot more. But what if you build a project for a client and besides making it look great with CSS, JavaScript animations and making responsive - you also have to make it easy to manage, edit and maintain, what if client is not a web developer?</description>
     </item>
     
     <item>
       <title>WordPress celebrated 10 year anniversary</title>
-      <link>/2013/06/02/wordpress-celebrated-10-year-anniversary/</link>
+      <link>https://alexbachuk.com/2013/06/02/wordpress-celebrated-10-year-anniversary/</link>
       <pubDate>Sun, 02 Jun 2013 03:10:00 +0000</pubDate>
       
-      <guid>/2013/06/02/wordpress-celebrated-10-year-anniversary/</guid>
+      <guid>https://alexbachuk.com/2013/06/02/wordpress-celebrated-10-year-anniversary/</guid>
       <description>Few days ago WordPress community celebrated 10 year anniversary. It&amp;rsquo;s a huge milestone for an open source project and for its community, which is the driving power behind the project&amp;rsquo;s success.
 I started developing websites almost five years ago, and after 1 year of struggling with HTML, CSS and JavaScript - I decided to try different platforms to speed things up, first one was Joomla, then WordPress, then Drupal. WordPress definitely looked like the winner, I used version 2.</description>
     </item>
     
     <item>
       <title>WordPress and Phonegap (part2)</title>
-      <link>/2013/05/14/wordpress-and-phonegap-part2/</link>
+      <link>https://alexbachuk.com/2013/05/14/wordpress-and-phonegap-part2/</link>
       <pubDate>Tue, 14 May 2013 04:36:13 +0000</pubDate>
       
-      <guid>/2013/05/14/wordpress-and-phonegap-part2/</guid>
+      <guid>https://alexbachuk.com/2013/05/14/wordpress-and-phonegap-part2/</guid>
       <description>In Part 1, we learned how to get WordPress to work as backend platform for our future mobile app. Now we have nicely formatted JSON feed coming from WordPress and we can use it anywhere with ajax request. This part will explain how to get phonegap set up and prepare some boilerplate for our app using jQuery Mobile, CSS and HTML.
 Phonegap has really well explained guides on setting up phonegap locally for iOS, Android or any other target platform.</description>
     </item>
     
     <item>
       <title>Backbone.js explained</title>
-      <link>/2013/04/29/backbone-js-explained/</link>
+      <link>https://alexbachuk.com/2013/04/29/backbone-js-explained/</link>
       <pubDate>Mon, 29 Apr 2013 20:52:23 +0000</pubDate>
       
-      <guid>/2013/04/29/backbone-js-explained/</guid>
+      <guid>https://alexbachuk.com/2013/04/29/backbone-js-explained/</guid>
       <description>Backbone.js is one of many javascript MVC frameworks, others are Angular.js, Phantom.js, Ember.js. Why backbone? It&amp;rsquo;s very small, only 6K minified, not opinionated, meaning it doesn&amp;rsquo;t dictate how you should organize your code. A lot of big companies (like Pandora, USA Today, New York Times, Rdio) use backbone.js to power their web applications.
 What can Backbone.js do for you? If you write any javascript code at all - you will appreciate the power backbone.</description>
     </item>
     
     <item>
       <title>WordPress and Phonegap (part 1)</title>
-      <link>/2013/04/20/wordpress-and-phonegap-part-1/</link>
+      <link>https://alexbachuk.com/2013/04/20/wordpress-and-phonegap-part-1/</link>
       <pubDate>Sat, 20 Apr 2013 17:41:42 +0000</pubDate>
       
-      <guid>/2013/04/20/wordpress-and-phonegap-part-1/</guid>
+      <guid>https://alexbachuk.com/2013/04/20/wordpress-and-phonegap-part-1/</guid>
       <description>WordPress is an excellent CMS and provides a lot of flexibility for developers, users, authors, and everyone who manages websites.
 I wrote a blog post phonegap few months ago and few people were interested to learn more how to use WordPress as a backend for a mobile app. Phonegap is just one of the tools you can build a mobile app. WordPress is, in this case, API server, it manages database and all the content stored in there.</description>
     </item>
     
     <item>
       <title>Customizing WordPress dashboard</title>
-      <link>/2013/02/03/customizing-wordpress-dashboard/</link>
+      <link>https://alexbachuk.com/2013/02/03/customizing-wordpress-dashboard/</link>
       <pubDate>Sun, 03 Feb 2013 19:58:32 +0000</pubDate>
       
-      <guid>/2013/02/03/customizing-wordpress-dashboard/</guid>
+      <guid>https://alexbachuk.com/2013/02/03/customizing-wordpress-dashboard/</guid>
       <description>As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&amp;rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&amp;rsquo;s just php files and mysql database, so it can do anything php can do&amp;hellip; and it can do a lot.</description>
     </item>
     
     <item>
       <title>PhoneGap and mobile web apps</title>
-      <link>/2013/01/27/phonegap-and-mobile-web-apps/</link>
+      <link>https://alexbachuk.com/2013/01/27/phonegap-and-mobile-web-apps/</link>
       <pubDate>Sun, 27 Jan 2013 22:51:27 +0000</pubDate>
       
-      <guid>/2013/01/27/phonegap-and-mobile-web-apps/</guid>
+      <guid>https://alexbachuk.com/2013/01/27/phonegap-and-mobile-web-apps/</guid>
       <description>Mobile now is big part of the web. More and more people are getting phones that are more capable than average computers, in terms of HTML5 support. They can detect your location with gps, have great camera (usually more than one), always connected to the Internet, usually support the latest technologies. For web developers - this is great, that means we can build very cool stuff, cutting edge websites use css3 animations, detect user locations, etc.</description>
     </item>
     
     <item>
       <title>Quick Tip: Load backbonejs in WordPress (the right way)</title>
-      <link>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
+      <link>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
       <pubDate>Tue, 22 Jan 2013 01:17:48 +0000</pubDate>
       
-      <guid>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
+      <guid>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
       <description>Now that WordPress 3.5 sips with Backbone and Underscore - you can easily include them into your WordPress theme and do some fun stuff. Put this code in functions.php
  function loadBackbone() { wp_enqueue_script(&#39;backbone&#39;); }
 add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp;rsquo;);</description>
@@ -119,20 +120,20 @@ add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp
     
     <item>
       <title>How to develop WordPress locally with mamp pro and dyndns</title>
-      <link>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</link>
+      <link>https://alexbachuk.com/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</link>
       <pubDate>Thu, 03 Jan 2013 16:53:13 +0000</pubDate>
       
-      <guid>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</guid>
+      <guid>https://alexbachuk.com/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</guid>
       <description>When developing websites for clients I always try to make everything as transparent as possible. And for that reason I set up staging environment on my web server, something like separate folder and point the client to that URL while I develop the website, so they can keep track of all the changes and we can communicate better.
 Until few months ago this approach was 100% ok with me, I just developed directly on remote server via FTP (my coda editor is perfect for that), but then I started to notice new cool stuff popping up almost every few months or weeks.</description>
     </item>
     
     <item>
       <title>WordPress 3.5 released</title>
-      <link>/2012/12/17/wordpress-3-5-released/</link>
+      <link>https://alexbachuk.com/2012/12/17/wordpress-3-5-released/</link>
       <pubDate>Mon, 17 Dec 2012 07:23:53 +0000</pubDate>
       
-      <guid>/2012/12/17/wordpress-3-5-released/</guid>
+      <guid>https://alexbachuk.com/2012/12/17/wordpress-3-5-released/</guid>
       <description>WordPress 3.5 has been released. It&amp;rsquo;s got very nice dashboard clean up. Everything is looking much lighter and feels faster.
 The biggest change is media management. Now it&amp;rsquo;s more intuitive and more easy to upload, manage and configure all your images, audio and video files in one place. Also added drag and drop support and galleries.
 Entire admin dashboard is retina ready (good news for lucky retina macbooks owners). Link manager, which I used only twice in my 4 years of WordPress development experience.</description>
@@ -140,10 +141,10 @@ Entire admin dashboard is retina ready (good news for lucky retina macbooks owne
     
     <item>
       <title>WordPress as e-commerce platform</title>
-      <link>/2012/07/25/wordpress-as-e-commerce-platform/</link>
+      <link>https://alexbachuk.com/2012/07/25/wordpress-as-e-commerce-platform/</link>
       <pubDate>Wed, 25 Jul 2012 04:09:00 +0000</pubDate>
       
-      <guid>/2012/07/25/wordpress-as-e-commerce-platform/</guid>
+      <guid>https://alexbachuk.com/2012/07/25/wordpress-as-e-commerce-platform/</guid>
       <description>As Internet became accessible to almost every household in US and around the World, every business owner, artist, merchant can sell their goods or services to any person or company in the World directly avoiding big costs setting physical store, all the legal paperwork, etc.
 Wikipedia says: Electronic commerce, commonly known as e-commerce or e-comm, is the buying and selling of products or services over electronic systems such as the Internet and other computer networks.</description>
     </item>
