@@ -362,13 +362,13 @@
   </url>
   
   <url>
-    <loc>/tags/javascript/</loc>
+    <loc>/categories/javascript/</loc>
     <lastmod>2017-03-19T15:08:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2017-03-19T15:08:40+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -446,14 +446,14 @@
   </url>
   
   <url>
-    <loc>/tags/node.js/</loc>
-    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
+    <loc>/categories/node.js/</loc>
+    <lastmod>2016-12-17T14:58:17+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/node.js/</loc>
-    <lastmod>2016-12-17T14:58:17+00:00</lastmod>
+    <loc>/tags/node.js/</loc>
+    <lastmod>2017-03-19T15:08:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -518,13 +518,13 @@
   </url>
   
   <url>
-    <loc>/tags/ruby-on-rails/</loc>
+    <loc>/categories/ruby-on-rails/</loc>
     <lastmod>2013-09-13T02:21:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/ruby-on-rails/</loc>
+    <loc>/tags/ruby-on-rails/</loc>
     <lastmod>2013-09-13T02:21:02+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -572,14 +572,14 @@
   </url>
   
   <url>
-    <loc>/tags/web-development/</loc>
-    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
+    <loc>/categories/web-development/</loc>
+    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/web-development/</loc>
-    <lastmod>2017-03-15T15:06:04+00:00</lastmod>
+    <loc>/tags/web-development/</loc>
+    <lastmod>2016-03-25T19:33:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -602,13 +602,13 @@
   </url>
   
   <url>
-    <loc>/tags/wordpress/</loc>
+    <loc>/categories/wordpress/</loc>
     <lastmod>2016-05-04T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/wordpress/</loc>
+    <loc>/tags/wordpress/</loc>
     <lastmod>2016-05-04T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>

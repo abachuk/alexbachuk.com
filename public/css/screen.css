@@ -2140,3 +2140,19 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+   canvas {
+     display: block;
+     vertical-align: bottom;
+   }
+
+   /* ---- particles.js container ---- */
+
+   #particles-js {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-image: url("");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 50%;
+   }
