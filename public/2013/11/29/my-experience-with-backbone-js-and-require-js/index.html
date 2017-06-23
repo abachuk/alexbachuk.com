@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="My experience with backbone.js and require.js"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@netxm"/>
+
+
+
+  	<meta property="og:title" content="My experience with backbone.js and require.js &middot; Alex Bachuk" />
+  	<meta property="og:site_name" content="Alex Bachuk" />
+  	<meta property="og:url" content="/2013/11/29/my-experience-with-backbone-js-and-require-js/" />
+
+    
+        
+            <meta property="og:image" content="/none"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2013-11-29T23:03:46Z" />
+
+    
+    <meta property="article:tag" content="Backbone.js" />
+    
+    <meta property="article:tag" content="front end development" />
+    
+    <meta property="article:tag" content="JavaScript" />
+    
+    
+
+    <title>My experience with backbone.js and require.js &middot; Alex Bachuk</title>
+
+    
+    <meta name="description" content="Backbone.js is&amp;hellip; as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any websit" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+
+    
+        <link href="http://feeds.feedburner.com/..." rel="alternate" type="application/rss+xml" title="Alex Bachuk" />
+    
+    <meta name="generator" content="Hugo 0.23" />
+
+    <link rel="canonical" href="/2013/11/29/my-experience-with-backbone-js-and-require-js/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": ,
+        "logo": /images/ab-logo.svg
+    },
+    "author": {
+        "@type": "Person",
+        "name": ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": /images/ab-logo.svg,
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url": https://alexbachuk.com,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ],
+        "description": my bio
+        
+    },
+    "headline": My experience with backbone.js and require.js,
+    "name": My experience with backbone.js and require.js,
+    "wordCount": 629,
+    "timeRequired": "PT3M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": en
+    },
+    "url": /2013/11/29/my-experience-with-backbone-js-and-require-js/,
+    "datePublished": 2013-11-29T23:03Z,
+    "dateModified": 2013-11-29T23:03Z,
+    
+    "keywords": Backbone.js, front end development, JavaScript,
+    "description": ,
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": /2013/11/29/my-experience-with-backbone-js-and-require-js/
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-23815614-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            <i class='fa fa-heart'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/">blog</a>
+            </li>
+        
+            <i class='fa fa-heart'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">about me</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/books/">books</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/work/">my work</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/contact/">contact</a>
+            </li>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="http://feeds.feedburner.com/...">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="/"><img src="/images/ab-logo.svg" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">My experience with backbone.js and require.js</h1>
+        <small></small>
+
+        <section class="post-meta">
+         
+          <time class="post-date" datetime="2013-11-29T23:03:46Z">
+            Nov 29, 2013
+          </time>
+        
+         
+          <span class="post-tag small"><a href="/tags/Backbone.js/">#Backbone.js</a></span>
+         
+          <span class="post-tag small"><a href="/tags/front-end-development/">#front end development</a></span>
+         
+          <span class="post-tag small"><a href="/tags/JavaScript/">#JavaScript</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p><a href="http://backbonejs.org/">Backbone.js</a> is&hellip; as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it&rsquo;s MV* library, not a framework. There are not strict rules, developer has freedom to choose their own style of writing an app, for better or worse :)</p>
+
+<p><strong>Some background</strong>: I&rsquo;ve built few web applications with Backbone.js, and I don&rsquo;t have any experience with any other MV* javascript library or framework, so it&rsquo;s hard for me to compare. It took me sometime to understand why so many developers like this library, it looked like it introduces more complexity to already complex application. There are more and more tutorials popping up on the interwebs how to build web applications with Backbone or how to use router, model, collection, etc. But I couldn&rsquo;t find a high view explanation - why would someone use MVC (*) library instead of twenty something jQuery plugins and some hacked together script.</p>
+
+<p><strong>Maintenance</strong> is one of the most important parts in modern web project. If you built super awesome web app but then few months later it&rsquo;s a pain to add new feature or debug it - it&rsquo;s done wrong. Any web project has to be maintainable, no matter if you are the only one developer or part of a team. Write code, so other humans can read it. Backbone.js may not be the greatest example of super clean code structure as it doesn&rsquo;t provide clear guidance for developers how to structure applications, and that&rsquo;s why there are tens or even hundreds of different ways you can organize the code with Backbone.js. But at the same time it&rsquo;s one of the strengths of this library, more than one way of doing things, gives developers enough freedom to be creative but enough rules to follow to keep it readable.</p>
+
+<p><strong>Modularity</strong>. Backbone.js on its own is not very helpful to keep the code modular (break down application to smaller independent pieces that can be reused throughout the project or even outside the project). The library provides Models, Collections, Routers and Views classes, instances of which can and should be individual modules. That&rsquo;s where <a href="http://requirejs.org/">Require.js</a> comes in handy, it&rsquo;s a JavaScript file and module loader, manages JavaScript dependencies and modules. So, combination of Backbone.js and Require.js makes most of front end applications more maintainable, modular and even faster.</p>
+
+<p><strong>Speed and optimization</strong>. There are tons of ways you can optimize JavaScript application, event delegations, loops, ajax requests, asynchronous loading, cache, repaints and reflows, unnecessary DOM manipulations, etc. The advantage of using a good framework or library, there is a chance most of theses optimizations are already done for you. If you stick to Backbone.js and Require.js conventions, the app will be pretty fast. If you need more strict environment (smaller chance for bugs), there some good frameworks available for Backbone.js - like <a href="http://marionettejs.com/">Marionette.js</a> or <a href="http://chaplinjs.org/">Chaplin.js</a></p>
+
+<p><strong>Templates</strong>. One of Backbone.js dependencies is <a href="http://underscorejs.org/">Underscore.js</a>, which among other things provides <a href="http://alexbachuk.com/javascript-templates/">front end templates</a>. So, instead of using &ldquo;append&rdquo; or &ldquo;html&rdquo; on ajax success - you can just use templates, wrapped in script tag. If you have large app, this may become not very maintainable as you mix html and script tags and then number of templates grow. Require.js has <a href="http://requirejs.org/docs/api.html#text">text plugin</a> which allows you to use regular html files with dynamic values.</p>
+
+<p>These plugins (libraries) are just small part of big picture. JavaScript have become much more than just language for scripting animations. It&rsquo;s the most popular programming language and a lot of large scale application are being built with it. Without any structure any web application becomes a big mess, and it&rsquo;s important to use some kind of framework to keep everything organized and clean.</p>
+
+<p>What front end framework do you prefer?</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="/" style="background-image: url(/images/ab-logo.svg)"><span class="hidden">Alex Bachuk's Picture</span></a>
+    </figure>
+    
+
+    
+
+    
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'alexbachuk';
+  var disqus_url = '\/2013\/11\/29\/my-experience-with-backbone-js-and-require-js\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="/2015/01/12/wordpress-themes-less-is-more/">
+          <section class="post">
+              <h2>WordPress themes, less is more</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/">
+          <section class="post">
+              <h2>Launch Rails 4 application with passenger and nginx</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Alex Bachuk</a> All rights reserved &copy; 2007 - 2017</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/particles.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

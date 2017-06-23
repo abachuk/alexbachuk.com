@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reading on Alex Bachuk</title>
+    <link>/tags/reading/</link>
+    <description>Recent content in Reading on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Sun, 19 Mar 2017 15:08:40 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript Weekend List #01</title>
+      <link>/javascript-weekend-list-01/</link>
+      <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
+      
+      <guid>/javascript-weekend-list-01/</guid>
+      <description>I’m trying something new. Every week I’ll try to come up with the list of most interesting articles, books, news, tutorials and videos about web development. I’ll be using this list to keep myself up-to-date on everything that’s going on in the JavaScript, Node and front-end development community. This list may not have the most recent articles, but rather relevant content to stay sharp as a full stack developer.</description>
+    </item>
+    
+  </channel>
+</rss>

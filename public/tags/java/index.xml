@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Alex Bachuk</title>
+    <link>/tags/java/</link>
+    <description>Recent content in Java on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Mon, 30 Jul 2012 14:26:39 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to enable Java in Mac OS Monutain Lion</title>
+      <link>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</link>
+      <pubDate>Mon, 30 Jul 2012 14:26:39 +0000</pubDate>
+      
+      <guid>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</guid>
+      <description>After upgrading to Monutain Lion - Java wasn&amp;rsquo;t working in web browsers by default. Apple switched to software updates in App Store.
+So to install / update Java, open terminal and type
+/Applications/Utilities/Java Preferences.app/Contents/MacOS/Java Preferences  You should see dialog box with install button
+Don&amp;rsquo;t forget to restart the browser.</description>
+    </item>
+    
+  </channel>
+</rss>

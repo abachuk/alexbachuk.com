@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Backbone.js explained"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@netxm"/>
+
+
+
+  	<meta property="og:title" content="Backbone.js explained &middot; Alex Bachuk" />
+  	<meta property="og:site_name" content="Alex Bachuk" />
+  	<meta property="og:url" content="/2013/04/29/backbone-js-explained/" />
+
+    
+        
+            <meta property="og:image" content="/none"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2013-04-29T20:52:23Z" />
+
+    
+    <meta property="article:tag" content="Backbone.js" />
+    
+    <meta property="article:tag" content="JavaScript" />
+    
+    <meta property="article:tag" content="JSON" />
+    
+    <meta property="article:tag" content="WordPress" />
+    
+    
+
+    <title>Backbone.js explained &middot; Alex Bachuk</title>
+
+    
+    <meta name="description" content="Backbone.js is one of many javascript MVC frameworks, others are Angular.js, Phantom.js, Ember.js. Why backbone? It&amp;rsquo;s very small, only 6K minified, not op" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+
+    
+        <link href="http://feeds.feedburner.com/..." rel="alternate" type="application/rss+xml" title="Alex Bachuk" />
+    
+    <meta name="generator" content="Hugo 0.23" />
+
+    <link rel="canonical" href="/2013/04/29/backbone-js-explained/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": ,
+        "logo": /images/ab-logo.svg
+    },
+    "author": {
+        "@type": "Person",
+        "name": ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": /images/ab-logo.svg,
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url": https://alexbachuk.com,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ],
+        "description": my bio
+        
+    },
+    "headline": Backbone.js explained,
+    "name": Backbone.js explained,
+    "wordCount": 530,
+    "timeRequired": "PT3M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": en
+    },
+    "url": /2013/04/29/backbone-js-explained/,
+    "datePublished": 2013-04-29T20:52Z,
+    "dateModified": 2013-04-29T20:52Z,
+    
+    "keywords": Backbone.js, JavaScript, JSON, WordPress,
+    "description": ,
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": /2013/04/29/backbone-js-explained/
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-23815614-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            <i class='fa fa-heart'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/">blog</a>
+            </li>
+        
+            <i class='fa fa-heart'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">about me</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/books/">books</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/work/">my work</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/contact/">contact</a>
+            </li>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="http://feeds.feedburner.com/...">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="/"><img src="/images/ab-logo.svg" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Backbone.js explained</h1>
+        <small></small>
+
+        <section class="post-meta">
+         
+          <time class="post-date" datetime="2013-04-29T20:52:23Z">
+            Apr 29, 2013
+          </time>
+        
+         
+          <span class="post-tag small"><a href="/tags/Backbone.js/">#Backbone.js</a></span>
+         
+          <span class="post-tag small"><a href="/tags/JavaScript/">#JavaScript</a></span>
+         
+          <span class="post-tag small"><a href="/tags/JSON/">#JSON</a></span>
+         
+          <span class="post-tag small"><a href="/tags/WordPress/">#WordPress</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p><a href="http://backbonejs.org/">Backbone.js</a> is one of many javascript MVC frameworks, others are Angular.js, Phantom.js, Ember.js. Why backbone? It&rsquo;s very small, only 6K minified, not opinionated, meaning it doesn&rsquo;t dictate how you should organize your code. A lot of big companies (like Pandora, USA Today, New York Times, Rdio) use backbone.js to power their web applications.</p>
+
+<h3 id="what-can-backbone-js-do-for-you">What can Backbone.js do for you?</h3>
+
+<p>If you write any javascript code at all - you will appreciate the power backbone.js provides. Basically, it helps you organize your code when building ajax or single page applications. jQuery is great, but it&rsquo;s great to a certain point, some sliders, DOM manipulation, simple ajax requests. But when you start building more complexity - it becomes hard to manage all the callback functions. Backbone.js provides Model-View-Controller(router) structure to your app, it won&rsquo;t help you to build another slider or animate twitter logo, use jQuery for that (or CSS3).</p>
+
+<h3 id="how-to-start">How to start?</h3>
+
+<p>Backbone.js has only one hard dependency, it&rsquo;s small library written by the same developer, Jeremy Ashkenas (he also created CoffeScript) - <a href="http://underscorejs.org/">Underscore.js</a>, it&rsquo;s also very small, few kilobytes minified. It&rsquo;s also recommended to use jQuery (or zepto.js) for DOM manipulation. So, using these 3 libraries - you can get started building awesome Backbone.js app.</p>
+
+<h3 id="models-and-collections">Models and Collections</h3>
+
+<p>Models in Backbone represent data, let&rsquo;s say I have blog, which contains posts, comments, categories, tags, etc. In this case blog post is a model, category is collection, comment is a model.</p>
+
+<h3 id="views">Views</h3>
+
+<p>Views contain instructions how to render models or collections, once we receive some data from the server - view picks it up,  formats it, handles adding new or removing models, etc and passes this information to template (Handlebars, Underscore or any other template engine).</p>
+
+<h3 id="routers">Routers</h3>
+
+<p>Routers are responsible for navigation. Backbone.js uses HTML5 history API and gracefully degrades in old browsers (you guessed it - Internet Explorer). When building with backbone.js - in most cases you are building one page page application, so there are no page refresh, that&rsquo;s router&rsquo;s job. It directs application and where user wants to go. For example if I&rsquo;m on home page of my blog and need to view single blog post, I click on read more button, router passes this post ID to view, view requests model attached to this view to fetch content from the server and then renders the content to template.</p>
+
+<h3 id="example-app">Example App</h3>
+
+<p>Let&rsquo;s see how backbone.js works using real example, my blog. All data has to be in JSON format. I&rsquo;ve written article on <a href="http://alexbachuk.com/wordpress-and-phonegap-part-1/">JSON and WordPress</a>, here is JSON formatted blog that has all recent posts <a href="http://alexbachuk.com/api/get_recent_posts/">http://alexbachuk.com/api/get_recent_posts/</a></p>
+
+<ol>
+<li><p>First, let&rsquo;s add some <a href="http://html5boilerplate.com/">simple html boilerplate</a></p></li>
+
+<li><p>Include 3 libraries: jQuery, Underscore, Backbone</p></li>
+
+<li><p>Create app.js script file and include it after 3 libraries (preferably before closing </body> tag)</p></li>
+
+<li><p>Add this script to app.js (please note my JSON feed will not work in your app due to cross origin policy). I use var App and its properties for namespacing (it&rsquo;s much easier to maintain the app)</p></li>
+</ol>
+
+<p>Below is data loaded with backbone - I may need to style this a little more and maybe add more features like click events, etc.</p>
+
+<p><strong>Update</strong>: <a href="http://alexbachuk.com/javascript-templates/">how to use JavaScript template to render data in HTML document</a></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="/" style="background-image: url(/images/ab-logo.svg)"><span class="hidden">Alex Bachuk's Picture</span></a>
+    </figure>
+    
+
+    
+
+    
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'alexbachuk';
+  var disqus_url = '\/2013\/04\/29\/backbone-js-explained\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="/2013/05/14/wordpress-and-phonegap-part2/">
+          <section class="post">
+              <h2>WordPress and Phonegap (part2)</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/2013/04/24/music-for-coding-2/">
+          <section class="post">
+              <h2>Music for coding</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Alex Bachuk</a> All rights reserved &copy; 2007 - 2017</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/particles.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Adaptive express.js and angular.js application"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@netxm"/>
+
+
+
+  	<meta property="og:title" content="Adaptive express.js and angular.js application &middot; Alex Bachuk" />
+  	<meta property="og:site_name" content="Alex Bachuk" />
+  	<meta property="og:url" content="/2015/11/24/adaptive-express-js-and-angular-js-application/" />
+
+    
+        
+            <meta property="og:image" content="/none"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2015-11-24T03:13:34Z" />
+
+    
+    <meta property="article:tag" content="Angular.js" />
+    
+    <meta property="article:tag" content="JavaScript" />
+    
+    <meta property="article:tag" content="node.js" />
+    
+    <meta property="article:tag" content="responsive web design" />
+    
+    
+
+    <title>Adaptive express.js and angular.js application &middot; Alex Bachuk</title>
+
+    
+    <meta name="description" content="Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly di" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+
+    
+        <link href="http://feeds.feedburner.com/..." rel="alternate" type="application/rss+xml" title="Alex Bachuk" />
+    
+    <meta name="generator" content="Hugo 0.23" />
+
+    <link rel="canonical" href="/2015/11/24/adaptive-express-js-and-angular-js-application/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": ,
+        "logo": /images/ab-logo.svg
+    },
+    "author": {
+        "@type": "Person",
+        "name": ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": /images/ab-logo.svg,
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url": https://alexbachuk.com,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ],
+        "description": my bio
+        
+    },
+    "headline": Adaptive express.js and angular.js application,
+    "name": Adaptive express.js and angular.js application,
+    "wordCount": 478,
+    "timeRequired": "PT3M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": en
+    },
+    "url": /2015/11/24/adaptive-express-js-and-angular-js-application/,
+    "datePublished": 2015-11-24T03:13Z,
+    "dateModified": 2015-11-24T03:13Z,
+    
+    "keywords": Angular.js, JavaScript, node.js, responsive web design,
+    "description": ,
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": /2015/11/24/adaptive-express-js-and-angular-js-application/
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-23815614-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            <i class='fa fa-heart'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/">blog</a>
+            </li>
+        
+            <i class='fa fa-heart'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">about me</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/books/">books</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/work/">my work</a>
+            </li>
+        
+            <i class='fa fa-road'></i>
+            <li class="nav-opened" role="presentation">
+            	<a href="/contact/">contact</a>
+            </li>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="http://feeds.feedburner.com/...">Subscribe</a> </div>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="/"><img src="/images/ab-logo.svg" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Adaptive express.js and angular.js application</h1>
+        <small></small>
+
+        <section class="post-meta">
+         
+          <time class="post-date" datetime="2015-11-24T03:13:34Z">
+            Nov 24, 2015
+          </time>
+        
+         
+          <span class="post-tag small"><a href="/tags/Angular.js/">#Angular.js</a></span>
+         
+          <span class="post-tag small"><a href="/tags/JavaScript/">#JavaScript</a></span>
+         
+          <span class="post-tag small"><a href="/tags/node.js/">#node.js</a></span>
+         
+          <span class="post-tag small"><a href="/tags/responsive-web-design/">#responsive web design</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly different than desktop or it could be completely different depending on the project or the app. For example, marketing or news website might have similar experience, since its only goal is to deliver the content in accessible way. But, for other websites, like e-commerce mobile experience might be have totally different meaning. For example, users on mobile could be doing last minute purchase or they are on the train or waiting in the line, in that case the website has to have as few distractions as possible.</p>
+
+<p>There are 3 ways to make mobile website: 1) separate mobile website (m-dot) 2) responsive website 3) Adaptive website. Responsive is a great way to repurpose the code written for desktop, add some media queries and optimize graphics, it saves tons of time for developers in terms of coding and maintenance. One code base for all (mobile, tablet and desktop).</p>
+
+<p>What if your app is more complex and mobile web creates a whole new set of difficulties, or let’s say you’d like to support older version of IE for desktop users but want to take advantage of the latest webkit on mobile. Can’t have both at the same time. That’s where adaptive experience comes into play. If creating separate mobile web experience is what you chose for your app, then there is a way to make it adaptive and share a lot of the code between desktop and mobile. Making the app adaptive has few benefits: feature parity, maintenance (share some code), separation (deploy desktop separately from mobile), optimized experience for mobile (not just scaled down responsive website built for desktop).</p>
+
+<p>In this example I want to show how to do it using express.js on the server side and angular.js on the client side. The idea is one express app powers 2 completely separate angular.js apps that share some components (bower and internal). When the initial request is made, express determines whether it’s mobile device or desktop and the route loads correct html (ejs) template, which in turn bootstraps its own angular.js app. Sounds very simple, and it is.</p>
+
+<p><a href="http://alexbachuk.com/wp-content/uploads/2015/11/server-client-adaptive.jpg"><img src="http://alexbachuk.com/wp-content/uploads/2015/11/server-client-adaptive.jpg" alt="server-client-adaptive" /></a></p>
+
+<h3 id="shared-code">Shared code</h3>
+
+<p>We have one server (express.js) that powers both desktop and mobile. All routes on server are the same. On the client we share bower components and internal components.</p>
+
+<h3 id="differences">Differences</h3>
+
+<p>Client code base business logic has to be written separately for mobile (referencing shared components where needed). Routes can be different, but should be the same in order to make feature parity with desktop.</p>
+
+<p>I’m working on a sample “demo” project that will have express and angular set up for both mobile and desktop. Stay tuned or leave a comment if you’re interested or willing to help, that will speed up the process :)</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="/" style="background-image: url(/images/ab-logo.svg)"><span class="hidden">Alex Bachuk's Picture</span></a>
+    </figure>
+    
+
+    
+
+    
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'alexbachuk';
+  var disqus_url = '\/2015\/11\/24\/adaptive-express-js-and-angular-js-application\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="/learning-react-js-and-redux/">
+          <section class="post">
+              <h2>Learning React.js and Redux</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/2015/10/06/upload-files-with-meteor-js-aws-and-froala-wysiwyg-package/">
+          <section class="post">
+              <h2>Upload files with meteor.js, aws and froala wysiwyg package</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Alex Bachuk</a> All rights reserved &copy; 2007 - 2017</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/particles.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

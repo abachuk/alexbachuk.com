@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Alex Bachuk</title>
+    <link>/tags/productivity/</link>
+    <description>Recent content in Productivity on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Wed, 15 Mar 2017 15:06:04 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hacking productivity for software developers</title>
+      <link>/2017/03/15/hacking-productivity-for-software-developers/</link>
+      <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
+      
+      <guid>/2017/03/15/hacking-productivity-for-software-developers/</guid>
+      <description>As developers, usually we actually have limited time for coding. As part of the process of building and architecting software, we have to attend meetings, interact with other team members, read and write documentation, reply to emails or slack messages. And, at the end of the day, we still have to ship the code.
+It comes down to us to manage our time and stay as productive as possible. Productivity is just another way to use your time efficiently for different reasons:</description>
+    </item>
+    
+  </channel>
+</rss>

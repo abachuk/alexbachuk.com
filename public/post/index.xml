@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alex Bachuk</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Sun, 19 Mar 2017 15:08:40 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript Weekend List #01</title>
+      <link>/javascript-weekend-list-01/</link>
+      <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
+      
+      <guid>/javascript-weekend-list-01/</guid>
+      <description>I’m trying something new. Every week I’ll try to come up with the list of most interesting articles, books, news, tutorials and videos about web development. I’ll be using this list to keep myself up-to-date on everything that’s going on in the JavaScript, Node and front-end development community. This list may not have the most recent articles, but rather relevant content to stay sharp as a full stack developer.</description>
+    </item>
+    
+    <item>
+      <title>Hacking productivity for software developers</title>
+      <link>/2017/03/15/hacking-productivity-for-software-developers/</link>
+      <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
+      
+      <guid>/2017/03/15/hacking-productivity-for-software-developers/</guid>
+      <description>As developers, usually we actually have limited time for coding. As part of the process of building and architecting software, we have to attend meetings, interact with other team members, read and write documentation, reply to emails or slack messages. And, at the end of the day, we still have to ship the code.
+It comes down to us to manage our time and stay as productive as possible. Productivity is just another way to use your time efficiently for different reasons:</description>
+    </item>
+    
+    <item>
+      <title>Send emails with Ember.js &#43; Amazon SES &#43; Firebase</title>
+      <link>/send-emails-with-ember-js-amazon-ses-firebase/</link>
+      <pubDate>Fri, 10 Feb 2017 15:01:41 +0000</pubDate>
+      
+      <guid>/send-emails-with-ember-js-amazon-ses-firebase/</guid>
+      <description>There is a need to build client side only (front end) applications. Tools like Ember CLI, Create react app, Angular 2 CLI make it very easy to bootstrap a JavaScript app in just a few minutes and start building features.
+The challenge arises when you need to add a piece of server side logic, like sending emails, uploading files, authentication, or storing some data to the database. In most cases, it doesn’t make sense to add a full blown server, which requires to be maintained and setup .</description>
+    </item>
+    
+    <item>
+      <title>Uploading files with React.js and Node.js</title>
+      <link>/2016/12/17/uploading-files-with-react-js-and-node-js/</link>
+      <pubDate>Sat, 17 Dec 2016 14:58:17 +0000</pubDate>
+      
+      <guid>/2016/12/17/uploading-files-with-react-js-and-node-js/</guid>
+      <description>Uploading files is one of the most common tasks performed by web developers. It’s a pretty simple operation when using PHP or other server side frameworks. However, it is not so straightforward when using Node.js, unless you understand how to user Buffer API for reading streams of binary files (i.e. uploading file content as binary code). Luckily for us, the Node.js community came up with a few solutions.
+Project set up We are using React.</description>
+    </item>
+    
+    <item>
+      <title>WordPress workshop for beginners</title>
+      <link>/2016/05/04/wordpress-workshop-for-beginners/</link>
+      <pubDate>Wed, 04 May 2016 01:00:44 +0000</pubDate>
+      
+      <guid>/2016/05/04/wordpress-workshop-for-beginners/</guid>
+      <description>I&amp;rsquo;m running a WordPress workshop in Stamford Innovation Center (Stamford, CT) next Wednesday, May 11th. This class is for beginners who want to learn how set up and customize a website (personal or for business). It&amp;rsquo;s a great opportunity for anyone who wants to launch their website or someone who is getting into web development as a career move or a hobby. By understanding the basics of WordPress you can create a website and keep updating it yourself.</description>
+    </item>
+    
+    <item>
+      <title>Education for web developers</title>
+      <link>/education-for-web-developers/</link>
+      <pubDate>Fri, 25 Mar 2016 19:33:13 +0000</pubDate>
+      
+      <guid>/education-for-web-developers/</guid>
+      <description>I’ve been a web developer for over 8 years, and got hooked on web development the very first time I wrote HTML. The process of creating something people can use out of nothing is very powerful. Before I began my career in web development, I was doing construction and then later help-desk work. To me, programming is similar to construction. You have a problem, and you need to figure out the solution, using your skills and the tools available.</description>
+    </item>
+    
+    <item>
+      <title>Power of technical documentation</title>
+      <link>/power-of-technical-documentation/</link>
+      <pubDate>Thu, 10 Mar 2016 22:15:58 +0000</pubDate>
+      
+      <guid>/power-of-technical-documentation/</guid>
+      <description>Good technical documentation makes a difference There are so many open source projects out there that it’s hard to sort through them all. Some of them are successful, some of them not so much. If we take all popular projects (meaning over 2-3 thousands of stars on github) - they all have easy-to-follow detailed documentation. It doesn’t mean documentation makes these projects more successful; it means it removes the friction for developers to try and use the project.</description>
+    </item>
+    
+    <item>
+      <title>Why web developers need side projects</title>
+      <link>/2016/03/05/why-web-developers-need-side-projects/</link>
+      <pubDate>Sat, 05 Mar 2016 18:46:05 +0000</pubDate>
+      
+      <guid>/2016/03/05/why-web-developers-need-side-projects/</guid>
+      <description>A few years ago, when I was working at a startup (Ruby on Rails app) as a front end developer, from time to time I had to go in and make back end changes. It was terrifying because I didn’t know what I was doing. I decided to learn Rails and bought books and took online courses. However, it wasn’t as easy as I thought, because I only had front end background and some WordPress experience.</description>
+    </item>
+    
+    <item>
+      <title>React.js route state name</title>
+      <link>/react-js-route-state-name/</link>
+      <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
+      
+      <guid>/react-js-route-state-name/</guid>
+      <description>React.js router is at version 2.0 as of now. It’s changing fast. So this may not work few months from now. I had the case where I wanted to create REST URLs but still re-use components where possible. That’s one of the selling points of React as a library. In my case I wanted to re-use form in the “new” and “update” pages. Here is how I got it working:</description>
+    </item>
+    
+    <item>
+      <title>Learning React.js and Redux</title>
+      <link>/learning-react-js-and-redux/</link>
+      <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
+      
+      <guid>/learning-react-js-and-redux/</guid>
+      <description>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github.</description>
+    </item>
+    
+    <item>
+      <title>Adaptive express.js and angular.js application</title>
+      <link>/2015/11/24/adaptive-express-js-and-angular-js-application/</link>
+      <pubDate>Tue, 24 Nov 2015 03:13:34 +0000</pubDate>
+      
+      <guid>/2015/11/24/adaptive-express-js-and-angular-js-application/</guid>
+      <description>Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly different than desktop or it could be completely different depending on the project or the app. For example, marketing or news website might have similar experience, since its only goal is to deliver the content in accessible way. But, for other websites, like e-commerce mobile experience might be have totally different meaning.</description>
+    </item>
+    
+    <item>
+      <title>Upload files with meteor.js, aws and froala wysiwyg package</title>
+      <link>/2015/10/06/upload-files-with-meteor-js-aws-and-froala-wysiwyg-package/</link>
+      <pubDate>Tue, 06 Oct 2015 19:26:02 +0000</pubDate>
+      
+      <guid>/2015/10/06/upload-files-with-meteor-js-aws-and-froala-wysiwyg-package/</guid>
+      <description>It’s not very easy to upload files directly to Meteor, although there is a way to “emulate” file system and upload files directly to your server, why not use Amazon S3, which very cheap and fast to host static files. I find that having the separation gives some peace of mind, you can deploy your app, change servers, even delete the app or re-build it from the ground up, without affecting your or users&amp;rsquo; static files such as images, videos, documents, etc.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Application development book review and free giveaway</title>
+      <link>/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</link>
+      <pubDate>Tue, 30 Jun 2015 11:01:45 +0000</pubDate>
+      
+      <guid>/2015/06/30/wordpress-application-development-book-review-and-free-giveaway/</guid>
+      <description>TL;DR: Packtpub was kind enough to give me 2 digital copies to give away to my readers. Please leave a comment below, add a sentence or two what app you&amp;rsquo;re working on or why you&amp;rsquo;d like to win this book. I&amp;rsquo;ll pick 2 winners on July 12th.
+WordPress has come along way from being just a blogging platform to becoming a full-featured CMS site. It is now even being used as a platform for web and mobile applications.</description>
+    </item>
+    
+    <item>
+      <title>Web performance and how to optimize a website for speed</title>
+      <link>/2015/06/08/web-performance-and-how-to-optimize-a-website-for-speed/</link>
+      <pubDate>Mon, 08 Jun 2015 02:37:16 +0000</pubDate>
+      
+      <guid>/2015/06/08/web-performance-and-how-to-optimize-a-website-for-speed/</guid>
+      <description>The average website load time is 2.45 seconds, according to Google Analytics blog, posted in 2012. http://analytics.blogspot.com/2012/04/global-site-speed-overview-how-fast-are.html. Users are increasingly becoming more impatient, they expect a page to load fast. Especially mobile users, who are mostly on the go and need to access the information fast. Companies like amazon and google invest a lot of effort and have dedicated teams who work on improving not only their websites but helping others to do the same with their websites.</description>
+    </item>
+    
+    <item>
+      <title>Become a better web developer</title>
+      <link>/2015/04/28/become-a-better-web-developer/</link>
+      <pubDate>Tue, 28 Apr 2015 14:36:02 +0000</pubDate>
+      
+      <guid>/2015/04/28/become-a-better-web-developer/</guid>
+      <description>Recently I attended Fluent conference and saw very interesting presentation by Kathy Sierra (SeriousPony). It was about making badass developers. Since I&amp;rsquo;m trying to be a better web developer myself and constantly improve, I did a little more digging and found some useful information and tips.
+What skill do you need to have to be web developer? Some consider themselves as web developers when they can do HTML and some CSS, some - when they know JavaScript and some would like to add PHP to the list.</description>
+    </item>
+    
+    <item>
+      <title>Website audit</title>
+      <link>/2015/03/16/website-audit/</link>
+      <pubDate>Mon, 16 Mar 2015 01:38:29 +0000</pubDate>
+      
+      <guid>/2015/03/16/website-audit/</guid>
+      <description>Many website owners face the similar challenges sooner or later. Where my website is hosted, who is my domain registrar, do I have any backups, etc. It’s very easy to forget logins, passwords, and all related information to your website mechanics (what’s under the hood).
+The reason why this is happening is many people focus on their business only rather than website, very few have dedicated “website guy” who takes care of all the logistics.</description>
+    </item>
+    
+    <item>
+      <title>WordPress themes, less is more</title>
+      <link>/2015/01/12/wordpress-themes-less-is-more/</link>
+      <pubDate>Mon, 12 Jan 2015 02:09:36 +0000</pubDate>
+      
+      <guid>/2015/01/12/wordpress-themes-less-is-more/</guid>
+      <description>If you’ve ever used WordPress, chances are you’ve used a theme you found or bought, even if you’re web developer and know how to create custom one by yourself. And it’s easy to see why - there are a lot tons of WordPress themes available, free and premium. The industry has grown significantly since 2008. Theme shops started becoming real businesses and the theme industry exploded. Some Access to the internet, right set of skills and a computer can turn into very profitable business, even with little or nothing to invest.</description>
+    </item>
+    
+    <item>
+      <title>My experience with backbone.js and require.js</title>
+      <link>/2013/11/29/my-experience-with-backbone-js-and-require-js/</link>
+      <pubDate>Fri, 29 Nov 2013 23:03:46 +0000</pubDate>
+      
+      <guid>/2013/11/29/my-experience-with-backbone-js-and-require-js/</guid>
+      <description>Backbone.js is&amp;hellip; as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it&amp;rsquo;s MV* library, not a framework. There are not strict rules, developer has freedom to choose their own style of writing an app, for better or worse :)
+Some background: I&amp;rsquo;ve built few web applications with Backbone.js, and I don&amp;rsquo;t have any experience with any other MV* javascript library or framework, so it&amp;rsquo;s hard for me to compare.</description>
+    </item>
+    
+    <item>
+      <title>Launch Rails 4 application with passenger and nginx</title>
+      <link>/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</link>
+      <pubDate>Fri, 13 Sep 2013 02:21:02 +0000</pubDate>
+      
+      <guid>/2013/09/13/launch-rails-4-application-with-passenger-and-nginx/</guid>
+      <description>I&amp;rsquo;ve built simple Rails application. Then I decided to move it to &amp;ldquo;interwebs&amp;rdquo; and make it live. But&amp;hellip; it wasnt&amp;rsquo; as straigtforward as I thought. Even though there are gazilion tutorials - it just didn&amp;rsquo;t work. After about work of struggle - finally I figured it out. Here is step by step instruction that worked for me, I borrowed different steps from different tutorials. My stack is Linux, Nginx, Passenger, Ruby 2, Rails 4, MySQL, Node.</description>
+    </item>
+    
+    <item>
+      <title>Flexible WordPress dashboard, tips for customization</title>
+      <link>/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</link>
+      <pubDate>Tue, 20 Aug 2013 02:54:36 +0000</pubDate>
+      
+      <guid>/2013/08/20/flexible-wordpress-dashboard-tips-for-customization/</guid>
+      <description>WordPress is my CMS of choice. Every single project I do is very different from the previous one. And not only on the front-end, but on the back-end as well. It&amp;rsquo;s not just static pages and blog, WordPress can do a lot more. But what if you build a project for a client and besides making it look great with CSS, JavaScript animations and making responsive - you also have to make it easy to manage, edit and maintain, what if client is not a web developer?</description>
+    </item>
+    
+    <item>
+      <title>Stay up to date with front-end development </title>
+      <link>/2013/07/17/stay-up-to-date-with-front-end-development/</link>
+      <pubDate>Wed, 17 Jul 2013 01:38:52 +0000</pubDate>
+      
+      <guid>/2013/07/17/stay-up-to-date-with-front-end-development/</guid>
+      <description>My day job is front end web developer. That means I write JavaScript, HTML and CSS every single day (in that order). Front end development is not about static html pages anymore and JavaScript is not just for animations. It&amp;rsquo;s much more than that. You can build any web application with these open source technologies, including on the server side (Node.js).
+In this space web browsers are the ones who dictate how we, as developers, can utilize latest and greatest tricks, CSS3 animations and layout syntax (flexbox, columns), HTML5 APIs(localstorage, geolocation), JavaScript methods(map, pluck).</description>
+    </item>
+    
+    <item>
+      <title>JavaScript templates</title>
+      <link>/2013/06/22/javascript-templates/</link>
+      <pubDate>Sat, 22 Jun 2013 16:23:57 +0000</pubDate>
+      
+      <guid>/2013/06/22/javascript-templates/</guid>
+      <description>JavaScript is the most used programming language now, it&amp;rsquo;s very powerful and can do more than home page slideshow or animations. AJAX is a big part of JavaScript and one of the reasons this language is so popular. It&amp;rsquo;s possible to get any content from the server and send any content back to server, two way communication. Libraries and frameworks like Backbone.js make this process very elegant and organized. Few years ago it was a standard proces to append html in AJAX callback to the DOM, and it works, and if it&amp;rsquo;s done right (append all the content at once instead of at each iteration of a loop), it&amp;rsquo;s even ok.</description>
+    </item>
+    
+    <item>
+      <title>WordPress celebrated 10 year anniversary</title>
+      <link>/2013/06/02/wordpress-celebrated-10-year-anniversary/</link>
+      <pubDate>Sun, 02 Jun 2013 03:10:00 +0000</pubDate>
+      
+      <guid>/2013/06/02/wordpress-celebrated-10-year-anniversary/</guid>
+      <description>Few days ago WordPress community celebrated 10 year anniversary. It&amp;rsquo;s a huge milestone for an open source project and for its community, which is the driving power behind the project&amp;rsquo;s success.
+I started developing websites almost five years ago, and after 1 year of struggling with HTML, CSS and JavaScript - I decided to try different platforms to speed things up, first one was Joomla, then WordPress, then Drupal. WordPress definitely looked like the winner, I used version 2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Phonegap (part3)</title>
+      <link>/2013/05/28/wordpress-and-phonegap-part3/</link>
+      <pubDate>Tue, 28 May 2013 01:34:05 +0000</pubDate>
+      
+      <guid>/2013/05/28/wordpress-and-phonegap-part3/</guid>
+      <description>In part 1 and 2 we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&amp;rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.
+I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc.</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Phonegap (part2)</title>
+      <link>/2013/05/14/wordpress-and-phonegap-part2/</link>
+      <pubDate>Tue, 14 May 2013 04:36:13 +0000</pubDate>
+      
+      <guid>/2013/05/14/wordpress-and-phonegap-part2/</guid>
+      <description>In Part 1, we learned how to get WordPress to work as backend platform for our future mobile app. Now we have nicely formatted JSON feed coming from WordPress and we can use it anywhere with ajax request. This part will explain how to get phonegap set up and prepare some boilerplate for our app using jQuery Mobile, CSS and HTML.
+Phonegap has really well explained guides on setting up phonegap locally for iOS, Android or any other target platform.</description>
+    </item>
+    
+    <item>
+      <title>Backbone.js explained</title>
+      <link>/2013/04/29/backbone-js-explained/</link>
+      <pubDate>Mon, 29 Apr 2013 20:52:23 +0000</pubDate>
+      
+      <guid>/2013/04/29/backbone-js-explained/</guid>
+      <description>Backbone.js is one of many javascript MVC frameworks, others are Angular.js, Phantom.js, Ember.js. Why backbone? It&amp;rsquo;s very small, only 6K minified, not opinionated, meaning it doesn&amp;rsquo;t dictate how you should organize your code. A lot of big companies (like Pandora, USA Today, New York Times, Rdio) use backbone.js to power their web applications.
+What can Backbone.js do for you? If you write any javascript code at all - you will appreciate the power backbone.</description>
+    </item>
+    
+    <item>
+      <title>Music for coding</title>
+      <link>/2013/04/24/music-for-coding-2/</link>
+      <pubDate>Wed, 24 Apr 2013 20:18:34 +0000</pubDate>
+      
+      <guid>/2013/04/24/music-for-coding-2/</guid>
+      <description>Great mix by eSQUIRE Music. As always - adds energy and increases productivity :)</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Phonegap (part 1)</title>
+      <link>/2013/04/20/wordpress-and-phonegap-part-1/</link>
+      <pubDate>Sat, 20 Apr 2013 17:41:42 +0000</pubDate>
+      
+      <guid>/2013/04/20/wordpress-and-phonegap-part-1/</guid>
+      <description>WordPress is an excellent CMS and provides a lot of flexibility for developers, users, authors, and everyone who manages websites.
+I wrote a blog post phonegap few months ago and few people were interested to learn more how to use WordPress as a backend for a mobile app. Phonegap is just one of the tools you can build a mobile app. WordPress is, in this case, API server, it manages database and all the content stored in there.</description>
+    </item>
+    
+    <item>
+      <title>Music for coding</title>
+      <link>/2013/04/17/music-for-coding/</link>
+      <pubDate>Wed, 17 Apr 2013 15:54:17 +0000</pubDate>
+      
+      <guid>/2013/04/17/music-for-coding/</guid>
+      <description>This mix by Avicii is great when you code, adds a lot of energy :)</description>
+    </item>
+    
+    <item>
+      <title>jQueryTO in Toronto Canada.</title>
+      <link>/2013/03/04/jqueryto-in-toronto-canada/</link>
+      <pubDate>Mon, 04 Mar 2013 02:10:11 +0000</pubDate>
+      
+      <guid>/2013/03/04/jqueryto-in-toronto-canada/</guid>
+      <description>This was my first web development conference that’s not WordCamp. I started developing with JavaScript quite recently, before that I was using jQuery to manipulate DOM and use others plugins (which works for small websites pretty well). Since it was not that far from New York City - I decided to attend and see what’s new in jQuery world (especially after I saw Paul Irish and Addy Osmani among other speakers).</description>
+    </item>
+    
+    <item>
+      <title>jQuery Mobile Active Page URL</title>
+      <link>/2013/02/13/jquery-mobile-active-page-url/</link>
+      <pubDate>Wed, 13 Feb 2013 19:40:22 +0000</pubDate>
+      
+      <guid>/2013/02/13/jquery-mobile-active-page-url/</guid>
+      <description>jQuery mobile contains several pages in DOM at once to make page transition smooth and fast, and also pre-caching static pages. If you need to get current URL, and decided to use
+window.location.href   it will return previous page URL, because active page is inserted into the DOM via AJAX. To get current page URL use
+$.mobile.activePage[0].baseURI
+  </description>
+    </item>
+    
+    <item>
+      <title>Closures in JavaScript</title>
+      <link>/2013/02/07/closures-in-javascript/</link>
+      <pubDate>Thu, 07 Feb 2013 17:19:25 +0000</pubDate>
+      
+      <guid>/2013/02/07/closures-in-javascript/</guid>
+      <description>Closures are very nice way to nest functions inside other functions. Closure function is an inner function within parent function and can access all the variables from the parent function. A function have access to all its variables and methods, and closure functions have access to both outer function&amp;rsquo;s variables and its own. Closures store references of outer variables, not copies and that&amp;rsquo;s why they can change the outer variables&amp;rsquo; values.</description>
+    </item>
+    
+    <item>
+      <title>Customizing WordPress dashboard</title>
+      <link>/2013/02/03/customizing-wordpress-dashboard/</link>
+      <pubDate>Sun, 03 Feb 2013 19:58:32 +0000</pubDate>
+      
+      <guid>/2013/02/03/customizing-wordpress-dashboard/</guid>
+      <description>As a WordPress expert I almost always try to convince or at least recommend it for any project I do, either it&amp;rsquo;s small website for business around the corner or startup trying to get off the ground and build minimum viable product, although WordPress is not ultimate solution for any web app out there - it can do a lot of stuff, after all it&amp;rsquo;s just php files and mysql database, so it can do anything php can do&amp;hellip; and it can do a lot.</description>
+    </item>
+    
+    <item>
+      <title>PhoneGap and mobile web apps</title>
+      <link>/2013/01/27/phonegap-and-mobile-web-apps/</link>
+      <pubDate>Sun, 27 Jan 2013 22:51:27 +0000</pubDate>
+      
+      <guid>/2013/01/27/phonegap-and-mobile-web-apps/</guid>
+      <description>Mobile now is big part of the web. More and more people are getting phones that are more capable than average computers, in terms of HTML5 support. They can detect your location with gps, have great camera (usually more than one), always connected to the Internet, usually support the latest technologies. For web developers - this is great, that means we can build very cool stuff, cutting edge websites use css3 animations, detect user locations, etc.</description>
+    </item>
+    
+    <item>
+      <title>Quick Tip: Load backbonejs in WordPress (the right way)</title>
+      <link>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
+      <pubDate>Tue, 22 Jan 2013 01:17:48 +0000</pubDate>
+      
+      <guid>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
+      <description>Now that WordPress 3.5 sips with Backbone and Underscore - you can easily include them into your WordPress theme and do some fun stuff. Put this code in functions.php
+ function loadBackbone() { wp_enqueue_script(&#39;backbone&#39;); }
+add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp;rsquo;);</description>
+    </item>
+    
+    <item>
+      <title>My experience with HTML Email development</title>
+      <link>/2013/01/11/my-experience-with-html-email-development/</link>
+      <pubDate>Fri, 11 Jan 2013 03:09:59 +0000</pubDate>
+      
+      <guid>/2013/01/11/my-experience-with-html-email-development/</guid>
+      <description>I started doing web development around 2008, at that time HTML tables became obsolete and a lot of web developers were advocating for web standards. And as a good practice, I started learning web development the right way, divs and css instead of tables in inline styles.
+In my career I never had to do HTML emails and when clients asked me to make nice HTML email templates - I either outsourced it or directed them to one of the marketplaces to pick pre-made template and then changed a few thing here and there.</description>
+    </item>
+    
+    <item>
+      <title>How to develop WordPress locally with mamp pro and dyndns</title>
+      <link>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</link>
+      <pubDate>Thu, 03 Jan 2013 16:53:13 +0000</pubDate>
+      
+      <guid>/2013/01/03/develop-wordpress-locally-with-mamp-pro-and-dyndns/</guid>
+      <description>When developing websites for clients I always try to make everything as transparent as possible. And for that reason I set up staging environment on my web server, something like separate folder and point the client to that URL while I develop the website, so they can keep track of all the changes and we can communicate better.
+Until few months ago this approach was 100% ok with me, I just developed directly on remote server via FTP (my coda editor is perfect for that), but then I started to notice new cool stuff popping up almost every few months or weeks.</description>
+    </item>
+    
+    <item>
+      <title>WordPress 3.5 released</title>
+      <link>/2012/12/17/wordpress-3-5-released/</link>
+      <pubDate>Mon, 17 Dec 2012 07:23:53 +0000</pubDate>
+      
+      <guid>/2012/12/17/wordpress-3-5-released/</guid>
+      <description>WordPress 3.5 has been released. It&amp;rsquo;s got very nice dashboard clean up. Everything is looking much lighter and feels faster.
+The biggest change is media management. Now it&amp;rsquo;s more intuitive and more easy to upload, manage and configure all your images, audio and video files in one place. Also added drag and drop support and galleries.
+Entire admin dashboard is retina ready (good news for lucky retina macbooks owners). Link manager, which I used only twice in my 4 years of WordPress development experience.</description>
+    </item>
+    
+    <item>
+      <title>Responsive web design</title>
+      <link>/2012/10/13/responsive-web-design/</link>
+      <pubDate>Sat, 13 Oct 2012 02:15:07 +0000</pubDate>
+      
+      <guid>/2012/10/13/responsive-web-design/</guid>
+      <description>Responsive web design is a &amp;ldquo;fancy&amp;rdquo; term for fluid grid layout that adapts to any screen size. Basically, it&amp;rsquo;s layout that is makes everything easily readable and viewable on mobile and tablet devices.
+I think responsive web design is the best and should be the only way to build mobile websites. Instead of developing websites for desktop and mobile separately and then maintaining two copies of content - just build one, responsive version and it&amp;rsquo;s optimized for any device available now and in the future.</description>
+    </item>
+    
+    <item>
+      <title>How to get started with git in development</title>
+      <link>/2012/09/17/how-to-get-started-with-git-in-development/</link>
+      <pubDate>Mon, 17 Sep 2012 04:30:30 +0000</pubDate>
+      
+      <guid>/2012/09/17/how-to-get-started-with-git-in-development/</guid>
+      <description>While working with other freelancers on a couple of projects we were having a hard time exchanging the code and collaborating efficiently. Making changes on live or staging server via FTP is fast and great, but there is one big problem with that - we overwrite each others changes. Or if I work alone on a project - I just can&amp;rsquo;t keep track of what was done and exactly what file I changed last time.</description>
+    </item>
+    
+    <item>
+      <title>Install Ruby on Rails</title>
+      <link>/2012/08/12/install-ruby-on-rails/</link>
+      <pubDate>Sun, 12 Aug 2012 05:42:44 +0000</pubDate>
+      
+      <guid>/2012/08/12/install-ruby-on-rails/</guid>
+      <description>Recently I started learning ruby on rails. And unlike other languages everything happens mostly in terminal, so next thing I know - I have to use command line now. I tried few tutorials here and there but couldn&amp;rsquo;t find anything that explained how to properly install ruby and rails step by step, something for ruby beginners. So, I wrote my process here. I&amp;rsquo;m using mac and ruby 1.8.7 is pre-installed with Mac OS 10.</description>
+    </item>
+    
+    <item>
+      <title>How to enable Java in Mac OS Monutain Lion</title>
+      <link>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</link>
+      <pubDate>Mon, 30 Jul 2012 14:26:39 +0000</pubDate>
+      
+      <guid>/2012/07/30/how-to-enable-java-in-mac-os-monutain-lion/</guid>
+      <description>After upgrading to Monutain Lion - Java wasn&amp;rsquo;t working in web browsers by default. Apple switched to software updates in App Store.
+So to install / update Java, open terminal and type
+/Applications/Utilities/Java Preferences.app/Contents/MacOS/Java Preferences  You should see dialog box with install button
+Don&amp;rsquo;t forget to restart the browser.</description>
+    </item>
+    
+    <item>
+      <title>WordPress as e-commerce platform</title>
+      <link>/2012/07/25/wordpress-as-e-commerce-platform/</link>
+      <pubDate>Wed, 25 Jul 2012 04:09:00 +0000</pubDate>
+      
+      <guid>/2012/07/25/wordpress-as-e-commerce-platform/</guid>
+      <description>As Internet became accessible to almost every household in US and around the World, every business owner, artist, merchant can sell their goods or services to any person or company in the World directly avoiding big costs setting physical store, all the legal paperwork, etc.
+Wikipedia says: Electronic commerce, commonly known as e-commerce or e-comm, is the buying and selling of products or services over electronic systems such as the Internet and other computer networks.</description>
+    </item>
+    
+    <item>
+      <title>jQuery Mobile basics</title>
+      <link>/2012/07/18/jquery-mobile-basics/</link>
+      <pubDate>Wed, 18 Jul 2012 19:15:18 +0000</pubDate>
+      
+      <guid>/2012/07/18/jquery-mobile-basics/</guid>
+      <description>jQuery Mobile is touch friendly and AJAX powered framework which was built by jQuery team.
+It is a great framework for building mobile websites or apps and if combine it with responsive design - it becomes even better. Nowadays everyone knows that the best way to build a website is responsive way, a “write once, run everywhere” style.
+jQuery mobile uses AJAX for page loading and provides flexible theming tool - theme roller, default theme is very iOS-like, but it&amp;rsquo;s very easy to change just changing default CSS.</description>
+    </item>
+    
+    <item>
+      <title>My working set up and workflow</title>
+      <link>/2012/05/31/my-working-set-up-and-workflow/</link>
+      <pubDate>Thu, 31 May 2012 18:06:52 +0000</pubDate>
+      
+      <guid>/2012/05/31/my-working-set-up-and-workflow/</guid>
+      <description>Currently I work on 27 iMac (i5, 12Gb 24Gb RAM, 256 vertex 4 SSD, OSX Lion). Only very recently (about 1.5 years) switched from Windows PC to Mac - now I can say for sure, it was the right choice. Having iMac (and also macbook pro) I never ran into issues with a virus, blue screen or freezing on start up or any other similar problems, of course the computer becomes slower and slower as you use it, but after I switched to SSD this problem disappeared.</description>
+    </item>
+    
+  </channel>
+</rss>

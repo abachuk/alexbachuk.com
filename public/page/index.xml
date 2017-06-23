@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Alex Bachuk</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Wed, 21 Jun 2017 07:00:46 +0000</lastBuildDate>
+    
+	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Wed, 21 Jun 2017 07:00:46 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About page coming soon My main goal is to deliver high quality websites that help small and medium-sized businesses get the most out of their online presence optimizing websites for small and medium screens such as iPhones, iPads, android devices and retina displays
+Currently I&amp;rsquo;m available for hire as a freelancer for new projects. When not coding I can be found at Starbucks with my iPad reading a book or at the local gym.</description>
+    </item>
+    
+    <item>
+      <title>My Work</title>
+      <link>/work/</link>
+      <pubDate>Wed, 21 Jun 2017 07:00:46 +0000</pubDate>
+      
+      <guid>/work/</guid>
+      <description> Projects page coming soon </description>
+    </item>
+    
+    <item>
+      <title>WordPress</title>
+      <link>/wordpress/</link>
+      <pubDate>Wed, 09 Jan 2013 12:18:37 +0000</pubDate>
+      
+      <guid>/wordpress/</guid>
+      <description>WordPress is the most popular CMS in the world WordPress is my preferred content management system, because it’s very flexible, has user-friendly dashboard, extendable with free and premium plugins and secure. WordPress is the most popular publishing platform in the world and currently powers over 60 million websites of websites including some Fortune500 companies. It’s an open source platform, which means you don’t have to pay any license fees for the core software and there are few thousand plugins and themes available on the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sat, 29 Dec 2012 07:00:46 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Please fill out the form to get in touch with me. If you have a project you need help with - please include as much information about your project as you can.      </description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/blog/</link>
+      <pubDate>Sat, 29 Dec 2012 07:00:32 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description>Blog</description>
+    </item>
+    
+  </channel>
+</rss>

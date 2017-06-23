@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on Alex Bachuk</title>
+    <link>/tags/education/</link>
+    <description>Recent content in Education on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Fri, 25 Mar 2016 19:33:13 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Education for web developers</title>
+      <link>/education-for-web-developers/</link>
+      <pubDate>Fri, 25 Mar 2016 19:33:13 +0000</pubDate>
+      
+      <guid>/education-for-web-developers/</guid>
+      <description>I’ve been a web developer for over 8 years, and got hooked on web development the very first time I wrote HTML. The process of creating something people can use out of nothing is very powerful. Before I began my career in web development, I was doing construction and then later help-desk work. To me, programming is similar to construction. You have a problem, and you need to figure out the solution, using your skills and the tools available.</description>
+    </item>
+    
+  </channel>
+</rss>

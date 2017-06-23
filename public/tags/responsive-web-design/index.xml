@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Responsive Web Design on Alex Bachuk</title>
+    <link>/tags/responsive-web-design/</link>
+    <description>Recent content in Responsive Web Design on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Tue, 24 Nov 2015 03:13:34 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/responsive-web-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adaptive express.js and angular.js application</title>
+      <link>/2015/11/24/adaptive-express-js-and-angular-js-application/</link>
+      <pubDate>Tue, 24 Nov 2015 03:13:34 +0000</pubDate>
+      
+      <guid>/2015/11/24/adaptive-express-js-and-angular-js-application/</guid>
+      <description>Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly different than desktop or it could be completely different depending on the project or the app. For example, marketing or news website might have similar experience, since its only goal is to deliver the content in accessible way. But, for other websites, like e-commerce mobile experience might be have totally different meaning.</description>
+    </item>
+    
+    <item>
+      <title>Responsive web design</title>
+      <link>/2012/10/13/responsive-web-design/</link>
+      <pubDate>Sat, 13 Oct 2012 02:15:07 +0000</pubDate>
+      
+      <guid>/2012/10/13/responsive-web-design/</guid>
+      <description>Responsive web design is a &amp;ldquo;fancy&amp;rdquo; term for fluid grid layout that adapts to any screen size. Basically, it&amp;rsquo;s layout that is makes everything easily readable and viewable on mobile and tablet devices.
+I think responsive web design is the best and should be the only way to build mobile websites. Instead of developing websites for desktop and mobile separately and then maintaining two copies of content - just build one, responsive version and it&amp;rsquo;s optimized for any device available now and in the future.</description>
+    </item>
+    
+  </channel>
+</rss>
