@@ -8,13 +8,19 @@ title: Contact
 wordpress_id: 6
 image: /images/nyc.jpg
 ---
-
+<div class="container contact">
+<div class="col-md-6 pull-left">
+<img src="/images/alex-bachuk.jpg" />
 Please fill out the form to get in touch with me. If you have a project you need help with -  please include as much information about your project as you can.
+</div>
 
-<form>
-  <input placeholder="Name" />
-  <input type="email" placeholder="Email" />
-  <input placeholder="Phone" />
-  <textarea placeholder="Notes"></textarea>
+<div class="col-md-6 pull-right">
+<form method="post" id="contact-form">
+  <input id="name" name="name" type="text" required placeholder="Name" />
+  <input id="email" name="email" required type="email" placeholder="Email" />
+  <input id="phone" name="phone" type="text" required placeholder="Phone" />
+  <textarea id="notes" name="notes" required placeholder="Notes"></textarea>
   <input type="submit" value="Send">
 </form>
+</div>
+</div>

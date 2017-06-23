@@ -5,21 +5,29 @@ title: Alex Bachuk
 LanguageCode: "en-US"
 paginate: 5
 DisqusShortname: alexbachuk
-Copyright: All rights reserved - 2017
+Copyright: All rights reserved &copy; 2008 - 2017
 canonifyurls: true
 permalinks:
   post: /:slug/
   page: /:slug/
 menu:
   main:
-      - Name: "about hugo"
+      - Name: "about me"
         Pre: "<i class='fa fa-heart'></i>"
-        Weight: -110
+        Weight: 3
         Identifier: "about"
         URL: "/about/"
+      - Name: "my work"
+        Pre: "<i class='fa fa-road'></i>"
+        Weight: 2
+        URL: "/work/"
+      - Name: "books"
+        Pre: "<i class='fa fa-road'></i>"
+        Weight: 2
+        URL: "/books/"
       - Name: "contact"
         Pre: "<i class='fa fa-road'></i>"
-        Weight: -100
+        Weight: 1
         URL: "/contact/"
 params:
   description: JavaScript developer

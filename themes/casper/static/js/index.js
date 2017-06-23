@@ -20,6 +20,23 @@
             $("body").toggleClass("nav-opened nav-closed");
         });
 
+
+
+    });
+
+    $('#contact-form').submit(function(event){
+      event.preventDefault();
+      var values = $(this).serializeArray();
+      var form = $(this);
+      $.post('#', values, function(res) {
+        console.log(res);
+        if (res && !res.error && res.status === "success") {
+        // form.find("input[type=text], input[type=email], textarea").val("");
+          form.replaceWith('<div class="success">Thank you! I will get back to you as soon I can.</div>');
+        } else {
+          form.replaceWith('<div class="fail">Something is not right. Please try to refresh the page and re-submit the form. Or DM me on twitter <a href="https://twitter.com/netxm">@netxm</a></div>');
+        }
+      });
     });
 
     // Arctic Scroll by Paul Adam Davis
