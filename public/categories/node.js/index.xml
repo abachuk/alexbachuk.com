@@ -5,7 +5,7 @@
     <link>/categories/node.js/</link>
     <description>Recent content in Node.Js on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Sat, 17 Dec 2016 14:58:17 +0000</lastBuildDate>
     
@@ -14,10 +14,10 @@
     
     <item>
       <title>Uploading files with React.js and Node.js</title>
-      <link>/2016/12/17/uploading-files-with-react-js-and-node-js/</link>
+      <link>/uploading-files-with-react-js-and-node-js/</link>
       <pubDate>Sat, 17 Dec 2016 14:58:17 +0000</pubDate>
       
-      <guid>/2016/12/17/uploading-files-with-react-js-and-node-js/</guid>
+      <guid>/uploading-files-with-react-js-and-node-js/</guid>
       <description>Uploading files is one of the most common tasks performed by web developers. It’s a pretty simple operation when using PHP or other server side frameworks. However, it is not so straightforward when using Node.js, unless you understand how to user Buffer API for reading streams of binary files (i.e. uploading file content as binary code). Luckily for us, the Node.js community came up with a few solutions.
 Project set up We are using React.</description>
     </item>

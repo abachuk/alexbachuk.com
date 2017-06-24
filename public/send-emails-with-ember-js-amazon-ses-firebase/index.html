@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-us">
 <head>
 
     <meta charset="utf-8" />
@@ -7,7 +7,9 @@
 
     
     
-        <meta name="twitter:card" content="summary"/>
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/2017/send-emails.jpeg"/>
     
 
 
@@ -23,9 +25,7 @@
   	<meta property="og:url" content="/send-emails-with-ember-js-amazon-ses-firebase/" />
 
     
-        
-            <meta property="og:image" content="/none"/>
-        
+       <meta property="og:image" content="/images/2017/send-emails.jpeg"/>
     
 
     
@@ -107,7 +107,7 @@
     },
     "headline": Send emails with Ember.js &#43; Amazon SES &#43; Firebase,
     "name": Send emails with Ember.js &#43; Amazon SES &#43; Firebase,
-    "wordCount": 537,
+    "wordCount": 535,
     "timeRequired": "PT3M",
     "inLanguage": {
       "@type": "Language",
@@ -116,6 +116,13 @@
     "url": /send-emails-with-ember-js-amazon-ses-firebase/,
     "datePublished": 2017-02-10T15:01Z,
     "dateModified": 2017-02-10T15:01Z,
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": //images/2017/send-emails.jpeg,
+        "width": 3000,
+        "height": 1445
+    },
     
     "keywords": AWS, Ember.js, Firebase,
     "description": ,
@@ -196,8 +203,10 @@
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/2017/send-emails.jpeg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -261,25 +270,22 @@
 
 <p>Here is an implementation for firebase. Add <a href="https://github.com/firebase/emberfire">EmberFire</a> to your project. After adding API keys to <em>enviroment.js</em>, you can start using firebase in your code. Let’s say we have <em>contact.js</em> controller, which handles the form’s “submit” action.</p>
 
+<script src="https://gist.github.com/abachuk/56ffc88dbf654d25110b059091c0395a.js"></script>
+
 <p>That’s all you need to do to save ANY data to Firebase using EmberFire adapter. Pretty easy.</p>
 
 <p>Now, in an ideal world, Firebase would trigger some kind of event and send out an email notifying our admin that the record has been created. But it’s not yet supported. We can use <a href="https://aws.amazon.com/ses/">Amazon SES</a> instead for this.</p>
 
 <ol>
-<li><p>Sign up for an Amazon account</p></li>
-
-<li><p>Verify the email address (check your email and click the link). Pay attention to the region, verification, prices and limits that are region specific. <img src="https://cdn-images-1.medium.com/max/1200/1*9ZiJT4Et7bcOotTh9ZiwfA.png" alt="" /></p></li>
+<li>Sign up for an Amazon account</li>
+<li>Verify the email address (check your email and click the link). Pay attention to the region, verification, prices and limits that are region specific. <img src="https://cdn-images-1.medium.com/max/1200/1*9ZiJT4Et7bcOotTh9ZiwfA.png" alt="" /></li>
+<li>By default, the basic account is in sandbox mode. Which means you can only send test emails to verified emails. <a href="https://console.aws.amazon.com/support/home?region=us-east-1#/case/create">Request a limit increase</a> in order to be able to send emails en masse. <a href="http://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html">Here is a more detailed documentation</a>. I got mine approved to 50K emails per day within 24 hours (thanks Amazon)</li>
+<li>Add AWS <em>npm package npm install aws-sdk -s</em>, and then add <a href="https://github.com/ef4/ember-browserify"><em>ember-browserify</em></a> so we can access the npm package in the browser.</li>
 </ol>
 
-<p>3.</p>
+<p><strong>Here is the full contact.js controller:</strong></p>
 
-<p>By default, the basic account is in sandbox mode. Which means you can only send test emails to verified emails. <a href="https://console.aws.amazon.com/support/home?region=us-east-1#/case/create">Request a limit increase</a> in order to be able to send emails en masse. <a href="http://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html">Here is a more detailed documentation</a>. I got mine approved to 50K emails per day within 24 hours (thanks Amazon)</p>
-
-<p>4.</p>
-
-<p>Add AWS <em>npm package npm install aws-sdk -s</em>, and then add <a href="https://github.com/ef4/ember-browserify"><em>ember-browserify</em></a> so we can access the npm package in the browser.</p>
-
-<p>Here is the full contact.js controller:</p>
+<script src="https://gist.github.com/abachuk/46429a0e78b369564f3366556341f614.js"></script>
 
 <p>By combining PaaS like AWS, Firebase and others we can pick and choose what server side features we want to bring to our front end applications without maintaining the servers.</p>
 
@@ -324,7 +330,7 @@
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2017/03/15/hacking-productivity-for-software-developers/">
+      <a class="read-next-story" style="background-image: url(/images/2017/hacking-productivity.jpeg)" href="/hacking-productivity-for-software-developers/">
           <section class="post">
               <h2>Hacking productivity for software developers</h2>
               
@@ -332,7 +338,7 @@
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/2016/12/17/uploading-files-with-react-js-and-node-js/">
+      <a class="read-next-story prev" style="background-image: url(/images/2016/uploading-files-react-node.jpeg)" href="/uploading-files-with-react-js-and-node-js/">
           <section class="post">
               <h2>Uploading files with React.js and Node.js</h2>
           </section>

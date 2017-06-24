@@ -5,7 +5,7 @@
     <link>/categories/web-development/</link>
     <description>Recent content in Web Development on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Wed, 15 Mar 2017 15:06:04 +0000</lastBuildDate>
     
@@ -14,10 +14,10 @@
     
     <item>
       <title>Hacking productivity for software developers</title>
-      <link>/2017/03/15/hacking-productivity-for-software-developers/</link>
+      <link>/hacking-productivity-for-software-developers/</link>
       <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
       
-      <guid>/2017/03/15/hacking-productivity-for-software-developers/</guid>
+      <guid>/hacking-productivity-for-software-developers/</guid>
       <description>As developers, usually we actually have limited time for coding. As part of the process of building and architecting software, we have to attend meetings, interact with other team members, read and write documentation, reply to emails or slack messages. And, at the end of the day, we still have to ship the code.
 It comes down to us to manage our time and stay as productive as possible. Productivity is just another way to use your time efficiently for different reasons:</description>
     </item>
@@ -33,10 +33,10 @@ It comes down to us to manage our time and stay as productive as possible. Produ
     
     <item>
       <title>Why web developers need side projects</title>
-      <link>/2016/03/05/why-web-developers-need-side-projects/</link>
+      <link>/why-web-developers-need-side-projects/</link>
       <pubDate>Sat, 05 Mar 2016 18:46:05 +0000</pubDate>
       
-      <guid>/2016/03/05/why-web-developers-need-side-projects/</guid>
+      <guid>/why-web-developers-need-side-projects/</guid>
       <description>A few years ago, when I was working at a startup (Ruby on Rails app) as a front end developer, from time to time I had to go in and make back end changes. It was terrifying because I didn’t know what I was doing. I decided to learn Rails and bought books and took online courses. However, it wasn’t as easy as I thought, because I only had front end background and some WordPress experience.</description>
     </item>
     

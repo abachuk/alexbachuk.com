@@ -12,8 +12,11 @@ tags:
 - React.js
 - reading
 title: 'JavaScript Weekend List #01'
-url: /javascript-weekend-list-01/
 wordpress_id: 985
+image: /images/2017/js01.png
+aliases:
+    - /2017/03/javascript-weekend-list-01/
+    - /2017/javascript-weekend-list-01/
 ---
 
 I’m trying something new. Every week I’ll try to come up with the list of most interesting articles, books, news, tutorials and videos about web development. I’ll be using this list to keep myself up-to-date on everything that’s going on in the JavaScript, Node and front-end development community. This list may not have the most recent articles, but rather relevant content to stay sharp as a full stack developer.

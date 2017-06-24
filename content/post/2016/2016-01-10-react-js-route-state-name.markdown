@@ -4,7 +4,6 @@ categories:
 - JavaScript
 comments: true
 date: 2016-01-10T14:32:52Z
-link: http://alexbachuk.com/react-js-route-state-name/
 slug: react-js-route-state-name
 tags:
 - JavaScript

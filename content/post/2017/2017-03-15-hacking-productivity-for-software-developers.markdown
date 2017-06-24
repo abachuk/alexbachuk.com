@@ -10,8 +10,11 @@ tags:
 - productivity
 - time management
 title: Hacking productivity for software developers
-url: /2017/03/15/hacking-productivity-for-software-developers/
 wordpress_id: 982
+image: /images/2017/hacking-productivity.jpeg
+aliases:
+    - /2017/03/hacking-productivity-for-software-developers/
+    - /2017/hacking-productivity-for-software-developers/
 ---
 
 As developers, usually we actually have limited time for coding. As part of the process of building and architecting software, we have to attend meetings, interact with other team members, read and write documentation, reply to emails or slack messages. And, at the end of the day, we still have to ship the code.
@@ -26,19 +29,19 @@ It comes down to us to manage our time and stay as productive as possible. Produ
 
 
 
- 	
+
   * Get more stuff done in a short period of time
 
- 	
+
   * Make more money
 
- 	
+
   * Spend more time with friends and family
 
- 	
+
   * Have time for hobbies
 
- 	
+
   * Meet deadlines
 
 

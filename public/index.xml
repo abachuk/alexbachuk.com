@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Wed, 21 Jun 2017 07:00:46 +0000</lastBuildDate>
     
@@ -42,10 +42,10 @@ Currently I&amp;rsquo;m available for hire as a freelancer for new projects. Whe
     
     <item>
       <title>Hacking productivity for software developers</title>
-      <link>/2017/03/15/hacking-productivity-for-software-developers/</link>
+      <link>/hacking-productivity-for-software-developers/</link>
       <pubDate>Wed, 15 Mar 2017 15:06:04 +0000</pubDate>
       
-      <guid>/2017/03/15/hacking-productivity-for-software-developers/</guid>
+      <guid>/hacking-productivity-for-software-developers/</guid>
       <description>As developers, usually we actually have limited time for coding. As part of the process of building and architecting software, we have to attend meetings, interact with other team members, read and write documentation, reply to emails or slack messages. And, at the end of the day, we still have to ship the code.
 It comes down to us to manage our time and stay as productive as possible. Productivity is just another way to use your time efficiently for different reasons:</description>
     </item>
@@ -62,20 +62,20 @@ The challenge arises when you need to add a piece of server side logic, like sen
     
     <item>
       <title>Uploading files with React.js and Node.js</title>
-      <link>/2016/12/17/uploading-files-with-react-js-and-node-js/</link>
+      <link>/uploading-files-with-react-js-and-node-js/</link>
       <pubDate>Sat, 17 Dec 2016 14:58:17 +0000</pubDate>
       
-      <guid>/2016/12/17/uploading-files-with-react-js-and-node-js/</guid>
+      <guid>/uploading-files-with-react-js-and-node-js/</guid>
       <description>Uploading files is one of the most common tasks performed by web developers. It’s a pretty simple operation when using PHP or other server side frameworks. However, it is not so straightforward when using Node.js, unless you understand how to user Buffer API for reading streams of binary files (i.e. uploading file content as binary code). Luckily for us, the Node.js community came up with a few solutions.
 Project set up We are using React.</description>
     </item>
     
     <item>
       <title>WordPress workshop for beginners</title>
-      <link>/2016/05/04/wordpress-workshop-for-beginners/</link>
+      <link>/wordpress-workshop-for-beginners/</link>
       <pubDate>Wed, 04 May 2016 01:00:44 +0000</pubDate>
       
-      <guid>/2016/05/04/wordpress-workshop-for-beginners/</guid>
+      <guid>/wordpress-workshop-for-beginners/</guid>
       <description>I&amp;rsquo;m running a WordPress workshop in Stamford Innovation Center (Stamford, CT) next Wednesday, May 11th. This class is for beginners who want to learn how set up and customize a website (personal or for business). It&amp;rsquo;s a great opportunity for anyone who wants to launch their website or someone who is getting into web development as a career move or a hobby. By understanding the basics of WordPress you can create a website and keep updating it yourself.</description>
     </item>
     
@@ -99,10 +99,10 @@ Project set up We are using React.</description>
     
     <item>
       <title>Why web developers need side projects</title>
-      <link>/2016/03/05/why-web-developers-need-side-projects/</link>
+      <link>/why-web-developers-need-side-projects/</link>
       <pubDate>Sat, 05 Mar 2016 18:46:05 +0000</pubDate>
       
-      <guid>/2016/03/05/why-web-developers-need-side-projects/</guid>
+      <guid>/why-web-developers-need-side-projects/</guid>
       <description>A few years ago, when I was working at a startup (Ruby on Rails app) as a front end developer, from time to time I had to go in and make back end changes. It was terrifying because I didn’t know what I was doing. I decided to learn Rails and bought books and took online courses. However, it wasn’t as easy as I thought, because I only had front end background and some WordPress experience.</description>
     </item>
     

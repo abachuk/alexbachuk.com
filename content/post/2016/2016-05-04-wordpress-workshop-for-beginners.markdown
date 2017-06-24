@@ -10,7 +10,6 @@ tags:
 - WordPress
 - workshop
 title: WordPress workshop for beginners
-url: /2016/05/04/wordpress-workshop-for-beginners/
 wordpress_id: 966
 aliases:
     - /2016/05/wordpress-workshop-for-beginners/

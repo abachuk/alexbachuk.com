@@ -10,7 +10,6 @@ slug: why-web-developers-need-side-projects
 tags:
 - learning
 title: Why web developers need side projects
-url: /2016/03/05/why-web-developers-need-side-projects/
 wordpress_id: 938
 image: /images/2016/side-projects-cover.jpeg
 aliases:
