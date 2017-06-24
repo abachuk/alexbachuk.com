@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Wed, 21 Jun 2017 07:00:46 +0000</lastBuildDate>
     
@@ -399,7 +399,8 @@ Until few months ago this approach was 100% ok with me, I just developed directl
       <pubDate>Sat, 29 Dec 2012 07:00:46 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>Please fill out the form to get in touch with me. If you have a project you need help with - please include as much information about your project as you can.      </description>
+      <description>Please fill out the form to get in touch with me. If you have a project you need help with - please include as much information about your project as you can.
+     </description>
     </item>
     
     <item>
