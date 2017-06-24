@@ -28,7 +28,7 @@
       event.preventDefault();
       var values = $(this).serializeArray();
       var form = $(this);
-      $.post('#', values, function(res) {
+      $.post('https://hooks.zapier.com/hooks/catch/2333200/9neicf/', values, function(res) {
         console.log(res);
         if (res && !res.error && res.status === "success") {
         // form.find("input[type=text], input[type=email], textarea").val("");
