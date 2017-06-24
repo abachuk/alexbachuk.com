@@ -10,8 +10,8 @@ image: /images/nyc.jpg
 ---
 <div class="container contact">
 <div class="col-md-6 pull-left">
-<img src="/images/alex-bachuk.jpg" />
-Please fill out the form to get in touch with me. If you have a project you need help with -  please include as much information about your project as you can.
+  <img src="/images/alex-bachuk.jpg" />
+  <p>Please fill out the form to get in touch with me. If you have a project you need help with -  please include as much information about your project as you can.</p>
 </div>
 
 <div class="col-md-6 pull-right">
