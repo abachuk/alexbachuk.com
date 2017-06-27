@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music on Alex Bachuk</title>
-    <link>/tags/music/</link>
+    <link>https://alexbachuk.com/tags/music/</link>
     <description>Recent content in Music on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Wed, 24 Apr 2013 20:18:34 +0000</lastBuildDate>
     
-	<atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/music/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Music for coding</title>
-      <link>/2013/04/24/music-for-coding-2/</link>
+      <link>https://alexbachuk.com/2013/04/24/music-for-coding-2/</link>
       <pubDate>Wed, 24 Apr 2013 20:18:34 +0000</pubDate>
       
-      <guid>/2013/04/24/music-for-coding-2/</guid>
+      <guid>https://alexbachuk.com/2013/04/24/music-for-coding-2/</guid>
       <description>Great mix by eSQUIRE Music. As always - adds energy and increases productivity :)</description>
     </item>
     
     <item>
       <title>Music for coding</title>
-      <link>/2013/04/17/music-for-coding/</link>
+      <link>https://alexbachuk.com/2013/04/17/music-for-coding/</link>
       <pubDate>Wed, 17 Apr 2013 15:54:17 +0000</pubDate>
       
-      <guid>/2013/04/17/music-for-coding/</guid>
+      <guid>https://alexbachuk.com/2013/04/17/music-for-coding/</guid>
       <description>This mix by Avicii is great when you code, adds a lot of energy :)</description>
     </item>
     

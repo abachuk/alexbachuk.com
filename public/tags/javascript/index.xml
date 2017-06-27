@@ -2,124 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Alex Bachuk</title>
-    <link>/tags/javascript/</link>
+    <link>https://alexbachuk.com/tags/javascript/</link>
     <description>Recent content in Javascript on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
-    <lastBuildDate>Sun, 19 Mar 2017 15:08:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2017 15:08:40 +0000</lastBuildDate>
     
-	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>What web development language should I learn in 2017</title>
+      <link>https://alexbachuk.com/what-web-development-language-should-learn-in-2017/</link>
+      <pubDate>Mon, 26 Jun 2017 15:08:40 +0000</pubDate>
+      
+      <guid>https://alexbachuk.com/what-web-development-language-should-learn-in-2017/</guid>
+      <description>Recently I saw this question on Quora:
+ &amp;ldquo;I used to develop in PHP/MySQL about 4 years back. I understand that PHP is no longer a good choice. I would like to get back in developing dynamic websites/web apps again. What language/framework do you suggest I should learn which will also be useful in coming years? Thank you.&amp;rdquo;
+ My answer is below:
+There are many languages you can use for web development.</description>
+    </item>
+    
+    <item>
       <title>JavaScript Weekend List #01</title>
-      <link>/javascript-weekend-list-01/</link>
+      <link>https://alexbachuk.com/javascript-weekend-list-01/</link>
       <pubDate>Sun, 19 Mar 2017 15:08:40 +0000</pubDate>
       
-      <guid>/javascript-weekend-list-01/</guid>
+      <guid>https://alexbachuk.com/javascript-weekend-list-01/</guid>
       <description>I’m trying something new. Every week I’ll try to come up with the list of most interesting articles, books, news, tutorials and videos about web development. I’ll be using this list to keep myself up-to-date on everything that’s going on in the JavaScript, Node and front-end development community. This list may not have the most recent articles, but rather relevant content to stay sharp as a full stack developer.</description>
     </item>
     
     <item>
       <title>Uploading files with React.js and Node.js</title>
-      <link>/uploading-files-with-react-js-and-node-js/</link>
+      <link>https://alexbachuk.com/uploading-files-with-react-js-and-node-js/</link>
       <pubDate>Sat, 17 Dec 2016 14:58:17 +0000</pubDate>
       
-      <guid>/uploading-files-with-react-js-and-node-js/</guid>
+      <guid>https://alexbachuk.com/uploading-files-with-react-js-and-node-js/</guid>
       <description>Uploading files is one of the most common tasks performed by web developers. It’s a pretty simple operation when using PHP or other server side frameworks. However, it is not so straightforward when using Node.js, unless you understand how to user Buffer API for reading streams of binary files (i.e. uploading file content as binary code). Luckily for us, the Node.js community came up with a few solutions.
 Project set up We are using React.</description>
     </item>
     
     <item>
       <title>Power of technical documentation</title>
-      <link>/power-of-technical-documentation/</link>
+      <link>https://alexbachuk.com/power-of-technical-documentation/</link>
       <pubDate>Thu, 10 Mar 2016 22:15:58 +0000</pubDate>
       
-      <guid>/power-of-technical-documentation/</guid>
+      <guid>https://alexbachuk.com/power-of-technical-documentation/</guid>
       <description>Good technical documentation makes a difference There are so many open source projects out there that it’s hard to sort through them all. Some of them are successful, some of them not so much. If we take all popular projects (meaning over 2-3 thousands of stars on github) - they all have easy-to-follow detailed documentation. It doesn’t mean documentation makes these projects more successful; it means it removes the friction for developers to try and use the project.</description>
     </item>
     
     <item>
       <title>React.js route state name</title>
-      <link>/react-js-route-state-name/</link>
+      <link>https://alexbachuk.com/react-js-route-state-name/</link>
       <pubDate>Sun, 10 Jan 2016 14:32:52 +0000</pubDate>
       
-      <guid>/react-js-route-state-name/</guid>
+      <guid>https://alexbachuk.com/react-js-route-state-name/</guid>
       <description>React.js router is at version 2.0 as of now. It’s changing fast. So this may not work few months from now. I had the case where I wanted to create REST URLs but still re-use components where possible. That’s one of the selling points of React as a library. In my case I wanted to re-use form in the “new” and “update” pages. Here is how I got it working:</description>
     </item>
     
     <item>
       <title>Learning React.js and Redux</title>
-      <link>/learning-react-js-and-redux/</link>
+      <link>https://alexbachuk.com/learning-react-js-and-redux/</link>
       <pubDate>Sun, 03 Jan 2016 20:35:38 +0000</pubDate>
       
-      <guid>/learning-react-js-and-redux/</guid>
+      <guid>https://alexbachuk.com/learning-react-js-and-redux/</guid>
       <description>TL;DR I had a hard time learning React.js, because it requires complex boilerplate setup, tooling and special application architecture such as Flux or Redux. After watching many intro videos or tutorials I wasn’t making progress until I decided to develop simple open source project with React+Redux using open source boilerplate. As I try to make every feature - I’m learning how to do it with React+Redux and sometimes asking questions on Stackoverflow or Github.</description>
     </item>
     
     <item>
       <title>Adaptive express.js and angular.js application</title>
-      <link>/2015/11/24/adaptive-express-js-and-angular-js-application/</link>
+      <link>https://alexbachuk.com/2015/11/24/adaptive-express-js-and-angular-js-application/</link>
       <pubDate>Tue, 24 Nov 2015 03:13:34 +0000</pubDate>
       
-      <guid>/2015/11/24/adaptive-express-js-and-angular-js-application/</guid>
+      <guid>https://alexbachuk.com/2015/11/24/adaptive-express-js-and-angular-js-application/</guid>
       <description>Mobile web is growing really fast and for some businesses it is a significant (if not majority) amount of traffic. The experience on mobile could be slightly different than desktop or it could be completely different depending on the project or the app. For example, marketing or news website might have similar experience, since its only goal is to deliver the content in accessible way. But, for other websites, like e-commerce mobile experience might be have totally different meaning.</description>
     </item>
     
     <item>
       <title>My experience with backbone.js and require.js</title>
-      <link>/2013/11/29/my-experience-with-backbone-js-and-require-js/</link>
+      <link>https://alexbachuk.com/2013/11/29/my-experience-with-backbone-js-and-require-js/</link>
       <pubDate>Fri, 29 Nov 2013 23:03:46 +0000</pubDate>
       
-      <guid>/2013/11/29/my-experience-with-backbone-js-and-require-js/</guid>
+      <guid>https://alexbachuk.com/2013/11/29/my-experience-with-backbone-js-and-require-js/</guid>
       <description>Backbone.js is&amp;hellip; as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it&amp;rsquo;s MV* library, not a framework. There are not strict rules, developer has freedom to choose their own style of writing an app, for better or worse :)
 Some background: I&amp;rsquo;ve built few web applications with Backbone.js, and I don&amp;rsquo;t have any experience with any other MV* javascript library or framework, so it&amp;rsquo;s hard for me to compare.</description>
     </item>
     
     <item>
       <title>JavaScript templates</title>
-      <link>/2013/06/22/javascript-templates/</link>
+      <link>https://alexbachuk.com/2013/06/22/javascript-templates/</link>
       <pubDate>Sat, 22 Jun 2013 16:23:57 +0000</pubDate>
       
-      <guid>/2013/06/22/javascript-templates/</guid>
+      <guid>https://alexbachuk.com/2013/06/22/javascript-templates/</guid>
       <description>JavaScript is the most used programming language now, it&amp;rsquo;s very powerful and can do more than home page slideshow or animations. AJAX is a big part of JavaScript and one of the reasons this language is so popular. It&amp;rsquo;s possible to get any content from the server and send any content back to server, two way communication. Libraries and frameworks like Backbone.js make this process very elegant and organized. Few years ago it was a standard proces to append html in AJAX callback to the DOM, and it works, and if it&amp;rsquo;s done right (append all the content at once instead of at each iteration of a loop), it&amp;rsquo;s even ok.</description>
     </item>
     
     <item>
       <title>Backbone.js explained</title>
-      <link>/2013/04/29/backbone-js-explained/</link>
+      <link>https://alexbachuk.com/2013/04/29/backbone-js-explained/</link>
       <pubDate>Mon, 29 Apr 2013 20:52:23 +0000</pubDate>
       
-      <guid>/2013/04/29/backbone-js-explained/</guid>
+      <guid>https://alexbachuk.com/2013/04/29/backbone-js-explained/</guid>
       <description>Backbone.js is one of many javascript MVC frameworks, others are Angular.js, Phantom.js, Ember.js. Why backbone? It&amp;rsquo;s very small, only 6K minified, not opinionated, meaning it doesn&amp;rsquo;t dictate how you should organize your code. A lot of big companies (like Pandora, USA Today, New York Times, Rdio) use backbone.js to power their web applications.
 What can Backbone.js do for you? If you write any javascript code at all - you will appreciate the power backbone.</description>
     </item>
     
     <item>
       <title>jQueryTO in Toronto Canada.</title>
-      <link>/2013/03/04/jqueryto-in-toronto-canada/</link>
+      <link>https://alexbachuk.com/2013/03/04/jqueryto-in-toronto-canada/</link>
       <pubDate>Mon, 04 Mar 2013 02:10:11 +0000</pubDate>
       
-      <guid>/2013/03/04/jqueryto-in-toronto-canada/</guid>
+      <guid>https://alexbachuk.com/2013/03/04/jqueryto-in-toronto-canada/</guid>
       <description>This was my first web development conference that’s not WordCamp. I started developing with JavaScript quite recently, before that I was using jQuery to manipulate DOM and use others plugins (which works for small websites pretty well). Since it was not that far from New York City - I decided to attend and see what’s new in jQuery world (especially after I saw Paul Irish and Addy Osmani among other speakers).</description>
     </item>
     
     <item>
       <title>Closures in JavaScript</title>
-      <link>/2013/02/07/closures-in-javascript/</link>
+      <link>https://alexbachuk.com/2013/02/07/closures-in-javascript/</link>
       <pubDate>Thu, 07 Feb 2013 17:19:25 +0000</pubDate>
       
-      <guid>/2013/02/07/closures-in-javascript/</guid>
+      <guid>https://alexbachuk.com/2013/02/07/closures-in-javascript/</guid>
       <description>Closures are very nice way to nest functions inside other functions. Closure function is an inner function within parent function and can access all the variables from the parent function. A function have access to all its variables and methods, and closure functions have access to both outer function&amp;rsquo;s variables and its own. Closures store references of outer variables, not copies and that&amp;rsquo;s why they can change the outer variables&amp;rsquo; values.</description>
     </item>
     
     <item>
       <title>Quick Tip: Load backbonejs in WordPress (the right way)</title>
-      <link>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
+      <link>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</link>
       <pubDate>Tue, 22 Jan 2013 01:17:48 +0000</pubDate>
       
-      <guid>/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
+      <guid>https://alexbachuk.com/2013/01/22/quick-tip-load-backbonejs-in-wordpress-the-right-way/</guid>
       <description>Now that WordPress 3.5 sips with Backbone and Underscore - you can easily include them into your WordPress theme and do some fun stuff. Put this code in functions.php
  function loadBackbone() { wp_enqueue_script(&#39;backbone&#39;); }
 add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp;rsquo;);</description>
@@ -127,10 +139,10 @@ add_action(&amp;lsquo;wp_enqueue_scripts&amp;rsquo;, &amp;lsquo;loadBackbone&amp
     
     <item>
       <title>WordPress 3.5 released</title>
-      <link>/2012/12/17/wordpress-3-5-released/</link>
+      <link>https://alexbachuk.com/2012/12/17/wordpress-3-5-released/</link>
       <pubDate>Mon, 17 Dec 2012 07:23:53 +0000</pubDate>
       
-      <guid>/2012/12/17/wordpress-3-5-released/</guid>
+      <guid>https://alexbachuk.com/2012/12/17/wordpress-3-5-released/</guid>
       <description>WordPress 3.5 has been released. It&amp;rsquo;s got very nice dashboard clean up. Everything is looking much lighter and feels faster.
 The biggest change is media management. Now it&amp;rsquo;s more intuitive and more easy to upload, manage and configure all your images, audio and video files in one place. Also added drag and drop support and galleries.
 Entire admin dashboard is retina ready (good news for lucky retina macbooks owners). Link manager, which I used only twice in my 4 years of WordPress development experience.</description>

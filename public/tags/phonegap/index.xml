@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Phonegap on Alex Bachuk</title>
-    <link>/tags/phonegap/</link>
+    <link>https://alexbachuk.com/tags/phonegap/</link>
     <description>Recent content in Phonegap on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Tue, 28 May 2013 01:34:05 +0000</lastBuildDate>
     
-	<atom:link href="/tags/phonegap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/phonegap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WordPress and Phonegap (part3)</title>
-      <link>/2013/05/28/wordpress-and-phonegap-part3/</link>
+      <link>https://alexbachuk.com/2013/05/28/wordpress-and-phonegap-part3/</link>
       <pubDate>Tue, 28 May 2013 01:34:05 +0000</pubDate>
       
-      <guid>/2013/05/28/wordpress-and-phonegap-part3/</guid>
+      <guid>https://alexbachuk.com/2013/05/28/wordpress-and-phonegap-part3/</guid>
       <description>In part 1 and 2 we learned how to prepare everything for our mobile app: get data from WordPress in JSON format and setup jQuery mobile and Phonegap boilerplate. Now, it&amp;rsquo;s time to get the mobile app actually do something, in this case I will build app fro my blog and portfolio to demonstrate how to work with different post types.
 I will build iOS app, but the same technique applies to Android, Windows phone, Blackberry, etc.</description>
     </item>
     
     <item>
       <title>WordPress and Phonegap (part2)</title>
-      <link>/2013/05/14/wordpress-and-phonegap-part2/</link>
+      <link>https://alexbachuk.com/2013/05/14/wordpress-and-phonegap-part2/</link>
       <pubDate>Tue, 14 May 2013 04:36:13 +0000</pubDate>
       
-      <guid>/2013/05/14/wordpress-and-phonegap-part2/</guid>
+      <guid>https://alexbachuk.com/2013/05/14/wordpress-and-phonegap-part2/</guid>
       <description>In Part 1, we learned how to get WordPress to work as backend platform for our future mobile app. Now we have nicely formatted JSON feed coming from WordPress and we can use it anywhere with ajax request. This part will explain how to get phonegap set up and prepare some boilerplate for our app using jQuery Mobile, CSS and HTML.
 Phonegap has really well explained guides on setting up phonegap locally for iOS, Android or any other target platform.</description>
     </item>
     
     <item>
       <title>WordPress and Phonegap (part 1)</title>
-      <link>/2013/04/20/wordpress-and-phonegap-part-1/</link>
+      <link>https://alexbachuk.com/2013/04/20/wordpress-and-phonegap-part-1/</link>
       <pubDate>Sat, 20 Apr 2013 17:41:42 +0000</pubDate>
       
-      <guid>/2013/04/20/wordpress-and-phonegap-part-1/</guid>
+      <guid>https://alexbachuk.com/2013/04/20/wordpress-and-phonegap-part-1/</guid>
       <description>WordPress is an excellent CMS and provides a lot of flexibility for developers, users, authors, and everyone who manages websites.
 I wrote a blog post phonegap few months ago and few people were interested to learn more how to use WordPress as a backend for a mobile app. Phonegap is just one of the tools you can build a mobile app. WordPress is, in this case, API server, it manages database and all the content stored in there.</description>
     </item>

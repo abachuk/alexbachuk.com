@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Alex Bachuk</title>
+    <link>https://alexbachuk.com/tags/golang/</link>
+    <description>Recent content in Golang on Alex Bachuk</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
+    <lastBuildDate>Mon, 26 Jun 2017 15:08:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://alexbachuk.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What web development language should I learn in 2017</title>
+      <link>https://alexbachuk.com/what-web-development-language-should-learn-in-2017/</link>
+      <pubDate>Mon, 26 Jun 2017 15:08:40 +0000</pubDate>
+      
+      <guid>https://alexbachuk.com/what-web-development-language-should-learn-in-2017/</guid>
+      <description>Recently I saw this question on Quora:
+ &amp;ldquo;I used to develop in PHP/MySQL about 4 years back. I understand that PHP is no longer a good choice. I would like to get back in developing dynamic websites/web apps again. What language/framework do you suggest I should learn which will also be useful in coming years? Thank you.&amp;rdquo;
+ My answer is below:
+There are many languages you can use for web development.</description>
+    </item>
+    
+  </channel>
+</rss>

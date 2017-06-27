@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Web Development on Alex Bachuk</title>
-    <link>/tags/mobile-web-development/</link>
+    <link>https://alexbachuk.com/tags/mobile-web-development/</link>
     <description>Recent content in Mobile Web Development on Alex Bachuk</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <copyright>All rights reserved &amp;copy; 2007 - 2017</copyright>
     <lastBuildDate>Wed, 13 Feb 2013 19:40:22 +0000</lastBuildDate>
     
-	<atom:link href="/tags/mobile-web-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexbachuk.com/tags/mobile-web-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>jQuery Mobile Active Page URL</title>
-      <link>/2013/02/13/jquery-mobile-active-page-url/</link>
+      <link>https://alexbachuk.com/2013/02/13/jquery-mobile-active-page-url/</link>
       <pubDate>Wed, 13 Feb 2013 19:40:22 +0000</pubDate>
       
-      <guid>/2013/02/13/jquery-mobile-active-page-url/</guid>
+      <guid>https://alexbachuk.com/2013/02/13/jquery-mobile-active-page-url/</guid>
       <description>jQuery mobile contains several pages in DOM at once to make page transition smooth and fast, and also pre-caching static pages. If you need to get current URL, and decided to use
 window.location.href   it will return previous page URL, because active page is inserted into the DOM via AJAX. To get current page URL use
 $.mobile.activePage[0].baseURI
@@ -26,29 +26,29 @@ $.mobile.activePage[0].baseURI
     
     <item>
       <title>PhoneGap and mobile web apps</title>
-      <link>/2013/01/27/phonegap-and-mobile-web-apps/</link>
+      <link>https://alexbachuk.com/2013/01/27/phonegap-and-mobile-web-apps/</link>
       <pubDate>Sun, 27 Jan 2013 22:51:27 +0000</pubDate>
       
-      <guid>/2013/01/27/phonegap-and-mobile-web-apps/</guid>
+      <guid>https://alexbachuk.com/2013/01/27/phonegap-and-mobile-web-apps/</guid>
       <description>Mobile now is big part of the web. More and more people are getting phones that are more capable than average computers, in terms of HTML5 support. They can detect your location with gps, have great camera (usually more than one), always connected to the Internet, usually support the latest technologies. For web developers - this is great, that means we can build very cool stuff, cutting edge websites use css3 animations, detect user locations, etc.</description>
     </item>
     
     <item>
       <title>Responsive web design</title>
-      <link>/2012/10/13/responsive-web-design/</link>
+      <link>https://alexbachuk.com/2012/10/13/responsive-web-design/</link>
       <pubDate>Sat, 13 Oct 2012 02:15:07 +0000</pubDate>
       
-      <guid>/2012/10/13/responsive-web-design/</guid>
+      <guid>https://alexbachuk.com/2012/10/13/responsive-web-design/</guid>
       <description>Responsive web design is a &amp;ldquo;fancy&amp;rdquo; term for fluid grid layout that adapts to any screen size. Basically, it&amp;rsquo;s layout that is makes everything easily readable and viewable on mobile and tablet devices.
 I think responsive web design is the best and should be the only way to build mobile websites. Instead of developing websites for desktop and mobile separately and then maintaining two copies of content - just build one, responsive version and it&amp;rsquo;s optimized for any device available now and in the future.</description>
     </item>
     
     <item>
       <title>jQuery Mobile basics</title>
-      <link>/2012/07/18/jquery-mobile-basics/</link>
+      <link>https://alexbachuk.com/2012/07/18/jquery-mobile-basics/</link>
       <pubDate>Wed, 18 Jul 2012 19:15:18 +0000</pubDate>
       
-      <guid>/2012/07/18/jquery-mobile-basics/</guid>
+      <guid>https://alexbachuk.com/2012/07/18/jquery-mobile-basics/</guid>
       <description>jQuery Mobile is touch friendly and AJAX powered framework which was built by jQuery team.
 It is a great framework for building mobile websites or apps and if combine it with responsive design - it becomes even better. Nowadays everyone knows that the best way to build a website is responsive way, a “write once, run everywhere” style.
 jQuery mobile uses AJAX for page loading and provides flexible theming tool - theme roller, default theme is very iOS-like, but it&amp;rsquo;s very easy to change just changing default CSS.</description>
