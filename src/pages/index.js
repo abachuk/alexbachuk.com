@@ -1,14 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import PostExcerpt from '../components/PostExcerpt'
 
 const IndexPage = ({ data }) => (
   <div>
     <p>blogs </p>
-    {data.allMarkdownRemark.edges.map(post => (
-      <div key={`${post.node.frontmatter.title} ${post.node.frontmatter.date}`}>
-        <h3>{post.node.frontmatter.title}</h3>
-      </div>
-    ))}
+    {data.allMarkdownRemark.edges.map((post, index) => <PostExcerpt key={index} post={post} />)}
   </div>
 )
 
@@ -28,6 +25,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            slug
+            categories
           }
         }
       }
