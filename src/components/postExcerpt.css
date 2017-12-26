@@ -1,0 +1,8 @@
+.post-excerpt {
+  border: 1px solid #eee;
+  display: flex;
+}
+
+.featured-image {
+  width: 20%;
+}
