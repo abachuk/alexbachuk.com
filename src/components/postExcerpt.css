@@ -1,8 +1,16 @@
 .post-excerpt {
-  border: 1px solid #eee;
   display: flex;
+  justify-content: space-between;
 }
 
-.featured-image {
-  width: 20%;
+.date {
+  width: 15%;
+  font-weight: 200;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.title {
+  width: 70%;
+  font-weight: 400;
 }

@@ -4,7 +4,6 @@ import PostExcerpt from '../components/PostExcerpt'
 
 const IndexPage = ({ data }) => (
   <div>
-    <p>blogs </p>
     {data.allMarkdownRemark.edges.map((post, index) => <PostExcerpt key={index} post={post} />)}
   </div>
 )

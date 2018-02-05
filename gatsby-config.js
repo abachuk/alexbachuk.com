@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: 'Alex Bachuk',
+    author: 'Alex Bachuk',
+    description: 'A starter blog demonstrating what Gatsby can do.',
+    siteUrl: 'https://alexbachuk.com/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,6 +36,12 @@ module.exports = {
           },
         ]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-typography',
+      options: {
+        pathToConfigModule: 'src/utils/typography',
+      },
     },
   ],
 }
