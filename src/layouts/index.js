@@ -2,14 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Sidebar from '../components/Sidebar';
 
 import './index.css'
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#45aaf2',
       marginBottom: '1.45rem',
+      borderBottom: '1px solid #2d98da',
     }}
   >
     <div
@@ -22,10 +24,7 @@ const Header = () => (
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
+          className="logo"
         >
           Alex Bachuk
         </Link>
@@ -44,6 +43,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
+    <Sidebar />
     <div className="container">
       {children()}
     </div>

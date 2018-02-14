@@ -623,6 +623,17 @@ pre tt:after {
   padding-top: 0;
 }
 
+.logo {
+  color: white;
+  text-decoration: none;
+  background: none;
+  transition: color 1s ease-out;
+}
+
+.logo:hover {
+  color: #fc5c65;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

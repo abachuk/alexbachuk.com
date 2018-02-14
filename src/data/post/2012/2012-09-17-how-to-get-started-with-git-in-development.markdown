@@ -41,8 +41,6 @@ Luckily there are great git hosting services like [GitHub](https://github.com/) 
 
 Github offers free GUI app for [Mac](http://mac.github.com/) and [Windows](http://windows.github.com/). And Bitbucket offers free app for Mac (my favorite) - [SourceTree](http://www.sourcetreeapp.com/). So, as you can see - terminal skills are optional.
 
-[![](http://alexbachuk.com/wp-content/uploads/2012/09/sourcetree-app.jpg)](http://www.sourcetreeapp.com/)
-
 Instead of listing all possible terminal commands - I'll just summarize all basic principles and capabilities of git and UI apps are very easy to use once you know what is what.
 
 
@@ -55,8 +53,7 @@ Commit is a way of saving your changes. Let's say, you're fixing a bug, you fixe
 
 ## Push
 
-
-![](http://alexbachuk.com/wp-content/uploads/2012/09/git-push.png)Push is a command that sends commit(s) to repository. If you're fixing 3 bugs - you commit 3 times with different messages, but it's not really exciting to have these fixes on your computer, nobody will find out about these fixes - and "push" does that, it pushes files to Github, your hosted repo, or other remote repository.
+Push is a command that sends commit(s) to repository. If you're fixing 3 bugs - you commit 3 times with different messages, but it's not really exciting to have these fixes on your computer, nobody will find out about these fixes - and "push" does that, it pushes files to Github, your hosted repo, or other remote repository.
 `$ git push originRepo remoteRepo`
 
 
@@ -72,7 +69,6 @@ After all bugs are fixed and all to-dos are completed by all developers in your 
 
 When working on new feature or hiring freelancer to help you, it's worth creating new branch. Branch is a copy of master branch but is independent, so nobody (even you) can't break working code. Let's say you're working on cool new app and it's half done - your boss tells you to make that slider awesomer - instead of committing and reverting changes if it's not working, make a new branch. If new code works great and everyone is happy - merge new branch with master, if for some reason it didn't workout, delete new branch and make a new one. While working locally git is smart enough to load only brach you're working on, so you'll have only one folder. Branching is one of the best features of git, it's very easy to use and makes development and collaborating much easier.
 `$ git branch development`
-![](http://alexbachuk.com/wp-content/uploads/2012/09/branching-merging1.png)
 
 
 ## Stash
@@ -85,5 +81,3 @@ Stashing is saving changes temporarily without committing. It's not saved in gi
 Summary
 
 As you can see these are just few commands / features of git. It's way more powerful and has a lot more to discover than what I listed here. And don't worry, once you understand the basics - any UI app is easy to use. Also, a great source for learning everything about git is its documentation. It presented in form of [book](http://git-scm.com/book) and it's free.
-
-[gview file="http://alexbachuk.com/wp-content/uploads/2012/09/Intro-to-Git.pdf"]
