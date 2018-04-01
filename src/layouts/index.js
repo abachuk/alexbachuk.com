@@ -1,57 +1,66 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
-import Sidebar from '../components/Sidebar';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
+import Sidebar from '../components/Sidebar/Sidebar';
 
-import './index.css'
+import './index.css';
 
-const Header = () => (
-  <div
-    style={{
-      background: '#45aaf2',
-      marginBottom: '1.45rem',
-      borderBottom: '1px solid #2d98da',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          className="logo"
+class TemplateWrapper extends Component {
+  state = {
+    menuOpened: false
+  };
+
+  toggleMenu = () => {
+    this.setState({
+      menuOpened: !this.state.menuOpened
+    });
+  };
+  render() {
+    return (
+      <div>
+        <Helmet
+          title="Alex Bachuk | JavaScript developer"
+          meta={[
+            {
+              name: 'description',
+              content: 'Building sotware for over 9 years'
+            },
+            {
+              name: 'keywords',
+              content: 'Node.js, React.js, JavaScript, Software, Leadership'
+            }
+          ]}
+        />
+        <div
+          className={`content-wrapper ${
+            this.state.menuOpened ? 'menu-opened' : 'menu-closed'
+          }`}
         >
-          Alex Bachuk
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
-
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="JavaScript developer"
-      meta={[
-        { name: 'description', content: 'Building sotware for over 9 years' },
-        { name: 'keywords', content: 'Node.js, React.js, JavaScript, Software, Leadership' },
-      ]}
-    />
-    <Header />
-    <Sidebar />
-    <div className="container">
-      {children()}
-    </div>
-  </div>
-)
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+          <div className="header">
+            <div className="inner-header">
+              <h1 style={{ margin: 0 }} className="logo-wrapper">
+                <Link to="/" className="logo">
+                  Alex Bachuk
+                </Link>
+              </h1>
+              <div className="menu-link">
+                <img src="/static/menu-white.svg" onClick={this.toggleMenu} />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            {this.props.children()}
+          </div>
+        </div>
+        <Sidebar menuOpened={this.state.menuOpened} />
+      </div>
+    );
+  }
 }
 
-export default TemplateWrapper
+TemplateWrapper.propTypes = {
+  children: PropTypes.func
+};
+
+export default TemplateWrapper;
