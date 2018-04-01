@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import MenuIcon from './menu-white.svg';
 import Sidebar from '../components/Sidebar/Sidebar';
 
 import './index.css';
@@ -45,7 +46,7 @@ class TemplateWrapper extends Component {
                 </Link>
               </h1>
               <div className="menu-link">
-                <img src="/static/menu-white.svg" onClick={this.toggleMenu} />
+                <img src={MenuIcon} onClick={this.toggleMenu} />
               </div>
             </div>
           </div>

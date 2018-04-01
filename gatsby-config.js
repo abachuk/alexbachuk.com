@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Alex Bachuk',
     author: 'Alex Bachuk',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    description: 'JavaScript developer',
     siteUrl: 'https://alexbachuk.com/',
   },
   plugins: [
