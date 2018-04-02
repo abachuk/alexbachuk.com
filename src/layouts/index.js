@@ -38,17 +38,18 @@ class TemplateWrapper extends Component {
             this.state.menuOpened ? 'menu-opened' : 'menu-closed'
           }`}
         >
-          <div className="header">
+          <div className={`header ${this.props.location.pathname === '/' ? 'home' : 'internal'}`}>
             <div className="inner-header">
               <h1 style={{ margin: 0 }} className="logo-wrapper">
                 <Link to="/" className="logo">
                   Alex Bachuk
                 </Link>
               </h1>
-              <div className="menu-link">
-                <img src={MenuIcon} onClick={this.toggleMenu} />
-              </div>
+              <div className="menu-link" onClick={this.toggleMenu} />
             </div>
+            {this.props.location.pathname === '/' &&
+              <h3 className="subtitle">my personal blog, tutorials and guides on (mostly) software development and technology</h3>
+            }
           </div>
           <div className="container">
             {this.props.children()}

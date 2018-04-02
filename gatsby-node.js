@@ -43,8 +43,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         posts.forEach((post, index) => {
           const previous = index === posts.length - 1 ? false : posts[index + 1].node;
           const next = index === 0 ? false : posts[index - 1].node;
-          console.log(post);
-          // post.node.fields.slug
           createPage({
             path: post.node.frontmatter.slug,
             component: blogPost,

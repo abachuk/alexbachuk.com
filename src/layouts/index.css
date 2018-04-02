@@ -645,10 +645,14 @@ pre tt:after {
   border-bottom: 1px solid #2d98da;
 }
 
+.header.home {
+  height: 300px;
+}
+
 .inner-header {
   margin: 0 auto;
   max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  padding: 1.45rem 0;
   display: flex;
 }
 
@@ -676,6 +680,13 @@ pre tt:after {
   text-align: right;
   padding: 5px 0;
   cursor: pointer;
+  background-image: url('./menu-white.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.menu-link:hover {
+  background-image: url('./menu-black.svg');
 }
 
 .menu-visbile {
@@ -685,8 +696,26 @@ pre tt:after {
 .menu-hidden {
   opacity: 0;
 }
+
+.subtitle {
+  margin: 50px auto;
+  max-width: 960px;
+  padding-right: 10em;
+  font-weight: 300;
+  color: #003c5f;
+  letter-spacing: 0.3px
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .header {
+    padding: 0 10px;
+  }
+
+  .subtitle {
+    padding-right: 0;
   }
 }
