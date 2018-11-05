@@ -1,0 +1,55 @@
+---
+author: alex
+categories:
+- Computer Science
+comments: true
+date: 2018-05-01T15:01:41Z
+slug: data-structures-101
+tags: data structures
+- 
+title: Data Structures 101
+image:
+---
+
+OUTLINE:
+ - Arrays, multi-dimentional arrays
+ - Lists, linked lists
+ - Stack and queue
+ - Hashtable and hashmap
+ - Sets
+ - Trees
+ - Graphs
+
+## Introduction
+Data structures are what they are called. Structures of data. Most of the time programmers don't have to worry too much about them. Because frameworks and programming languages add a level of abstraction. They have their own implementation of data structures. For example lists are arrays in JavaScript, dictionary in Python is HashMap in Java. 
+
+There are only few most commonly used data structures, it's important to know and understand them. Each has its use cases and runtime complexity or big O. Let's take a look at each one of them and how they are being implemented in JavaScript, Python and Java.
+http://bigocheatsheet.com/
+
+## Arrays
+Arrays are the simplest and most basic data structure. It's simply a collection of elements. There are dynamic (or resizable) and static (fixed) arrays. 
+
+Complexity: linear or O(1). Meaning every additonal item adds one more step.
+
+## Linked lists
+Very similar to arrays. There singly linked lists and doubly linked lists. Better at inserting and deleting items than arrays. 
+
+Java: doubly linked list
+JavaSript: array
+Python: 
+
+Complexity: O(n)
+
+## Stacks
+Last in, first out.  Adding new items to the top of the stack. stack.push() to add new item. stack.pop() to remove 
+
+## Queues
+
+## Hash
+
+## Sets
+unordered collection of unique objects, used for fast lookups. Unlike arrays or hashmaps, There are no indexes or keys.
+
+## Trees
+
+## Graphs

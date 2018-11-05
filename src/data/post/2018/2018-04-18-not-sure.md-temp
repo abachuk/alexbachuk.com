@@ -1,0 +1,51 @@
+---
+author: alex
+categories:
+- JavaScript
+comments: true
+date: 2018-04-18T15:01:41Z
+slug: send-emails-with-ember-js-amazon-ses-firebase
+tags: ownership
+- 
+title: Ownership (draft)
+image: /images/2017/send-emails.jpeg
+aliases:
+    - /2017/02/10/send-emails-with-ember-js-amazon-ses-firebase/
+    - /2017/send-emails-with-ember-js-amazon-ses-firebase/
+---
+
+OUTLINE:
+ - Attention grab, one sentence
+ - Intro: define the problem and some examples
+ - Why I know this (team, contract, meetups, reading)
+ - Our job is to grow business not code. But healhy code means stable biz.
+ - Developers are stakeholders
+ - Main point: ownership and what it means (list)
+ - Conclusion and cta (I'm guilty of not doing it)
+
+____
+
+My observations.
+ - Just get the job done
+ - Just copy / paste from what was done before
+ - Found answer online
+
+What it should be
+ - Own your work, be proud of your work.
+ - Make it work, make it right, make it fast. 
+ - Don't let biz or product push you around, have standards.
+ - Leave code better than you found it. Make every commit count.
+
+# Intro
+We all have deadlines. There is always a pressure to get something done faster or more efficcient. A timeline or a little pressure is good. It makes the work more interesting. But agressive deadlines, especially for a long time, burn people out and do more harm than good.
+
+Deadlines are number one excuse for sloppy code and bugs. Developers make the timeline more important than the quality of the code. At the end of the day, we are responsible to grow the business.
+
+
+--- "clean architecture" book notes
+Every software system provides two different values to the stakeholders: behavior and structure. Software developers are responsible for ensuring that both those values remain high. If the business managers ask you for a change, and your estimated costs for that change are unaffordably high, the business managers will likely be furious that you allowed the system to get to the point where the change was impractical. 
+
+The dilemma for software developers is that business managers are not equipped to evaluate the importance of architecture. That’s what software developers were hired to do. Therefore it is the responsibility of the software development team to assert the importance of architecture over the urgency of features. Effective software development teams tackle that struggle head on. They unabashedly squabble with all the other stakeholders as equals. Remember, as a software developer, you are a stakeholder. You have a stake in the software that you need to safeguard. That’s part of your role, and part of your duty. And it’s a big part of why you were hired.
+--- 
+
+
