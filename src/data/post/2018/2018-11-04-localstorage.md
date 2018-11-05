@@ -17,10 +17,10 @@ Expiration date is not supported but there is a way to add expiration date and t
 
 Most major [browsers support](https://caniuse.com/#feat=namevalue-storage) localStorage, but one thing to keep in mind is a user can explicitly disable it through browser settings. For example mobile safari in private mode disables localStorage automatically. So you always want to check if it's available.
 
-`gist:weirdpattern/a35c5c4dd900af0e903bef541018c057#syntax.js`
+`gist:abachuk/a35c5c4dd900af0e903bef541018c057#syntax.js`
 
 ## Add expiration
 
 Even though expiration is not supported in localStorage as it is a simple key/value store, there is a way to be creative and make it work. This may be handy for displaying some date or time sensitive information to the user, like banners or tool tips or recently searched data.
 
-`https://gist.github.com/abachuk/ce85832bc843e97a62085cc99e3d847#syntax.js`
+`gist:abachuk/ce85832bc843e97a62085cc99e3d847#syntax.js`
