@@ -1,31 +1,32 @@
 {
   "name": "alex-bachuk-website",
   "description": "Gatsby default starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "abachuk@gmail.com",
   "dependencies": {
     "gatsby": "^1.9.139",
     "gatsby-link": "^1.6.32",
     "gatsby-paginate": "^1.0.13",
-    "gatsby-plugin-catch-links": "^1.0.14",
+    "gatsby-plugin-catch-links": "1.0.14",
     "gatsby-plugin-google-analytics": "^1.0.27",
-    "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-plugin-typography": "^1.7.13",
-    "gatsby-remark-embed-gist": "^1.1.3",
-    "gatsby-remark-images": "^1.5.36",
-    "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.25",
+    "gatsby-plugin-react-helmet": "2.0.3",
+    "gatsby-plugin-typography": "1.7.13",
+    "gatsby-remark-embed-gist": "1.1.3",
+    "gatsby-remark-images": "1.5.36",
+    "gatsby-source-filesystem": "1.5.11",
+    "gatsby-transformer-remark": "1.7.25",
     "react-helmet": "^5.2.0",
     "typography-theme-lincoln": "^0.15.11"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
