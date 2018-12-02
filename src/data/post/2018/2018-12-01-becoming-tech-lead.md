@@ -33,7 +33,7 @@ If you're still convinced a technical leadership path is right for you, then you
 
 7. **Communication**. Communicating clearly and concisely is a very important characteristic of any leader. If you can't explain what you want from your team, then you have failed as a leader before any work even begins. Communication comes in many forms, including verbal, written and even body language. Always work on improving all of your communication skills.
 
-8. **Managing up**. Manage your manager (and sometimes their manager). This means constantly communicating with them and managing expectations. Managers rarely like surprises, good or bad. Establish trusting relationships with your manager--be the go-to person for important and high profile projects, and actually get them done on time and on budget. Then more projects will follow and you can just repeat the process.
+8. **Managing up**. Manage your manager (and sometimes their manager). This means constantly communicating with them and managing expectations. Managers rarely like surprises, good or bad. Establish trusting relationships with your manager - be the go-to person for important and high profile projects, and actually get them done on time and on budget. Then more projects will follow and you can just repeat the process.
 
 9. **Conflict and crises**. Production issues happen, no matter how many unit or integration tests you have. Yes, you want to minimize the number of bugs your projects have, but what matters more is how you handle production issues. A person who starts panicking under pressure is immediately disqualified as a leader in the eyes of others. The team and other managers want to see a calm person who has everything under control, even in the most stressful situations.
 

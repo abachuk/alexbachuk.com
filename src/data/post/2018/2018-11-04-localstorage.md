@@ -19,6 +19,18 @@ While building single page applicaitons (SPA) with JavaScript, there are times w
 - Web storage
 - Indexed database API
 
+## Cookies
+
+[HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie) is a small peristent piece of data, stored in the user browser for specified period of time. Cookies are scoped by a domain. Meaning a cookie from google.com can't access cookies from bing.com and vice versa. Unlike other types of web storage, cookies are supported in all browsers. The average browser limit is 4Kb per domain. They are commonly used to hold important information the state like authentication, shopping cart items, selected filters and other.
+
+#### HTTP only cookie
+
+These kind of cookies are only available server side and can't be accessed by `document.cookie` on the client. This type of cookies is more secure as it prevents [XSS attacks](<https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)>).
+
+#### Session cookie
+
+Session cookie clears when user closes the browser. It's behaving similar to sessionStorage. It's helpful when there is a need to perist the state while user is using the application and browsing between different pages or parts of the app.
+
 ## Web storage
 
 It's a simple key/value [storage API](https://www.w3.org/TR/webstorage/). All modern browsers [support](https://caniuse.com/#feat=namevalue-storage) web storage API, but with some limitaitons. One thing to keep in mind is a user can explicitly disable it through browser settings. For example mobile safari in private mode disables localStorage automatically. So you always want to check if it's available.
