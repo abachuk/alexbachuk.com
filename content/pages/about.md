@@ -2,6 +2,7 @@
 title: "About me"
 template: "page"
 socialImage: "/media/image-2.jpg"
+slug: "/about"
 ---
 
 Currently, I'm working as a Director of Front end development and Web UX at Priceline.com. I'm focused primariliy on maintaining and building React and Angular codebases on front end, Node.js and GraphQL on the server.

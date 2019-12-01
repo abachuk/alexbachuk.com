@@ -46,12 +46,8 @@ Expiration date is not supported but there is a way to add expiration date and t
 
 `gist:abachuk/a35c5c4dd900af0e903bef541018c057#localStorage.js`
 
-<!-- https://gist.github.com/abachuk/a35c5c4dd900af0e903bef541018c057.js -->
-
 ##### Add expiration
 
 Even though expiration is not supported in localStorage as it is a simple key/value store, there is a way to be creative and make it work. This may be handy for displaying some date or time sensitive information to the user, like banners or tool tips or recently searched data.
 
 `gist:abachuk/ce85832bc843e97a62085cc99e3d8474#localStorage-expiration.js`
-
-<!-- https://gist.github.com/abachuk/ce85832bc843e97a62085cc99e3d8474 -->

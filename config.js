@@ -3,9 +3,9 @@
 module.exports = {
   url: "https://alexbachuk.com",
   pathPrefix: "/",
-  title: "Blog by Alex Bachuk",
+  title: "Alex Bachuk",
   subtitle:
-    "Software engineering manager. Writing about JavaScipt, Leadership and my side projects.",
+    "My personal blog onleadership, software engineering and my side projects.",
   copyright: "2019 © All rights reserved.",
   disqusShortname: "",
   postsPerPage: 10,
@@ -25,7 +25,7 @@ module.exports = {
     name: "Alex Bachuk",
     photo: "/alex-bachuk.png",
     bio:
-      "Software engineering manager. Writing about JavaScipt, Leadership and my side projects.",
+      "Software engineering manager. Writing about architecture, JavaScript, leadership and my side projects.",
     contacts: {
       email: "abachuk@gmail.com",
       twitter: "netxm",
