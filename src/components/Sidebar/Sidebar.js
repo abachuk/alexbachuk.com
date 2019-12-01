@@ -1,23 +1,29 @@
+// @flow strict
 import React from 'react';
-import Link from 'gatsby-link';
-import s from './sidebar.module.css';
+import Author from './Author';
+import Contacts from './Contacts';
+import Copyright from './Copyright';
+import Menu from './Menu';
+import styles from './Sidebar.module.scss';
+import { useSiteMetadata } from '../../hooks';
 
-const Sidebar = ({ menuOpened }) => (
-  <div
-    className={`${s.sidebarWrapper} ${menuOpened ? s.show : s.hide}`}
-  >
-    <ul className={s.nav}>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <a href="https://twitter.com/netxm">Twitter</a>
-      </li>
-      <li>
-        <a href="https://github.com/abachuk">Github</a>
-      </li>
-    </ul>
-  </div>
-);
+type Props = {
+  isIndex?: boolean,
+};
+
+const Sidebar = ({ isIndex }: Props) => {
+  const { author, copyright, menu } = useSiteMetadata();
+
+  return (
+    <div className={styles['sidebar']}>
+      <div className={styles['sidebar__inner']}>
+        <Author author={author} isIndex={isIndex} />
+        <Menu menu={menu} />
+        <Contacts contacts={author.contacts} />
+        <Copyright copyright={copyright} />
+      </div>
+    </div>
+  );
+};
 
 export default Sidebar;
