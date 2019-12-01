@@ -8,7 +8,7 @@ category: "Leadership"
 tags:
   - "Leadership"
   - "Project management"
-description: "Every company, startup or business is a collection of projects. A project is a panned, logical unit of work with some expected outcome that contributes to an overall vision or strategy. It’s how we organize work, tasks, and even personal lives. Everyone should understand how to manage projects to some extent. Especially if you are in a leadership position."
+description: "Every company, startup or business is a collection of projects. A project is a planned, logical unit of work with some expected outcome that contributes to an overall vision or strategy. It’s how we organize work, tasks, and even personal lives. Everyone should understand how to manage projects to some extent. Especially if you are in a leadership position."
 socialImage: "/media/2019/project-management-influence.png"
 ---
 
