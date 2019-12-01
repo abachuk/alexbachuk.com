@@ -14,7 +14,7 @@ template: post
 description: Some consider themselves as web developers when they can do HTML and some CSS, some - when they know JavaScript and some would like to add PHP to the list. There are over 7 billion people and over 7 billion opinions.  It's impossible to learn and know everything.
 ---
 
-Recently I attended [Fluent conference](http://fluentconf.com/javascript-html-2015) and saw very interesting presentation by Kathy Sierra (SeriousPony). It was about making badass developers. Since I'm trying to be a better web developer myself and constantly improve, I did a little more digging and found some useful information and tips.
+Recently I attended [Fluent conference](https://fluentconf.com/javascript-html-2015) and saw very interesting presentation by Kathy Sierra (SeriousPony). It was about making badass developers. Since I'm trying to be a better web developer myself and constantly improve, I did a little more digging and found some useful information and tips.
 
 **What skill do you need to have to be web developer?** Some consider themselves as web developers when they can do HTML and some CSS, some - when they know JavaScript and some would like to add PHP to the list. There are over 7 billion people and over 7 billion opinions. It's impossible to learn and know everything. We all have limited cognitive resources. Your brain is just one tank for a lot of things. Don't waste these resources on things that don't matter (distractions, stress).
 
@@ -29,8 +29,6 @@ Study shows that willpower and memory use same cognitive resources in your brain
 - Don't attend boring meetings if you don't have to
 
 - Avoid urgent and stressful work environment
-
-![developer-meetings](http://alexbachuk.com/wp-content/uploads/2015/04/developer-meetings.jpg)
 
 There 4 stages in learning:
 
@@ -54,7 +52,7 @@ There some problems when it comes to learning, it's not always that easy as 1,2,
 
 If there too many tasks and you are overloaded with work, then not enough resources left to learn new skills. Don't try to learn everything at once, pick something specific and split it to small sub-skills and perfect them. Then take that small skill from "can't do it" to master.
 
-Spend about 45-90 minutes per session (I use [pomodoro timer](http://tomato-timer.com/)). And remember, practice makes it permanent (not necessarily better).
+Spend about 45-90 minutes per session (I use [pomodoro timer](https://tomato-timer.com/)). And remember, practice makes it permanent (not necessarily better).
 
 #### Problem 2, half-assed skills and poor quality
 
@@ -68,4 +66,4 @@ Web development is a fast changing industry, there a lot of innovation going on.
 
 Brain is very good at pattern recognition. If you create a pattern, it's easier to learn. High quality and very high quantity of examples creates pattern. So, if you repeat working on different task using same programming language, guess what, you will learn that language much quicker. Build a big library of small very diverse examples. Try working on very different task, not just same task over and over again. By solving different problems you create pattern and next time you need to solve that problem you just re-use the solution from previous task.
 
-And finally, my approach to learn new language or framework is just to build something from start to finish. I learned WordPress by building my own website, I learned Ruby on Rails by building TimeBooklet.com, then learned Meteor.js by re-building [TimeBooklet.com](http://timebooklet.com/) from scratch. By doing these projects I resolved almost any problem I might have when building client projects.
+And finally, my approach to learn new language or framework is just to build something from start to finish. I learned WordPress by building my own website, I learned Ruby on Rails by building TimeBooklet.com, then learned Meteor.js by re-building [TimeBooklet.com](https://timebooklet.com/) from scratch. By doing these projects I resolved almost any problem I might have when building client projects.

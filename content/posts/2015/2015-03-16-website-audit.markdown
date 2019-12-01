@@ -19,8 +19,6 @@ description: Many website owners face the similar challenges sooner or later. Wh
 
 Many website owners face the similar challenges sooner or later. Where my website is hosted, who is my domain registrar, do I have any backups, etc. It’s very easy to forget logins, passwords, and all related information to your website mechanics (what’s under the hood).
 
-![website-repair](http://alexbachuk.com/wp-content/uploads/2015/03/website-repair.jpg)
-
 The reason why this is happening is many people focus on their business only rather than website, very few have dedicated “website guy” who takes care of all the logistics. Most trying to do everything themselves (DIY style). In this article I want to outline the most important information you as website owner want to keep around. Because if your website goes down - the business goes down, your email goes down, and it’s not fun at all. It’s better to be prepared and be ready to recover fast.
 
 Some of the reasons your website may go down or why you’ll need this information:
@@ -39,8 +37,6 @@ you need to give/remove access to someone
 
 2. web hosting (cpanel)
    Web hosting is a service which hosts your website files and makes it available on the internet. You’re renting a server, which requires monthly payments, anywhere from $5 to $100/mo for average website. Usually web hosting provides database service as well.
-
-![website-audit](http://alexbachuk.com/wp-content/uploads/2015/03/website-audit.jpg)
 
 3. backups
    As any computer, servers fail, for many reasons. Some web hosts provide automatic backups as part of the web hosting package, and sometime you as website owner responsible for that. It can be done manually or, in case if you have cms like WordPress, there is plugin for that https://ithemes.com/purchase/backupbuddy/.

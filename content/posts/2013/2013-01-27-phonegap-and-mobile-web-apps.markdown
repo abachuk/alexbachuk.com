@@ -1,18 +1,19 @@
 ---
 author: alex
-categories:
-- web development
-- WordPress
+categories: WordPress
 comments: true
 date: 2013-01-27T22:51:27Z
 link: http://alexbachuk.com/phonegap-and-mobile-web-apps/
 slug: phonegap-and-mobile-web-apps
 tags:
-- mobile web development
-- WordPress
+  - mobile web development
+  - WordPress
+  - Phonegap
 title: PhoneGap and mobile web apps
 url: /2013/01/27/phonegap-and-mobile-web-apps/
 wordpress_id: 378
+template: post
+description: Mobile now is big part of the web. More and more people are getting phones that are more capable than average computers, in terms of HTML5 support.
 ---
 
 Mobile now is big part of the web. More and more people are getting phones that are more capable than average computers, in terms of HTML5 support. They can detect your location with gps, have great camera (usually more than one), always connected to the Internet, usually support the latest technologies. For web developers - this is great, that means we can build very cool stuff, cutting edge websites use css3 animations, detect user locations, etc. But there is one problem - it's not native app. I know iOS has a very nice way to save web app on the home screen, but for the most clients - the app has to be on iTunes or Google Play, otherwise it is not an "app".
@@ -23,12 +24,4 @@ If you are building game or some "fancy" app where there will be a lot of animat
 
 Since I develop all my websites in WordPress, I thought it may be excellent platform for mobile app, since it has everything you need for an app: database, JSON api, user registration and access control, huge plugin repository, post types. I decided to build a simple app just to play around and will be posting my progress here. If you have any ideas for an app or know of any apps (iOS or Android) where WordPress is used as a backend - please leave a comment, I would like to learn more.
 
-
-
-
-
 ## Update: I started writing about how to [develop Phonegap app using WordPress](http://alexbachuk.com/wordpress-and-phonegap-part-1/)
-
-
-
-

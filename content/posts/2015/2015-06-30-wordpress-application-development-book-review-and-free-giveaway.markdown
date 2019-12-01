@@ -21,11 +21,11 @@ WordPress has come along way from being just a blogging platform to becoming a f
 
 Web applications are more than just static websites.  There are many moving parts and usually it requires some sort of custom development, in other words it’s hard to grab off the-shelf templates (or themes), install it and have finished web application. Most likely, a developer has to make tons of customizations or not even use any templates (starting from scratch gives more control and produces cleaner, leaner code).
 
-![wordpress-book-cover](http://alexbachuk.com/wp-content/uploads/2015/06/wordpress-book-cover-232x300.jpg)WordPress may not be ideal for every web app out there, but it’s a good fit for some apps. There are many themes and plugins that are available (free and premium). It’s easy to extend, customize and find support. The only downside is - it may not be as flexible as new web application frameworks like Ruby on Rails or Meteor.js.
+WordPress may not be ideal for every web app out there, but it’s a good fit for some apps. There are many themes and plugins that are available (free and premium). It’s easy to extend, customize and find support. The only downside is - it may not be as flexible as new web application frameworks like Ruby on Rails or Meteor.js.
 
 I had a privilege to be a technical reviewer in the recently released book:
 
-[WordPress Application development (2nd edition)](http://www.amazon.com/gp/product/1782174397/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1782174397&linkCode=as2&tag=alexbachukcom-20&linkId=4D27WRZI2JAIOANV).
+[WordPress Application development (2nd edition)](https://www.amazon.com/gp/product/1782174397/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1782174397&linkCode=as2&tag=alexbachukcom-20&linkId=4D27WRZI2JAIOANV).
 
 This book covers all the areas required to build a common web application. It goes into great detail discussing building blocks of WordPress and how to use them while building your app.
 
@@ -56,8 +56,6 @@ _Understand how wordpress works to develop apps…_
 **Data Storage**
 
 Any web app needs a place to store data in their database. Some new “front end” only frameworks use PaaS to store data (platform as a service) - for example [Parse](https://www.parse.com/) and [Firebase](https://www.firebase.com/). WordPress uses MySQL (free and open source).  It has its own structure, which is created the first time you install WordPress. Understanding this structure and how the data is stored gives you a better understanding of how WordPress works.  When you know how WordPress works, it makes it easier to extend it or even utilize what’s built-in.
-
-**Custom Posts![wpbook](http://alexbachuk.com/wp-content/uploads/2015/06/wpbook-300x300.png)**
 
 Custom post types are one of the most important additions to WordPress that makes it possible to develop web apps. It’s possible to create any type and any number of custom post types (not just posts and pages). This is a very powerful feature - it’s covered in this book as well.
 

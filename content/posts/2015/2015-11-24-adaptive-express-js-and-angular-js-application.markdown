@@ -25,8 +25,6 @@ What if your app is more complex and mobile web creates a whole new set of diffi
 
 In this example I want to show how to do it using express.js on the server side and angular.js on the client side. The idea is one express app powers 2 completely separate angular.js apps that share some components (bower and internal). When the initial request is made, express determines whether it’s mobile device or desktop and the route loads correct html (ejs) template, which in turn bootstraps its own angular.js app. Sounds very simple, and it is.
 
-[![server-client-adaptive](http://alexbachuk.com/wp-content/uploads/2015/11/server-client-adaptive.jpg)](http://alexbachuk.com/wp-content/uploads/2015/11/server-client-adaptive.jpg)
-
 ### Shared code
 
 We have one server (express.js) that powers both desktop and mobile. All routes on server are the same. On the client we share bower components and internal components.

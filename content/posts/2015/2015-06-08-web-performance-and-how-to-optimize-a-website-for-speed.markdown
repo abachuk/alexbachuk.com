@@ -21,13 +21,9 @@ description: Users are increasingly becoming more impatient, they expect a page 
 
 You don’t need to guess, speed optimization is a science, not a guess work. There some tools available for you to utilize and measure the results. One of the best tools is [http://www.webpagetest.org/](http://www.webpagetest.org/), it’s a web based tool that will scan your website and create detailed report in minutes. Breakdown of asset loading time, number of http requests, time to visually load a page and other metrics are very helpful to find where the problematic areas are. Once you know what’s slowing down the load - it’s easier to fix it. Similar tools are built in to google chrome dev tools console, which can be accessed by pressing cmd+shift+c and going to “network” tab. Another free tool to measure website performance is [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/) Insights, which will analyze your website and show breakdown of problematic areas, score and suggestion what to improve. These tools are the great start for finding where your website is.
 
-![web-performance](http://alexbachuk.com/wp-content/uploads/2015/06/web-performance-1024x553.png)
-
 ### **What affects web performance**
 
 The are few key areas that affect a web performance. Network connection (latency), server speed (CPU, database load, api response) and then client side code performance. It’s good to be aware of latency and limitation of the internet connection, especially on mobile devices (it’s very unreliable), but we (developers) can’t control it. We do have full control of server speed, it’s always possible to add more CPU, increase RAM, get SSD and add more necessary resources. The client side code is where the most problematic area is and the good news is we can control its performance at least to some extend.
-
-![web-performance-network](http://alexbachuk.com/wp-content/uploads/2015/06/web-performance-network-1024x287.png)
 
 ### **Start making it faster**
 
@@ -53,13 +49,13 @@ Here are some things you can do today to improve client side performance:
 
 10) Compress and optimize images. I recommend progressive JPEGs or webp. Or avoid images at all when possible. Icon fonts are great replacement for images and it’s vector based meaning the quality is infinitely scalable on any screen size.
 
-11. In chrome use [User Timing API](http://www.sitepoint.com/discovering-user-timing-api/) (like performance.mark(‘image’) to find load time for any particular piece of code )
+11. In chrome use [User Timing API](https://www.sitepoint.com/discovering-user-timing-api/) (like performance.mark(‘image’) to find load time for any particular piece of code )
 
 ### **Speed perception.**
 
 The speed of any website is crucial to its success, and it's important to know how measure the speed and performance of a web app or website.
 
-There are 3 different response time limits (according to [Jacob Nielsen](http://www.nngroup.com/people/jakob-nielsen/) research), the time passed from the moment user interacted with an element on the screen and the app response:
+There are 3 different response time limits (according to [Jacob Nielsen](https://www.nngroup.com/people/jakob-nielsen/) research), the time passed from the moment user interacted with an element on the screen and the app response:
 
 - 100 ms - web page feels instant
 
