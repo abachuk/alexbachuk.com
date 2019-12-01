@@ -21,7 +21,7 @@ In my career I never had to do HTML emails and when clients asked me to make nic
 
 But recently I had to roll up my sleeves and do html emails myself :) And here I found out why so many people hate them. It’s simply very inconsistent. There are 6-7 major email clients and they all render html differently. Gmail, Yahoo Mail, Hotmail, AOL (different web browsers), Outlook 203,2010,2011, 2013, Apple Mail (desktop and ios), Android mail, etc. The worst of course is … yes Microsoft’s Outlook. I was surprised to learn that it uses Word (yes MS Word) to render HTML instead of Internet Explorer (which is very far from being a good browser).
 
-![html-email-development-notes](http://alexbachuk.com/wp-content/uploads/2013/01/html-email-development-notes.jpg)
+<!-- ![html-email-development-notes](http://alexbachuk.com/wp-content/uploads/2013/01/html-email-development-notes.jpg) -->
 
 There is some hope though. Some tools were created to help poor developers to deal with this stuff. I personally prefer using Litmus for testing and HTML email boilerplate for starting new project (it has very nice reset and some hacks for Outlook and mobile mail clients).
 

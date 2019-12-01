@@ -35,15 +35,16 @@ What is needed to set this up:
 
 ## Set up MAMP PRO, add your dyndns username and password
 
-![mamppro-add-dns](http://alexbachuk.com/wp-content/uploads/2013/01/mamppro-add-dns.jpg)
+<!-- ![mamppro-add-dns](http://alexbachuk.com/wp-content/uploads/2013/01/mamppro-add-dns.jpg) -->
 
 ## Then set up virtual host (directory with WP or any other site) and add alias, URL that you chose in dyndns
 
-![mamppro-alias](http://alexbachuk.com/wp-content/uploads/2013/01/mamppro-alias.jpg)
+<!-- ![mamppro-alias](http://alexbachuk.com/wp-content/uploads/2013/01/mamppro-alias.jpg) -->
 
 After you've done this, make sure you start web server and all three services are running (apache, mysql and dyndns), and you can access you local virtual host (test.dev in my case). If everything is ok, it's time to configure the router and open port 80 for external access. Make your computer IP address static, so it stays the same all the time. Log in to your router (usually it's 192.168.1.1 or something like that) and navigatie to port forwarding section. Enter start port 80, end port 80 for your static IP address. Now you should be able to access you localhost outside the local network using dyndns URL.
-![netgear-port-configs](http://alexbachuk.com/wp-content/uploads/2013/01/netgear-port-configs.jpg)
+
+<!-- ![netgear-port-configs](http://alexbachuk.com/wp-content/uploads/2013/01/netgear-port-configs.jpg) -->
 
 Now if you are running WordPress website - login to the dashboard and install either of these 2 plugins [WordPress Multiple URL support plugin](https://github.com/abachuk/WordPress-multiple-URL-support) or [Relative URL plugin](http://wordpress.org/extend/plugins/relative-url/), activate and it's all set.
 
-![virtual_host](http://alexbachuk.com/wp-content/uploads/2013/01/virtual_host.jpg)
+<!-- ![virtual_host](http://alexbachuk.com/wp-content/uploads/2013/01/virtual_host.jpg) -->

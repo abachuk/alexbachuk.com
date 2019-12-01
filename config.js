@@ -1,15 +1,15 @@
 "use strict";
 
 module.exports = {
-  url: "https://lumen.netlify.com",
+  url: "https://alexbachuk.com",
   pathPrefix: "/",
   title: "Blog by Alex Bachuk",
   subtitle:
-    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  copyright: "© All rights reserved.",
+    "Software engineering manager. Writing about JavaScipt, Leadership and my side projects.",
+  copyright: "2019 © All rights reserved.",
   disqusShortname: "",
   postsPerPage: 10,
-  googleAnalyticsId: "UA-73379983-2",
+  googleAnalyticsId: "UA-23815614-1",
   useKatex: false,
   menu: [
     {
@@ -18,7 +18,7 @@ module.exports = {
     },
     {
       label: "About me",
-      path: "/pages/about"
+      path: "/about"
     }
   ],
   author: {
