@@ -14,7 +14,7 @@ socialImage: "/media/2019/project-management-influence.png"
 
 ![PM](/media/2019/project_management.svg)
 
-Every company, startup or business is a collection of projects. A project is a panned, logical unit of work with some expected outcome that contributes to an overall vision or strategy. It’s how we organize work, tasks, and even personal lives. Everyone should understand how to manage projects to some extent. Especially if you are in a leadership position.
+Every company, startup or business is a collection of projects. A project is a planned, logical unit of work with some expected outcome that contributes to an overall vision or strategy. It’s how we organize work, tasks, and even personal lives. Everyone should understand how to manage projects to some extent. Especially if you are in a leadership position.
 
 We’ll review some techniques to plan and organize projects, set them up for success and measure their success along the way.
 

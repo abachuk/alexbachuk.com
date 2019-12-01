@@ -1,22 +1,22 @@
 ---
 author: alex
-categories:
-- JavaScript
-- web development
+category: JavaScript
 comments: true
 date: 2013-11-29T23:03:46Z
 link: http://alexbachuk.com/my-experience-with-backbone-js-and-require-js/
 slug: my-experience-with-backbone-js-and-require-js
 tags:
-- Backbone.js
-- front end development
-- JavaScript
+  - Backbone.js
+  - front end development
+  - JavaScript
 title: My experience with backbone.js and require.js
 url: /2013/11/29/my-experience-with-backbone-js-and-require-js/
 wordpress_id: 650
+template: post
+description: Backbone.js is... as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it's MV\* library, not a framework.
 ---
 
-[Backbone.js](http://backbonejs.org/) is... as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it's MV* library, not a framework. There are not strict rules, developer has freedom to choose their own style of writing an app, for better or worse :)
+[Backbone.js](http://backbonejs.org/) is... as some say - just another javascript plugin. And technically it is just 6KB javascript plugin that you can add to pretty much any website or web application, it's MV\* library, not a framework. There are not strict rules, developer has freedom to choose their own style of writing an app, for better or worse :)
 
 **Some background**: I've built few web applications with Backbone.js, and I don't have any experience with any other MV* javascript library or framework, so it's hard for me to compare. It took me sometime to understand why so many developers like this library, it looked like it introduces more complexity to already complex application. There are more and more tutorials popping up on the interwebs how to build web applications with Backbone or how to use router, model, collection, etc. But I couldn't find a high view explanation - why would someone use MVC (*) library instead of twenty something jQuery plugins and some hacked together script.
 
@@ -31,11 +31,3 @@ wordpress_id: 650
 These plugins (libraries) are just small part of big picture. JavaScript have become much more than just language for scripting animations. It's the most popular programming language and a lot of large scale application are being built with it. Without any structure any web application becomes a big mess, and it's important to use some kind of framework to keep everything organized and clean.
 
 What front end framework do you prefer?
-
-
-
-
-
-
-
-

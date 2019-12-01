@@ -1,21 +1,22 @@
 ---
 author: alex
-categories:
-- web development
+category: Software engineering
 comments: true
 date: 2012-10-13T02:15:07Z
 link: http://alexbachuk.com/responsive-web-design/
 slug: responsive-web-design
 tags:
-- mobile
-- mobile web development
-- responsive web design
+  - mobile
+  - mobile web development
+  - responsive web design
 title: Responsive web design
 url: /2012/10/13/responsive-web-design/
 wordpress_id: 252
+template: post
+description: Responsive web design is a "fancy" term for fluid grid layout that adapts to any screen size. Basically, it's layout that is makes everything easily readable and viewable on mobile and tablet devices.
 ---
 
-![mobile and desktop websites](http://alexbachuk.com/wp-content/uploads/2012/10/RWD.png)
+<!-- ![mobile and desktop websites](http://alexbachuk.com/wp-content/uploads/2012/10/RWD.png) -->
 
 Responsive web design is a "fancy" term for fluid grid layout that adapts to any screen size. Basically, it's layout that is makes everything easily readable and viewable on mobile and tablet devices.
 
