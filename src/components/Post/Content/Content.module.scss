@@ -27,6 +27,14 @@
   }
 
   &__body {
+    & blockquote p {
+      font-size: 21px;
+      text-align: left;
+      font-weight: 400;
+      border-left: 4px solid #999;
+      padding-left: 20px;
+    }
+
     & figure {
       @include margin-bottom(1);
 
