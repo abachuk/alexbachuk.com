@@ -9,7 +9,7 @@ tags:
   - "Leadership"
   - "Project management"
 description: "Every company, startup or business is a collection of projects. A project is a planned, logical unit of work with some expected outcome that contributes to an overall vision or strategy. It’s how we organize work, tasks, and even personal lives. Everyone should understand how to manage projects to some extent. Especially if you are in a leadership position."
-socialImage: "/media/2019/project-management-influence.png"
+socialImage: "/media/2019/project_management.svg"
 ---
 
 ![PM](/media/2019/project_management.svg)
@@ -43,7 +43,7 @@ There are few frameworks to organize a project, keep track of the progress, info
 
 - **[RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)**. Stands for “Responsible, Accountable, Consulted, Informed”. Know who your stakeholders, sponsors, and customers are.
 - **[5 Project phases](https://project-management.com/top-5-project-management-phases/)**. Project Initiation, Planning, Execution, Tracking, Post mortem, and reporting.
-- **[Agile](https://agilemanifesto.org/)**. Use prioritized backlog, organize the execution in sprints, deliver changes or features often.
+- **[Agile](https://agilemanifesto.org/)**. Scrum in particular. Use prioritized backlog, organize the execution in sprints, deliver changes or features often. I recommend [“Scrum: The Art of Doing Twice the Work in Half the Time” book](https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1575424258&sr=8-4) to get familiar with the process.
 
 Know these frameworks and understand how they are helping your team, stakeholders and you to organize, estimate and deliver projects and manage expectations. Being organized and knowing all details about the project’s current status is critical for engineering managers. The most critical time is before the project has started. It’s the easiest time to influence its output. Good planning also includes identifying the risks and communicate them early on to keep the surprises to a minimum.
 
