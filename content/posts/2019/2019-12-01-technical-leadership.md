@@ -1,9 +1,9 @@
 ---
-title: Project management for tech leads
+title: How Project Management Will Make You A Better Tech Lead
 date: "2019-12-01T15:01:41Z"
 template: post
 draft: false
-slug: "project-management-for-tech-leads"
+slug: "how-project-management-will-make-you-a-better-tech-lead"
 category: "Leadership"
 tags:
   - "Leadership"
@@ -49,7 +49,7 @@ Know these frameworks and understand how they can help the team, stakeholders, a
 
 The most critical time is before the project has started. It’s the easiest time to influence its output. Good planning also includes identifying the risks and communicating them early on to keep any surprises to a minimum.
 
-![img](/media/2019/project-influence.svg)
+![img](/media/2019/tech-project-management.svg)
 
 ### 3. Motivate The Team
 

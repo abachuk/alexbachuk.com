@@ -9,7 +9,7 @@ import styles from "./Post.module.scss";
 
 const Post = ({ post }) => {
   const { html } = post;
-  const { tagSlugs, slug } = post.fields;
+  const { tagSlugs, slug, readingTime } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
   return (
@@ -19,7 +19,12 @@ const Post = ({ post }) => {
       </Link>
 
       <div className={styles["post__content"]}>
-        <Content body={html} title={title} date={date} />
+        <Content
+          body={html}
+          title={title}
+          date={date}
+          readingTime={readingTime.text}
+        />
       </div>
 
       <div className={styles["post__footer"]}>
