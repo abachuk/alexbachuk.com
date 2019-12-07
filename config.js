@@ -3,7 +3,7 @@
 module.exports = {
   url: "https://alexbachuk.com",
   pathPrefix: "/",
-  title: "Alex Bachuk",
+  title: "Alex Bachuk | Software engineering manager",
   subtitle:
     "My personal blog onleadership, software engineering and my side projects.",
   copyright: "2019 © All rights reserved.",
