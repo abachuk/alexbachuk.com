@@ -10,12 +10,16 @@ tags:
   - "Typography"
   - "Web Development"
 description: "If software development feels like it is only part of your professional purpose, perhaps you should consider becoming a tech lead. A tech lead could mean different things: a team lead (with no direct reports), or a manager. For example, an engineering manager is a person who is responsible for the team and its projects. That means he/she is also responsible for peoples' careers, business growth, deliverables, deadlines, culture, code standards, technical debt, and more."
-socialImage: "/media/42-line-bible.jpg"
+socialImage: "/media/2018/tech-lead-opt-compressor.jpg"
 ---
+
+![PM](/media/2018/tech-lead-opt-compressor.jpg)
 
 If software development feels like it is only part of your professional purpose, perhaps you should consider becoming a tech lead. A tech lead could mean different things: a team lead (with no direct reports), or a manager. For example, an engineering manager is a person who is responsible for the team and its projects. That means he/she is also responsible for peoples' careers, business growth, deliverables, deadlines, culture, code standards, technical debt, and more.
 
 If you're a developer, it may not be clear how to get from where you are to a technical leadership position. If your goal is to become a manager soon, you will need to ask yourself why you want this role because becoming a manager may or may not align with your long-term goals. For many software engineers, growing as an individual contributor (IC) could be a more appropriate path. Many companies provide IC alternatives to management such as staff engineer, distinguished engineer or fellow engineer. These are very senior technical roles, but no one reports to them as they would to a manager.
+
+![the stereotype of a developer: eating pizza, works at night alone](/media/2018/pizza-geek-compressor.jpg)
 
 So, do you want to become an engineering manager or another type of team leader? It is important to be honest about what drives you - is it writing code and architecting software? Or, is it helping others to get better results, negotiating deadlines with stakeholders, and convincing your business team that code refactoring is not a waste of time? Your answers to these questions should help you determine which path is more appropriate for your desired outcomes.
 
@@ -40,6 +44,8 @@ If you're still convinced a technical leadership path is right for you, then you
 9. **Conflict and crises**. Production issues happen, no matter how many unit or integration tests you have. Yes, you want to minimize the number of bugs your projects have, but what matters more is how you handle production issues. A person who starts panicking under pressure is immediately disqualified as a leader in the eyes of others. The team and other managers want to see a calm person who has everything under control, even in the most stressful situations.
 
 10. **Vision**. For everything they are responsible for, a leader should understand "why". He or she is also responsible to ensure everyone else understands "why" they are working on a project. A leader must explain (often many times) why the project is happening, why the specific people are working on it and how this project fits into the "big picture". A team has to believe in what they do, only then can they can be effective.
+
+![Lead the Way Forward, Starting Today](/media/2018/office-compressor.jpg)
 
 ### Lead the Way Forward, Starting Today
 

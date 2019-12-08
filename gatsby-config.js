@@ -232,6 +232,13 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: [],
+        excludePaths: ["/"]
+      }
+    },
     "gatsby-plugin-flow",
     "gatsby-plugin-optimize-svgs"
   ]
