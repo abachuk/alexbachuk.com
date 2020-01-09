@@ -6,7 +6,7 @@ module.exports = {
   title: "Alex Bachuk | Software engineering manager",
   subtitle:
     "My personal blog onleadership, software engineering and my side projects.",
-  copyright: "2019 © All rights reserved.",
+  copyright: "2020 © All rights reserved.",
   disqusShortname: "",
   postsPerPage: 10,
   googleAnalyticsId: "UA-23815614-1",
