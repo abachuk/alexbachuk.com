@@ -4,7 +4,7 @@ date: "2020-09-04T12:31:41Z"
 template: post
 draft: false
 slug: "joining-LinkedIn-remotely"
-category: "Career"
+category: "Careers"
 tags:
   - "Communication"
   - "Remote"
