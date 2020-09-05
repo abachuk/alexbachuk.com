@@ -58,4 +58,7 @@ Sample conversation starters
 - Focus on common ground: avoid who's right or wrong, define what you agree on
 - Identify the type of conflict (process, personal, status)
 - Focus on future (the resolution) rather than the past (who did what)
+
+
+How to escalate? Try to come to resolution and then agree to escalate together. Don't go behind back.
 -->
